@@ -20,13 +20,72 @@ library(stringr)
 ## create temporary file with file extension xlsx
 temp_file <- tempfile(fileext = ".xlsx")
 
+# temp_file <- here::here("data/raw_data/WLD.xlsx")
+
 ## download world data file to temporary file
-download.file("https://washdata.org/data/country/WLD/download", destfile = temp_file)
+download.file("https://washdata.org/data/country/WLD/download", destfile = temp_file, mode = "wb")
 
 ## read sheet 3 of downloade excel file into R
 data <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 3, startRow = 4, colNames = FALSE)
 
 data2 <- as_tibble(data)
+
+country_codes <- readxl::read_excel(path = "data/raw_data/WLD.xlsx", sheet = 3) %>% 
+    select(iso3, name_who_mf) %>% 
+    unique()
+
+
+download.file("https://washdata.org/data/country/UGA/download", destfile = "data/raw_data/UGA.xlsx", mode = "wb")
+
+var_list <- readxl::read_excel(path = "data/raw_data/UGA.xlsx", sheet = "Chart Data", skip = 3, col_names = FALSE) %>% 
+    slice(1:2) %>% 
+    t() %>% 
+    as_tibble() %>% 
+    rename(
+        var_long = V1,
+        var_short = V2
+    )
+
+relevant_vars <- c(
+    "s_sew_net_n",
+    "s_sew_rtp_n",
+    "s_sep_con_n",
+    "s_sep_nemp_n",
+    "s_sep_ebo_n",
+    "s_sep_edl_n",
+    "s_sep_ero_n",
+    "s_sep_dtp_n",
+    "s_lat_con_n",
+    "s_lat_nemp_n",
+    "s_lat_ebo_n",
+    "s_lat_edl_n",
+    "s_lat_ero_n",
+    "s_lat_dtp_n",
+    "s_treat_wtp_n",
+    "s_treat_fstp_n"
+)
+
+iso_code <- sample_n(country_codes, size = 5)$iso3
+
+iso_code <- c("UGA", "SEN", "NOR")
+
+country_list <- list()
+
+for (name in iso_code) {
+    
+    download.file(paste0("https://washdata.org/data/country/", name, "/download"), destfile = temp_file, mode = "wb")
+    
+    country_list[[name]] <- readxl::read_excel(path = temp_file, sheet = "Chart Data", skip = 4, col_names = TRUE) %>% 
+        select(source, type, year, relevant_vars) %>% 
+        gather(key = var_short, value = value, s_sew_net_n:s_treat_fstp_n) %>% 
+        filter(!is.na(value)) %>% 
+        mutate(iso3 = name)
+}
+
+
+country_list %>% 
+    map_df(as_tibble)
+
 
 # manipulate data ---------------------------------------------------------
 
@@ -167,7 +226,7 @@ jmp_data_tidy2 <- jmp_data_tidy %>%
 ### STEP X: Add additional variables
 
 jmp_data_tidy3 <- jmp_data_tidy2 %>% 
-
+    
     ### include three additional variables that include percentages for each sanitation technology that is shared
     ### this is limited * fraction of the technology out of all technologies
     
@@ -191,7 +250,7 @@ jmp_data_tidy3 <- jmp_data_tidy2 %>%
         total_population = improved_sanitation_facility + unimproved_service + open_defecation
         
     ) %>%   
-
+    
     ### rename variables to make more explicit that there are two categories "shared" and "not shared"
     
     rename(
@@ -208,13 +267,13 @@ jmp_data_tidy3 <- jmp_data_tidy2 %>%
         septic_tanks = septic_tanks_not_shared + septic_tanks_shared,
         latrines_and_others = latrines_and_others_not_shared + latrines_and_others_shared
     ) 
-    
+
 
 
 
 # STEP X: bring data into long format ------------------------------------
 
-    
+
 jmp_data_tidy4 <- jmp_data_tidy3 %>% 
     
     ### long format
@@ -230,7 +289,7 @@ jmp_data_tidy4 <- jmp_data_tidy3 %>%
 
 
 # STEP X: add some more variables
-    
+
 ## manipulate to identify whether the variable is a servce or technology type variable
 
 jmp_data_tidy5 <- jmp_data_tidy4 %>% 
@@ -286,5 +345,28 @@ jmp_data_tidy6 <- jmp_data_tidy5 %>%
 # write data 2 - new data 
 
 write_csv(jmp_data_tidy5, paste0("data/jmp/", Sys.Date(), "_", "jmp_2017_database_tidy_additional_variables", ".csv"))
+
+
+jmp_data <- read_csv("data/jmp/2019-02-12_jmp_2017_database_tidy_additional_variables.csv")
+
+jmp_data %>% 
+    filter(variable == "emptied_and_treated") %>% 
+    filter(year == 2015) %>%
+    filter(residence == "national") %>% 
+    mutate(percent = factor(round(percent, 0))) %>% 
+    select(country, iso3, percent)
+
+
+## code is wrong because ISO3 code is not carried along
+jmp_data_tidy5 %>% 
+    filter(variable == "emptied_and_treated") %>% 
+    filter(!is.na(percent)) %>% 
+    filter(iso3 == 2015) %>% 
+    filter(residence == "national") %>% 
+    mutate(percent = factor(round(percent, 0))) %>% 
+    select(country, iso3, percent) %>% 
+    arrange(percent)
+
+
 
 
