@@ -28,65 +28,6 @@ download.file("https://washdata.org/data/country/WLD/download", destfile = temp_
 ## read sheet 3 of downloade excel file into R
 data <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 3, startRow = 4, colNames = FALSE)
 
-data2 <- as_tibble(data)
-
-country_codes <- readxl::read_excel(path = "data/raw_data/WLD.xlsx", sheet = 3) %>% 
-    select(iso3, name_who_mf) %>% 
-    unique()
-
-
-download.file("https://washdata.org/data/country/UGA/download", destfile = "data/raw_data/UGA.xlsx", mode = "wb")
-
-var_list <- readxl::read_excel(path = "data/raw_data/UGA.xlsx", sheet = "Chart Data", skip = 3, col_names = FALSE) %>% 
-    slice(1:2) %>% 
-    t() %>% 
-    as_tibble() %>% 
-    rename(
-        var_long = V1,
-        var_short = V2
-    )
-
-relevant_vars <- c(
-    "s_sew_net_n",
-    "s_sew_rtp_n",
-    "s_sep_con_n",
-    "s_sep_nemp_n",
-    "s_sep_ebo_n",
-    "s_sep_edl_n",
-    "s_sep_ero_n",
-    "s_sep_dtp_n",
-    "s_lat_con_n",
-    "s_lat_nemp_n",
-    "s_lat_ebo_n",
-    "s_lat_edl_n",
-    "s_lat_ero_n",
-    "s_lat_dtp_n",
-    "s_treat_wtp_n",
-    "s_treat_fstp_n"
-)
-
-iso_code <- sample_n(country_codes, size = 5)$iso3
-
-iso_code <- c("UGA", "SEN", "NOR")
-
-country_list <- list()
-
-for (name in iso_code) {
-    
-    download.file(paste0("https://washdata.org/data/country/", name, "/download"), destfile = temp_file, mode = "wb")
-    
-    country_list[[name]] <- readxl::read_excel(path = temp_file, sheet = "Chart Data", skip = 4, col_names = TRUE) %>% 
-        select(source, type, year, relevant_vars) %>% 
-        gather(key = var_short, value = value, s_sew_net_n:s_treat_fstp_n) %>% 
-        filter(!is.na(value)) %>% 
-        mutate(iso3 = name)
-}
-
-
-country_list %>% 
-    map_df(as_tibble)
-
-
 # manipulate data ---------------------------------------------------------
 
 
