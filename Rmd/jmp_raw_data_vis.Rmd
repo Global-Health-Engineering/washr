@@ -10,6 +10,9 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
+library(maps)
+library(`ggalt-new-coord-proj`)
+
 
 jmpraw <- read_rds(path = here::here("data/derived_data/2020-09-03_jmp_sanitation_raw_data.rds"))
 
@@ -18,13 +21,13 @@ jmpraw <- read_rds(path = here::here("data/derived_data/2020-09-03_jmp_sanitatio
 ```{r}
 
 # download indidivdual country files
-
-name <- "GEO"
-
-download.file(
-    url = paste0("https://washdata.org/data/country/", name, "/download"), 
-    destfile = here::here(paste0("data/raw_data/", name, ".xlsx")), mode = "wb"
-)
+# 
+# name <- "GEO"
+# 
+# download.file(
+#     url = paste0("https://washdata.org/data/country/", name, "/download"), 
+#     destfile = here::here(paste0("data/raw_data/", name, ".xlsx")), mode = "wb"
+# )
 
 
 
@@ -49,7 +52,7 @@ jmpraw %>%
 
 jmpraw %>% 
     filter(value < 0) 
-    
+
 ```
 
 ```{r}
@@ -70,7 +73,7 @@ jmpraw %>%
     labs(
         title = "Number of data sources along sanitation service chain",
         subtitle = "For 232 countries and since 1995"
-        )
+    )
 
 ```
 
@@ -84,17 +87,101 @@ jmpraw %>%
     ungroup() %>% 
     mutate(
         prop = n / sum(n) * 100
-    )
+    ) %>% 
     
-    ggplot(aes(x = san_service_chain)) +
-    geom_bar() +
+    ggplot(aes(x = san_service_chain, y = prop)) +
+    geom_col() +
     labs(
-        title = "Number of data sources along sanitation service chain",
-        subtitle = "For 232 countries and since 1995"
-        )
+        title = "Proportiong of data sources along sanitation service chain",
+        subtitle = "For 232 countries and since 2015"
+    )
 
 
 ```
+
+
+```{r}
+
+treatment <- jmpraw %>% 
+    filter(!is.na(san_service_chain)) %>%
+    filter(
+        san_service_chain %in% c("FS treatment", "WW treatment")
+    ) %>% 
+    group_by(iso3, san_service_chain) %>% 
+    count()
+
+```
+
+
+
+```{r}
+
+
+## prepare world maps
+
+## good help: https://stackoverflow.com/questions/9558040/ggplot-map-with-l?noredirect=1&lq=1
+
+world <- ggplot2::map_data("world")
+
+world <- world %>% 
+    filter(region != "Antarctica") %>% 
+    as_tibble()
+
+
+# add iso3 code -----------------------------
+
+world_iso3 <- world %>% 
+    
+    ## add iso3
+    
+    mutate(
+        iso3 = iso.alpha(world$region, n = 3)
+    ) 
+
+
+
+world_treatment <- world_iso3 %>% 
+    left_join(treatment)
+
+
+ggplot() +
+    geom_cartogram(data = world, map = world, aes(x = long, y = lat, map_id = region))  +
+    geom_cartogram(data = world_treatment, map = world, colour = "grey40", size = 0.2, aes(fill = n, map_id = region)) +
+    coord_proj("+proj=wintri")
+
+
+#labs(x = NULL, y = NULL) +
+coord_proj("+proj=wintri") 
+
+scale_fill_viridis_d(name = "emptied and treated [%]", na.value = "grey80") +
+    labs(title = "SDG 6.2.1 national sub-indicator estimates 2015", x = NULL, y = NULL) +
+    theme_minimal(base_size = 16) +
+    theme(axis.text = element_blank()) +
+    #theme(legend.position = "bottom") +
+    theme(plot.margin = unit(rep(4, 4), "pt")) +
+    theme(legend.key = element_rect(size = 3, color = "white")) +
+    theme(legend.key.size = unit(2, 'lines'))
+
+## prepare data for maps
+
+
+## faecal sludge
+world_subindicator_fs <- world_iso3 %>% 
+    left_join(subindicator_fs2) 
+
+world_subindicator_ww <- world_iso3 %>% 
+    left_join(subindicator_ww2) 
+
+
+
+world <- map_data("world")
+world <- world[world$region != "Antarctica",]
+
+gg <- ggplot()
+gg <- gg + geom_cartogram(data=world, map=world,
+                    aes(x=long, y=lat, map_id=region))
+gg <- gg + coord_proj("+proj=wintri")
+gg
 
 ```
 
