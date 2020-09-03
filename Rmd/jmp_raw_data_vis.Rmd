@@ -1,0 +1,102 @@
+---
+title: "Data Vis"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+
+jmpraw <- read_rds(path = here::here("data/derived_data/2020-09-03_jmp_sanitation_raw_data.rds"))
+
+```
+
+```{r}
+
+# download indidivdual country files
+
+name <- "GEO"
+
+download.file(
+    url = paste0("https://washdata.org/data/country/", name, "/download"), 
+    destfile = here::here(paste0("data/raw_data/", name, ".xlsx")), mode = "wb"
+)
+
+
+
+
+```
+
+
+
+# Explore data
+
+```{r}
+
+## 5 NAs are countries without data
+
+jmpraw %>% 
+    group_by(type) %>% 
+    count()
+
+```
+
+```{r}
+
+jmpraw %>% 
+    filter(value < 0) 
+    
+```
+
+```{r}
+
+jmpraw %>% 
+    group_by(san_service_chain) %>% 
+    count()
+
+```
+
+```{r}
+
+jmpraw %>% 
+    filter(!is.na(san_service_chain)) %>% 
+    
+    ggplot(aes(x = san_service_chain)) +
+    geom_bar() +
+    labs(
+        title = "Number of data sources along sanitation service chain",
+        subtitle = "For 232 countries and since 1995"
+        )
+
+```
+
+```{r}
+
+jmpraw %>% 
+    filter(!is.na(san_service_chain)) %>% 
+    filter(year >= 2015) %>% 
+    group_by(san_service_chain) %>% 
+    count() %>% 
+    ungroup() %>% 
+    mutate(
+        prop = n / sum(n) * 100
+    )
+    
+    ggplot(aes(x = san_service_chain)) +
+    geom_bar() +
+    labs(
+        title = "Number of data sources along sanitation service chain",
+        subtitle = "For 232 countries and since 1995"
+        )
+
+
+```
+
+```
+
+
+
