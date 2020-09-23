@@ -77,6 +77,10 @@ var_list_san <- var_list %>%
     
     mutate(san_service_chain = factor(san_service_chain, levels = ssc_levels))
 
+## write variable list 
+var_list_san %>% 
+    write_csv(here::here("data/derived_data/2020-09-23_jmp_sanitation_variables.csv"))
+
 
 iso_code <- country_codes$iso3
 
