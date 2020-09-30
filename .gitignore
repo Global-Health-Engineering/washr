@@ -43,3 +43,6 @@ docs/
 
 # translation temp files
 po/*~
+
+# data dirs
+data/raw_data/country_files/*
