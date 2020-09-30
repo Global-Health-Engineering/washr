@@ -69,8 +69,7 @@ var_list_san <- var_list %>%
         str_detect(var_short, "treat_wtp") ~ "WW treatment",
         str_detect(var_short, "^s_sep|^s_lat|^s_sew") ~ "user interface",
         str_detect(var_short, "shared") ~ "sharing")
-    ) %>% 
-    
+    ) %>%
     mutate(san_service_chain = factor(san_service_chain, levels = ssc_levels))
 
 ## write variable list 
@@ -82,15 +81,19 @@ iso_code <- country_codes$iso3
 
 ## create temporary file with file extension xlsx
 temp_file <- tempfile(fileext = ".xlsx")
+countryfile <- here::here("data/raw_data/country_files/")
 
 ## create empty list for results
 country_list <- list()
 
 for (name in iso_code) {
     
-    download.file(paste0("https://washdata.org/data/country/", name, "/download"), destfile = temp_file, mode = "wb")
+    #download.file(
+    #    paste0("https://washdata.org/data/country/", name, "/download"), 
+    #    destfile = str_c(countryfile, name, ".xlsx"), 
+    #    mode = "wb")
     
-    country_list[[name]] <- readxl::read_excel(path = temp_file, sheet = "Chart Data", skip = 4, col_names = TRUE) %>% 
+    country_list[[name]] <- readxl::read_excel(path = str_c(countryfile, name, ".xlsx"), sheet = "Chart Data", skip = 4, col_names = TRUE) %>% 
         select(source, type, year, var_list_san$var_short) %>% 
         gather(key = var_short, value = value, s_imp_n:s_treat_wtp_u) %>% 
         filter(!is.na(value)) %>% 
