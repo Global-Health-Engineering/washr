@@ -13,8 +13,8 @@ library(tidyverse)
 library(maps)
 library(`ggalt-new-coord-proj`)
 
-
 jmpraw <- read_rds(path = here::here("data/derived_data/2020-09-03_jmp_sanitation_raw_data.rds"))
+
 
 ```
 
@@ -27,14 +27,9 @@ jmpraw <- read_rds(path = here::here("data/derived_data/2020-09-03_jmp_sanitatio
 # download.file(
 #     url = paste0("https://washdata.org/data/country/", name, "/download"), 
 #     destfile = here::here(paste0("data/raw_data/", name, ".xlsx")), mode = "wb"
-# )
-
-
 
 
 ```
-
-
 
 # Explore data
 
@@ -43,58 +38,65 @@ jmpraw <- read_rds(path = here::here("data/derived_data/2020-09-03_jmp_sanitatio
 ## 5 NAs are countries without data
 
 jmpraw %>% 
-    group_by(type) %>% 
-    count()
+  group_by(type) %>% 
+  count()
 
 ```
 
 ```{r}
 
 jmpraw %>% 
-    filter(value < 0) 
+  filter(value < 0) 
 
 ```
 
 ```{r}
 
 jmpraw %>% 
-    group_by(san_service_chain) %>% 
-    count()
+  group_by(san_service_chain) %>% 
+  count()
 
 ```
 
 ```{r}
 
 jmpraw %>% 
-    filter(!is.na(san_service_chain)) %>% 
-    
-    ggplot(aes(x = san_service_chain)) +
-    geom_bar() +
-    labs(
-        title = "Number of data sources along sanitation service chain",
-        subtitle = "For 232 countries and since 1995"
-    )
+  filter(!is.na(san_service_chain)) %>% 
+  group_by(san_service_chain) %>% 
+  count() %>% 
+  ggplot(aes(x = san_service_chain, y = n)) +
+  geom_col() +
+  labs(
+    title = "Number of data sources along sanitation service chain",
+    subtitle = "For 232 countries and since 1995"
+  ) +
+  annotate("text", x = 5, y = 1750, label = "388") +
+  annotate("text", x = 6, y = 1750, label = "7") +
+  annotate("text", x = 7, y = 1750, label = "58") +
+  annotate("text", x = 8, y = 1750, label = "756") +
+  theme_minimal()
 
 ```
+
 
 ```{r}
 
 jmpraw %>% 
-    filter(!is.na(san_service_chain)) %>% 
-    filter(year >= 2015) %>% 
-    group_by(san_service_chain) %>% 
-    count() %>% 
-    ungroup() %>% 
-    mutate(
-        prop = n / sum(n) * 100
-    ) %>% 
-    
-    ggplot(aes(x = san_service_chain, y = prop)) +
-    geom_col() +
-    labs(
-        title = "Proportiong of data sources along sanitation service chain",
-        subtitle = "For 232 countries and since 2015"
-    )
+  filter(!is.na(san_service_chain)) %>% 
+  filter(year >= 2015) %>% 
+  group_by(san_service_chain) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(
+    prop = n / sum(n) * 100
+  ) %>% 
+  
+  ggplot(aes(x = san_service_chain, y = prop)) +
+  geom_col() +
+  labs(
+    title = "Proportiong of data sources along sanitation service chain",
+    subtitle = "For 232 countries and since 2015"
+  )
 
 
 ```
@@ -102,16 +104,23 @@ jmpraw %>%
 
 ```{r}
 
-treatment <- jmpraw %>% 
-    filter(!is.na(san_service_chain)) %>%
-    filter(
-        san_service_chain %in% c("FS treatment", "WW treatment")
-    ) %>% 
-    group_by(iso3, san_service_chain) %>% 
-    count()
+ww_treatment <- jmpraw %>% 
+  filter(!is.na(san_service_chain)) %>%
+  filter(
+    san_service_chain == "WW treatment"
+  ) %>% 
+  group_by(iso3, san_service_chain) %>% 
+  count()
+
+fs_treatment <- jmpraw %>% 
+  filter(!is.na(san_service_chain)) %>%
+  filter(
+    san_service_chain == "FS treatment"
+  ) %>% 
+  group_by(iso3, san_service_chain) %>% 
+  count()
 
 ```
-
 
 
 ```{r}
@@ -119,14 +128,22 @@ treatment <- jmpraw %>%
 ## prepare world maps
 ## https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html
 library(tmap)
+
 data("World")
 
-world_treatment <- World %>% 
-  left_join(treatment, by = c("iso_a3" = "iso3")) %>% 
+world_ww_treatment <- World %>% 
+  left_join(ww_treatment, by = c("iso_a3" = "iso3")) %>% 
+  filter(continent != "Antarctica") 
+
+world_fs_treatment <- World %>% 
+  left_join(fs_treatment, by = c("iso_a3" = "iso3")) %>% 
   filter(continent != "Antarctica")
 
-tm_shape(world_treatment) +
-    tm_polygons(c("san_service_chain", "n"))
+tm_shape(world_ww_treatment) +
+  tm_polygons(col = "n", title = "Data points")
+
+tm_shape(world_fs_treatment) +
+  tm_polygons(col = "n", title = "Data points")
 
 ```
 
