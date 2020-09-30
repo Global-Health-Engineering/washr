@@ -59,19 +59,15 @@ var_list_san <- var_list %>%
     mutate(san_service_chain = case_when(
         str_detect(var_short, "od") ~ "open defecation",
         str_detect(var_short, "imp") ~ "user interface",
-        str_detect(var_short, "con") ~ "containment",
-        str_detect(var_short, "lat") ~ "containment",
-        str_detect(var_short, "net") ~ "containment",
-        str_detect(var_short, "ebo") ~ "emptying",
-        str_detect(var_short, "edl") ~ "emptying",
-        str_detect(var_short, "ero") ~ "emptying",
-        str_detect(var_short, "nemp") ~ "emptying",
+        str_detect(var_short, "con|net") ~ "containment",
+        
+        #str_detect(var_short, "lat") ~ "containment",
+        str_detect(var_short, "ebo|edl|ero|nemp") ~ "emptying",
         str_detect(var_short, "dtp") ~ "transport",
         str_detect(var_short, "rtp") ~ "transport",
         str_detect(var_short, "treat_fstp") ~ "FS treatment",
         str_detect(var_short, "treat_wtp") ~ "WW treatment",
-        str_detect(var_short, "sep") ~ "containment",
-        str_detect(var_short, "sew") ~ "containment",
+        str_detect(var_short, "^s_sep|^s_lat|^s_sew") ~ "user interface",
         str_detect(var_short, "shared") ~ "sharing")
     ) %>% 
     
