@@ -1,4 +1,4 @@
-# Sanitation Data
+# washdata
 
 Repo for R scripts to download and clean open sanitation data 
 
