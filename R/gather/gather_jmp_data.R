@@ -26,77 +26,76 @@ temp_file <- tempfile(fileext = ".xlsx")
 download.file("https://washdata.org/data/country/WLD/download", destfile = temp_file, mode = "wb")
 
 ## read sheet 3 of downloade excel file into R
-data <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 3, startRow = 4, colNames = FALSE)
+data <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 3, startRow = 4, colNames = FALSE) %>% 
+    as_tibble()
+
+jmp_world_wat <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 3, colNames = TRUE) %>% 
+    as_tibble()
+
+jmp_world_san <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 5, colNames = TRUE) %>% 
+    as_tibble()
+
+jmp_world_hyg <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 7, colNames = TRUE) %>% 
+    as_tibble()
+
+
+## generate table of all jmp variables
+
+c(names(jmp_world_wat), names(jmp_world_san), names(jmp_world_hyg)) %>% 
+    enframe() %>% 
+    googlesheets4::write_sheet(sheet = "Sheet2", ss = "1w0FmGTByjvBTs0ohp2NIIsdukBrsc1t66GtdKiScJBc")
+
+# these variables do not help here because they are on technology level
+# jmp_vars <- read_csv(file = "data/derived_data/jmp_wash_variables.csv")
 
 # manipulate data ---------------------------------------------------------
 
+jmp_world %>% 
+    names() %>% 
+    enframe() %>% 
+    write_csv(file = "data/derived_data/jmp_wash_variables.csv")
+
+# The CSV from the code above was copied into Google Sheets and names for
+# variables were added by hand from the JMP World file
+
+googlesheets4::read_sheet("1w0FmGTByjvBTs0ohp2NIIsdukBrsc1t66GtdKiScJBc") %>% 
+    rename(var_short = value) %>% 
+    write_csv("data/derived_data/jmp_wash_variables_complete.csv")
+
+jmp_vars <- read_csv("data/derived_data/jmp_wash_variables_complete.csv") %>% 
+    select(-name) %>% 
+    filter(!is.na(var_long)) %>% 
+    unique()
 
 ## STEP X: ... general tidying
 
-jmp_data_tidy <- data2 %>% 
-    select(1:46) %>% 
-    select(-X5, -X10, -X11, -X16, -X17, -X22, -X23, -X24, -X25) %>% 
-    gather(key = variable, value = percent, X6:X46) %>% 
-    mutate(
-        variable = case_when(
-            variable == "X6" ~ "basic_service_n",
-            variable == "X7" ~ "limited_service_n",
-            variable == "X8" ~ "unimproved_service_n",
-            variable == "X9" ~ "open_defecation_n",
-            variable == "X12" ~ "basic_service_r",
-            variable == "X13" ~ "limited_service_r",
-            variable == "X14" ~ "unimproved_service_r",
-            variable == "X15" ~ "open_defecation_r",
-            variable == "X18" ~ "basic_service_u",
-            variable == "X19" ~ "limited_service_u",
-            variable == "X20" ~ "unimproved_service_u",
-            variable == "X21" ~ "open_defecation_u",
-            variable == "X26" ~ "safely_managed_n",
-            variable == "X27" ~ "disposed_in_situ_n",
-            variable == "X28" ~ "emptied_and_treated_n",
-            variable == "X29" ~ "wastewater_treated_n",
-            variable == "X30" ~ "latrines_and_others_n",
-            variable == "X31" ~ "septic_tanks_n",
-            variable == "X32" ~ "sewer_connections_n",
-            variable == "X33" ~ "safely_managed_r",
-            variable == "X34" ~ "disposed_in_situ_r",
-            variable == "X35" ~ "emptied_and_treated_r",
-            variable == "X36" ~ "wastewater_treated_r",
-            variable == "X37" ~ "latrines_and_others_r",
-            variable == "X38" ~ "septic_tanks_r",
-            variable == "X39" ~ "sewer_connections_r",
-            variable == "X40" ~ "safely_managed_u",
-            variable == "X41" ~ "disposed_in_situ_u",
-            variable == "X42" ~ "emptied_and_treated_u",
-            variable == "X43" ~ "wastewater_treated_u",
-            variable == "X44" ~ "latrines_and_others_u",
-            variable == "X45" ~ "septic_tanks_u",
-            variable == "X46" ~ "sewer_connections_u"
-        )
-    ) %>% 
+jmp_world_wat_join <- jmp_world_wat  %>% 
+    select(name, iso3, where(is.double))
+
+jmp_world_san_join <- jmp_world_san %>% 
+    select(name, iso3, where(is.double)) 
+
+jmp_world_hyg_join <- jmp_world_hyg %>% 
+    select(name, iso3, where(is.double)) 
+
+jmp_world_tidy <- jmp_world_wat_join %>% 
+    left_join(jmp_world_san_join) %>% 
+    left_join(jmp_world_hyg_join) %>% 
+
+    gather(key = var_short, value = percent, prop_u:hyg_nfac_u) %>% 
+    left_join(jmp_vars, by = c("var_short" = "var_short"))   %>% 
     mutate(
         residence = case_when(
-            variable = str_detect(variable, "_n") == TRUE ~ "national",
-            variable = str_detect(variable, "_r") == TRUE ~ "rural",
-            variable = str_detect(variable, "_u") == TRUE ~ "urban"
+            variable = str_detect(var_short, "_n") == TRUE ~ "national",
+            variable = str_detect(var_short, "_r") == TRUE ~ "rural",
+            variable = str_detect(var_short, "_u") == TRUE ~ "urban"
         )
     ) %>%
-    mutate(variable = str_replace(variable, pattern =  "_n", replacement = "")) %>% 
-    mutate(variable = str_replace(variable, pattern =  "_r", replacement = "")) %>% 
-    mutate(variable = str_replace(variable, pattern =  "_u", replacement = "")) %>% 
-    rename(
-        country = X1,
-        iso3 = X2,
-        year = X3,
-        population = X4
-    ) %>% 
+    mutate(variable = str_replace(var_short, pattern =  "_n", replacement = "")) %>% 
+    mutate(variable = str_replace(var_short, pattern =  "_r", replacement = "")) %>% 
+    mutate(variable = str_replace(var_short, pattern =  "_u", replacement = "")) 
     
-    ### set all "-" to NAs, keep in mind that not all NAs are actual NAs but might also be zeros. see later mutations.
-    
-    mutate(percent = "is.na<-"(percent, percent == "-")) %>%   ## https://stackoverflow.com/a/27909247/6816220
-    mutate(percent = as.double(percent)) %>% 
-    mutate(population = population * 1000) %>% 
-    filter(!is.na(percent))
+write_csv(jmp_world_tidy, "data/derived_data/jmp_washdata_indicators.csv")
 
 ### testing a proof for Rick
 
@@ -138,7 +137,7 @@ jmp_data_tidy2 <- jmp_data_tidy %>%
     
     ### bring into wide format
     
-    spread(variable, percent)  %>% 
+    spread(var_short, percent)  %>% 
     
     ### fix the fact that sewer, septic and pit can actually be zero
     
