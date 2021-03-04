@@ -41,19 +41,14 @@ jmp_world_hyg <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 7, colNames =
 
 ## generate table of all jmp variables
 
-c(names(jmp_world_wat), names(jmp_world_san), names(jmp_world_hyg)) %>% 
-    enframe() %>% 
-    googlesheets4::write_sheet(sheet = "Sheet2", ss = "1w0FmGTByjvBTs0ohp2NIIsdukBrsc1t66GtdKiScJBc")
+#c(names(jmp_world_wat), names(jmp_world_san), names(jmp_world_hyg)) %>% 
+#    enframe() %>% 
+#    googlesheets4::write_sheet(sheet = "Sheet2", ss = "1w0FmGTByjvBTs0ohp2NIIsdukBrsc1t66GtdKiScJBc")
 
 # these variables do not help here because they are on technology level
 # jmp_vars <- read_csv(file = "data/derived_data/jmp_wash_variables.csv")
 
 # manipulate data ---------------------------------------------------------
-
-jmp_world %>% 
-    names() %>% 
-    enframe() %>% 
-    write_csv(file = "data/derived_data/jmp_wash_variables.csv")
 
 # The CSV from the code above was copied into Google Sheets and names for
 # variables were added by hand from the JMP World file
@@ -84,17 +79,35 @@ jmp_world_tidy <- jmp_world_wat_join %>%
 
     gather(key = var_short, value = percent, prop_u:hyg_nfac_u) %>% 
     left_join(jmp_vars, by = c("var_short" = "var_short"))   %>% 
+        
+    ## remove these variables because they are unknown
+    filter(!is.na(var_long)) %>% 
     mutate(
         residence = case_when(
-            variable = str_detect(var_short, "_n") == TRUE ~ "national",
-            variable = str_detect(var_short, "_r") == TRUE ~ "rural",
-            variable = str_detect(var_short, "_u") == TRUE ~ "urban"
+            variable = str_detect(var_short, "_n$") == TRUE ~ "national",
+            variable = str_detect(var_short, "_r$") == TRUE ~ "rural",
+            variable = str_detect(var_short, "_u$") == TRUE ~ "urban"
         )
-    ) %>%
-    mutate(variable = str_replace(var_short, pattern =  "_n", replacement = "")) %>% 
-    mutate(variable = str_replace(var_short, pattern =  "_r", replacement = "")) %>% 
-    mutate(variable = str_replace(var_short, pattern =  "_u", replacement = "")) 
-    
+    ) %>% 
+    mutate(var_short = str_replace(var_short, pattern =  "_n$", replacement = "")) %>% 
+    mutate(var_short = str_replace(var_short, pattern =  "_r$", replacement = "")) %>% 
+    mutate(var_short = str_replace(var_short, pattern =  "_u$", replacement = "")) %>% 
+    mutate(
+        service = case_when(
+            var_short = str_detect(var_short, "^san") == TRUE ~ "sanitation",
+            var_short = str_detect(var_short, "^wat") == TRUE ~ "water",
+            var_short = str_detect(var_short, "^hyg") == TRUE ~ "hygiene",
+        )
+    )
+
+
+jmp_world_tidy %>%
+    filter(iso3 == "SEN") %>% 
+    filter(year == 2017) %>% 
+    filter(residence == "urban") %>%  
+    filter(service == "water")
+
+
 write_csv(jmp_world_tidy, "data/derived_data/jmp_washdata_indicators.csv")
 
 ### testing a proof for Rick
