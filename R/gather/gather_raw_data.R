@@ -16,9 +16,8 @@ library(stringr)
 
 # load data ----------------------------------------------------------------
 
-
 ## download world data file to temporary file
-# download.file("https://washdata.org/data/country/WLD/download", destfile = "data/raw_data/WLD.xlsx", mode = "wb")
+download.file("https://washdata.org/data/country/WLD/download", destfile = "data/raw_data/WLD.xlsx", mode = "wb")
 
 ## get iso3 country codes from existing World file
 country_codes <- readxl::read_excel(path = "data/raw_data/WLD.xlsx", sheet = 3) %>% 
@@ -26,7 +25,7 @@ country_codes <- readxl::read_excel(path = "data/raw_data/WLD.xlsx", sheet = 3) 
     unique()
 
 ## get list of variables stored in 'Chart Data' Tab from one country file
-# download.file("https://washdata.org/data/country/UGA/download", destfile = "data/raw_data/UGA.xlsx", mode = "wb")
+download.file("https://washdata.org/data/country/UGA/download", destfile = "data/raw_data/UGA.xlsx", mode = "wb")
 
 var_list <- readxl::read_excel(path = "data/raw_data/UGA.xlsx", sheet = "Chart Data", skip = 3, col_names = FALSE) %>% 
     slice(1:2) %>% 
@@ -35,7 +34,15 @@ var_list <- readxl::read_excel(path = "data/raw_data/UGA.xlsx", sheet = "Chart D
     rename(
         var_long = V1,
         var_short = V2
-    )
+    ) %>% 
+    ## add variable for residence
+    mutate(residence = case_when(
+        var_short = str_detect(var_short, "_n") == TRUE ~ "national",
+        var_short = str_detect(var_short, "_r") == TRUE ~ "rural",
+        var_short = str_detect(var_short, "_u") == TRUE ~ "urban"
+    ))
+
+write_csv(x = var_list, "data/derived_data/jmp_wash_variables.csv")
 
 ## define factor level for sanitation service chain variable 
 ssc_levels = c("open defecation", "sharing", "user interface", "containment", "emptying", "transport", "FS treatment","WW treatment")
@@ -140,3 +147,9 @@ country_list %>%
     write_rds(path = here::here("data/derived_data", paste0(Sys.Date(), "_jmp_sanitation_raw_data.rds"))) 
 
 
+read_rds(file = "data/derived_data/2020-09-30_jmp_sanitation_raw_data.rds") %>% 
+    filter(iso3 == "UGA") %>% 
+    filter(residence == "urban") %>%
+    filter(var_long == "Septic") %>% 
+    ggplot(aes(x = year, y = value, color = var_long)) +
+    geom_point()
