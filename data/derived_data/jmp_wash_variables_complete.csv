@@ -1,0 +1,114 @@
+name,var_short,var_long
+1,name,name
+2,year,year
+3,pop_n,Population (thousands)
+4,prop_u,% urban
+5,wat_bas_n,At least basic
+6,wat_lim_n,Limited (more than 30 mins)
+7,wat_unimp_n,Unimproved
+8,wat_sur_n,Surface water
+9,arc_wat_bas_n,Annual rate of change in basic
+10,wat_bas_r,At least basic
+11,wat_lim_r,Limited (more than 30 mins)
+12,wat_unimp_r,Unimproved
+13,wat_sur_r,Surface water
+14,arc_wat_bas_r,Annual rate of change in basic
+15,wat_bas_u,At least basic
+16,wat_lim_u,Limited (more than 30 mins)
+17,wat_unimp_u,Unimproved
+18,wat_sur_u,Surface water
+19,arc_wat_bas_u,Annual rate of change in basic
+20,name2,NA
+21,year2,NA
+22,wat_sm_n,Safely managed
+23,wat_premises_n,Accessible on premises
+24,wat_available_n,Available when needed
+25,wat_quality_n,Free from contamination
+26,wat_pip_n,Piped
+27,wat_npip_n,Non-piped
+28,wat_sm_r,Safely managed
+29,wat_premises_r,Accessible on premises
+30,wat_available_r,Available when needed
+31,wat_quality_r,Free from contamination
+32,wat_pip_r,Piped
+33,wat_npip_r,Non-piped
+34,wat_sm_u,Safely managed
+35,wat_premises_u,Accessible on premises
+36,wat_available_u,Available when needed
+37,wat_quality_u,Free from contamination
+38,wat_pip_u,Piped
+39,wat_npip_u,Non-piped
+40,sl,NA
+41,iso3,NA
+42,wat_imp_n,NA
+43,wat_imp_r,NA
+44,wat_imp_u,NA
+45,name_who_mf,NA
+46,pop_n2,NA
+47,name,name
+48,year,year
+49,pop_n,Population (thousands)
+50,prop_u,% urban
+51,san_bas_n,At least basic
+52,san_lim_n,Limited (shared)
+53,san_unimp_n,Unimproved
+54,san_od_n,Open defecation
+55,arc_san_bas_n,Annual rate of change in basic
+56,arc_san_od_n,Annual rate of change in open defecation
+57,san_bas_r,At least basic
+58,san_lim_r,Limited (shared)
+59,san_unimp_r,Unimproved
+60,san_od_r,Open defecation
+61,arc_san_bas_r,Annual rate of change in basic
+62,arc_san_od_r,Annual rate of change in open defecation
+63,san_bas_u,At least basic
+64,san_lim_u,Limited (shared)
+65,san_unimp_u,Unimproved
+66,san_od_u,Open defecation
+67,arc_san_bas_u,Annual rate of change in basic
+68,arc_san_od_u,Annual rate of change in open defecation
+69,name2,NA
+70,year2,NA
+71,san_sm_n,Safely managed
+72,san_sdo_sm_n,Disposed in situ
+73,san_fst_sm_n,Emptied and treated
+74,san_sew_sm_n,Wastewater treated
+75,san_lat_n,Latrines and other
+76,san_sep_n,Septic tanks
+77,san_sew_n,Sewer connections
+78,san_sm_r,Safely managed
+79,san_sdo_sm_r,Disposed in situ
+80,san_fst_sm_r,Emptied and treated
+81,san_sew_sm_r,Wastewater treated
+82,san_lat_r,Latrines and other
+83,san_sep_r,Septic tanks
+84,san_sew_r,Sewer connections
+85,san_sm_u,Safely managed
+86,san_sdo_sm_u,Disposed in situ
+87,san_fst_sm_u,Emptied and treated
+88,san_sew_sm_u,Wastewater treated
+89,san_lat_u,Latrines and other
+90,san_sep_u,Septic tanks
+91,san_sew_u,Sewer connections
+92,sl,NA
+93,iso3,NA
+94,san_imp_n,NA
+95,san_imp_r,NA
+96,san_imp_u,NA
+97,name_who_mf,NA
+98,pop_n2,NA
+99,name,NA
+100,year,NA
+101,pop_n,NA
+102,prop_u,NA
+103,hyg_bas_n,Basic
+104,hyg_lim_n,Limited (without water or soap)
+105,hyg_nfac_n,No facility
+106,hyg_bas_r,Basic
+107,hyg_lim_r,Limited
+108,hyg_nfac_r,No facility
+109,hyg_bas_u,Basic
+110,hyg_lim_u,Limited (without water or soap)
+111,hyg_nfac_u,No facility
+112,sl,NA
+113,iso3,NA
