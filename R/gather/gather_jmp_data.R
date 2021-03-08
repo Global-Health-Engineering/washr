@@ -141,8 +141,9 @@ jmp_world_tidy_wat <- jmp_world_tidy %>%
     ## remove wat_sm (safely managed drinking water is the of three other 
     ## indicators
     filter(var_short != "wat_sm") %>% 
+    filter(iso3 == "UGA", year == 2017) %>% 
     mutate(water_ladder = case_when(
-        var_short = str_detect(var_short, "(bas|lim|unimp|surface)$") == TRUE ~ var_long 
+        var_short = str_detect(var_short, "(bas|lim|unimp|sur)$") == TRUE ~ var_long 
     )) %>% 
     pivot_longer(cols = water_technology:water_ladder, 
                  names_to = "indicator_type", 
