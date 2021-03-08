@@ -77,6 +77,7 @@ jmp_world_tidy <- jmp_world_wat_join %>%
     left_join(jmp_world_san_join) %>% 
     left_join(jmp_world_hyg_join) %>% 
     select(-sl, -pop_n2, -year2) %>% 
+    relocate(name, iso3) %>% 
     
     gather(key = var_short, value = percent, wat_bas_n:hyg_nfac_u) %>% 
     left_join(jmp_vars, by = c("var_short" = "var_short"))   %>% 
