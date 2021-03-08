@@ -53,9 +53,9 @@ jmp_world_hyg <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 7, colNames =
 # The CSV from the code above was copied into Google Sheets and names for
 # variables were added by hand from the JMP World file
 
-googlesheets4::read_sheet("1w0FmGTByjvBTs0ohp2NIIsdukBrsc1t66GtdKiScJBc") %>% 
-    rename(var_short = value) %>% 
-    write_csv("data/derived_data/jmp_wash_variables_complete.csv")
+# googlesheets4::read_sheet("1w0FmGTByjvBTs0ohp2NIIsdukBrsc1t66GtdKiScJBc") %>% 
+#     rename(var_short = value) %>% 
+#     write_csv("data/derived_data/jmp_wash_variables_complete.csv")
 
 jmp_vars <- read_csv("data/derived_data/jmp_wash_variables_complete.csv") %>% 
     select(-name) %>% 
@@ -64,7 +64,7 @@ jmp_vars <- read_csv("data/derived_data/jmp_wash_variables_complete.csv") %>%
 
 ## STEP X: ... general tidying
 
-jmp_world_wat_join <- jmp_world_wat  %>% 
+jmp_world_wat_join <- jmp_world_wat  
     select(name, iso3, where(is.double))
 
 jmp_world_san_join <- jmp_world_san %>% 
@@ -76,10 +76,11 @@ jmp_world_hyg_join <- jmp_world_hyg %>%
 jmp_world_tidy <- jmp_world_wat_join %>% 
     left_join(jmp_world_san_join) %>% 
     left_join(jmp_world_hyg_join) %>% 
-
-    gather(key = var_short, value = percent, prop_u:hyg_nfac_u) %>% 
+    select(-sl, -pop_n2, -year2) %>% 
+    
+    gather(key = var_short, value = percent, wat_bas_n:hyg_nfac_u) %>% 
     left_join(jmp_vars, by = c("var_short" = "var_short"))   %>% 
-        
+    
     ## remove these variables because they are unknown
     filter(!is.na(var_long)) %>% 
     mutate(
@@ -98,15 +99,74 @@ jmp_world_tidy <- jmp_world_wat_join %>%
             var_short = str_detect(var_short, "^wat") == TRUE ~ "water",
             var_short = str_detect(var_short, "^hyg") == TRUE ~ "hygiene",
         )
+    ) 
+
+## enrich data
+## sanitation
+
+jmp_world_tidy_san <- jmp_world_tidy %>% 
+    filter(service == "sanitation") %>% 
+    mutate(sanitation_technology = case_when(
+        var_short = str_detect(var_short, "(lat|sep|sew)$") == TRUE ~ var_long
+    )) %>% 
+    mutate(safely_managed_sanitation = case_when(
+        var_short = str_detect(var_short, "sm$") == TRUE ~ var_long
+    )) %>% 
+    mutate(sanitation_ladder = case_when(
+        var_short = str_detect(var_short, "(bas|lim|unimp|od)$") == TRUE ~ var_long 
+    )) %>% 
+    pivot_longer(cols = sanitation_technology:sanitation_ladder, 
+                 names_to = "indicator_type", 
+                 values_to = "indicator") %>% 
+    filter(!is.na(indicator)) %>% 
+    
+    ## remove san_sm (safely managed sanitation variable as it is the sum of
+    ## value safely_managed_sanitation under indicator type)
+    
+    filter(var_short != "san_sm") 
+
+
+## enrich data
+## water
+
+jmp_world_tidy_wat <- jmp_world_tidy %>%
+    filter(service == "water") %>% 
+    mutate(water_technology = case_when(
+        var_short = str_detect(var_short, "(pip|npip)$") == TRUE ~ var_long
+    )) %>% 
+    mutate(safely_managed_drinking_water = case_when(
+        var_short = str_detect(var_short, "(ses|ble|ity)$") == TRUE ~ var_long
+    )) %>% 
+    ## remove wat_sm (safely managed drinking water is the of three other 
+    ## indicators
+    filter(var_short != "wat_sm") %>% 
+    mutate(water_ladder = case_when(
+        var_short = str_detect(var_short, "(bas|lim|unimp|surface)$") == TRUE ~ var_long 
+    )) %>% 
+    pivot_longer(cols = water_technology:water_ladder, 
+                 names_to = "indicator_type", 
+                 values_to = "indicator") %>% 
+    filter(!is.na(indicator)) 
+
+## enrich data
+## hygiene
+
+jmp_world_tidy_hyg <- jmp_world_tidy %>%
+    filter(service == "hygiene") %>% 
+    mutate(hygiene_ladder = case_when(
+        var_short = str_detect(var_short, "(bas|lim|nfac)$") == TRUE ~ var_long 
+    )) %>% 
+    pivot_longer(cols = hygiene_ladder,
+                 names_to = "indicator_type",
+                 values_to = "indicator")
+
+
+## bind rows back together
+jmp_world_tidy_enriched <- jmp_world_tidy_san %>% 
+    bind_rows(
+        jmp_world_tidy_wat,
+        jmp_world_tidy_hyg
     )
-
-
-jmp_world_tidy %>%
-    filter(iso3 == "SEN") %>% 
-    filter(year == 2017) %>% 
-    filter(residence == "urban") %>%  
-    filter(service == "water")
-
 
 write_csv(jmp_world_tidy, "data/derived_data/jmp_washdata_indicators.csv")
 
