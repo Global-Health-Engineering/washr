@@ -171,7 +171,6 @@ jmp_world_tidy_enriched <- jmp_world_tidy_san %>%
 
 
 jmp_world_tidy_enriched_sml <- jmp_world_tidy_enriched %>% 
-    filter(year >= 2015) %>% 
     select(-prop_u, var_long)
 
 write_csv(jmp_world_tidy_enriched_sml, "data/derived_data/jmp_washdata_indicators_sml.csv")
