@@ -167,11 +167,8 @@ jmp_world_tidy_enriched <- jmp_world_tidy_san %>%
     bind_rows(
         jmp_world_tidy_wat,
         jmp_world_tidy_hyg
-    )
-
-
-jmp_world_tidy_enriched_sml <- jmp_world_tidy_enriched %>% 
-    select(-prop_u, var_long)
+    ) %>% 
+    select(-var_long)
 
 write_csv(jmp_world_tidy_enriched_sml, "data/derived_data/jmp_washdata_indicators_sml.csv")
 
