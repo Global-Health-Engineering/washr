@@ -168,7 +168,29 @@ jmp_world_tidy_enriched <- jmp_world_tidy_san %>%
         jmp_world_tidy_wat,
         jmp_world_tidy_hyg
     ) %>% 
+    mutate(percent = as.double(percent)) %>% 
     select(-var_long)
 
-write_csv(jmp_world_tidy_enriched_sml, "data/derived_data/jmp_washdata_indicators_sml.csv")
+write_csv(jmp_world_tidy_enriched, "data/derived_data/jmp_washdata_indicators_sml.csv")
+
+
+# How to calculate safely managed drinking water from the data
+
+jmp_world_tidy_enriched %>% 
+    filter(service == "water", 
+           indicator_type == "safely_managed_drinking_water") %>% 
+    group_by(iso3, year, service, residence) %>% 
+    summarise(
+        percent_safely_managed = max(percent, na.rm = TRUE)
+    ) 
+
+# How to calculate safely managed sanitation from the data
+
+jmp_world_tidy_enriched %>% 
+    filter(service == "sanitation",
+           indicator_type == "safely_managed_sanitation") %>% 
+    group_by(iso3, year, service, residence) %>% 
+    summarise(
+        percent_safely_managed = sum(percent, na.rm = TRUE)
+    )
 
