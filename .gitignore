@@ -46,3 +46,7 @@ po/*~
 
 # data dirs
 data/raw_data/country_files/*
+
+# Mac files
+
+.DS_Store
