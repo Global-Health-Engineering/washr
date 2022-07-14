@@ -64,7 +64,7 @@ jmp_vars <- read_csv("data/derived_data/jmp_wash_variables_complete.csv") %>%
 
 ## STEP X: ... general tidying
 
-jmp_world_wat_join <- jmp_world_wat  
+jmp_world_wat_join <- jmp_world_wat |> 
     select(name, iso3, where(is.double))
 
 jmp_world_san_join <- jmp_world_san %>% 
@@ -76,7 +76,7 @@ jmp_world_hyg_join <- jmp_world_hyg %>%
 jmp_world_tidy <- jmp_world_wat_join %>% 
     left_join(jmp_world_san_join) %>% 
     left_join(jmp_world_hyg_join) %>% 
-    select(-sl, -pop_n2, -year2) %>% 
+    select(-sl) %>% 
     relocate(name, iso3) %>% 
     
     gather(key = var_short, value = percent, wat_bas_n:hyg_nfac_u) %>% 
@@ -172,6 +172,8 @@ jmp_world_tidy_enriched <- jmp_world_tidy_san %>%
     select(-var_long)
 
 write_csv(jmp_world_tidy_enriched, "data/derived_data/jmp_washdata_indicators_sml.csv")
+
+jmp_world_tidy_enriched |> 
 
 
 # How to calculate safely managed drinking water from the data
