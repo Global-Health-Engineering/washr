@@ -171,10 +171,18 @@ jmp_world_tidy_enriched <- jmp_world_tidy_san %>%
     mutate(percent = as.double(percent)) %>% 
     select(-var_long)
 
-write_csv(jmp_world_tidy_enriched, "data/derived_data/jmp_washdata_indicators_sml.csv")
+write_csv(jmp_world_tidy_enriched, "data/derived_data/jmp-washdata-indicators.csv")
+
+# write smaller dataset for teaching
 
 jmp_world_tidy_enriched |> 
-
+    select(-pop_n, -prop_u, -arc_hyg_bas_u, -var_short) |> 
+    filter(service == "sanitation") |> 
+    filter(indicator_type == "sanitation_ladder") |> 
+    select(-indicator_type, -service) |> 
+    filter(year %in% seq(2011, 2020, 1)) |>
+    relocate(c(residence, indicator), .after = year) |>
+    write_csv(file = "data/derived_data/jmp-washdata-indicators-sanitation-small.csv")
 
 # How to calculate safely managed drinking water from the data
 
