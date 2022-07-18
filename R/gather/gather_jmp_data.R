@@ -78,7 +78,6 @@ jmp_world_tidy <- jmp_world_wat_join %>%
     left_join(jmp_world_hyg_join) %>% 
     select(-sl) %>% 
     relocate(name, iso3) %>% 
-    
     gather(key = var_short, value = percent, wat_bas_n:hyg_nfac_u) %>% 
     left_join(jmp_vars, by = c("var_short" = "var_short"))   %>% 
     
@@ -119,12 +118,12 @@ jmp_world_tidy_san <- jmp_world_tidy %>%
     pivot_longer(cols = sanitation_technology:sanitation_ladder, 
                  names_to = "indicator_type", 
                  values_to = "indicator") %>% 
-    filter(!is.na(indicator)) %>% 
+    filter(!is.na(indicator)) # %>% 
     
     ## remove san_sm (safely managed sanitation variable as it is the sum of
     ## value safely_managed_sanitation under indicator type)
     
-    filter(var_short != "san_sm") 
+    # filter(var_short != "san_sm") 
 
 
 ## enrich data
@@ -140,7 +139,7 @@ jmp_world_tidy_wat <- jmp_world_tidy %>%
     )) %>% 
     ## remove wat_sm (safely managed drinking water is the of three other 
     ## indicators
-    filter(var_short != "wat_sm") %>% 
+    #filter(var_short != "wat_sm") %>% 
     mutate(water_ladder = case_when(
         var_short = str_detect(var_short, "(bas|lim|unimp|sur)$") == TRUE ~ var_long 
     )) %>% 
@@ -169,20 +168,52 @@ jmp_world_tidy_enriched <- jmp_world_tidy_san %>%
         jmp_world_tidy_hyg
     ) %>% 
     mutate(percent = as.double(percent)) %>% 
-    select(-var_long)
+    select(-var_long) 
 
 write_csv(jmp_world_tidy_enriched, "data/derived_data/jmp-washdata-indicators.csv")
 
 # write smaller dataset for teaching
 
-jmp_world_tidy_enriched |> 
-    select(-pop_n, -prop_u, -arc_hyg_bas_u, -var_short) |> 
+safely_managed_sml <- jmp_world_tidy_enriched |> 
+    mutate(
+        pop = case_when(
+            residence == "national" ~ pop_n * 1000,
+            residence == "urban" ~ pop_n * 1000 * prop_u / 100,
+            residence == "rural" ~ pop_n * 1000 * (100 - prop_u) / 100
+        )
+    ) |> 
+    select(-prop_u, -pop_n, -arc_hyg_bas_u, -var_short) |> 
     filter(service == "sanitation") |> 
-    filter(indicator_type == "sanitation_ladder") |> 
+    filter(indicator == "Safely managed") |> 
     select(-indicator_type, -service) |> 
-    filter(year %in% seq(2011, 2020, 1)) |>
-    relocate(c(residence, indicator), .after = year) |>
-    write_csv(file = "data/derived_data/jmp-washdata-indicators-sanitation-small.csv")
+    #group_by(name, iso3, year, pop, residence, indicator) 
+    #summarise(percent_safely_managed = sum(percent, na.rm = TRUE)) |> 
+    #ungroup() |> 
+    filter(year %in% c(2000, 2010, 2020)) 
+
+# add income categories after WB
+## source: https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
+## Venezuela, previously classified as a an upper-middle income country, 
+## is now unclassified due to a lack of available data in the recent period.
+## source: https://blogs.worldbank.org/opendata/new-world-bank-country-classifications-income-level-2021-2022
+
+
+
+wb_income_cat <- readxl::read_xlsx("data/raw_data/CLASS.xlsx", sheet = 1)
+
+wb_income_cat_tidy <- wb_income_cat |> 
+    select(iso3 = Code, region = Region, income_grp = `Income group`) |> 
+    mutate(income_id = case_when(
+        income_grp == "High income" ~ "HIC",
+        income_grp == "Low income" ~ "LIC",
+        income_grp == "Lower middle income" ~ "LMC",
+        income_grp == "Upper middle income" ~ "UMC"
+    )) |> 
+    select(-income_grp)
+
+safely_managed_sml |>
+    left_join(wb_income_cat_tidy) |> 
+    write_csv(file = "data/derived_data/jmp-washdata-indicators-safely-managed-sml.csv")
 
 # How to calculate safely managed drinking water from the data
 

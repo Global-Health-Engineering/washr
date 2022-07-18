@@ -1,0 +1,2107 @@
+name,iso3,year,percent,residence,indicator,pop,region,income_id
+Afghanistan,AFG,2000,NA,national,Safely managed,20779957.03125,South Asia,LIC
+Afghanistan,AFG,2010,NA,national,Safely managed,29185511.71875,South Asia,LIC
+Afghanistan,AFG,2020,NA,national,Safely managed,38928339.84375,South Asia,LIC
+Albania,ALB,2000,40.23741598959447,national,Safely managed,3129246.09375,Europe & Central Asia,UMC
+Albania,ALB,2010,44.29658364857308,national,Safely managed,2948029.052734375,Europe & Central Asia,UMC
+Albania,ALB,2020,47.69108212418293,national,Safely managed,2877800.048828125,Europe & Central Asia,UMC
+Algeria,DZA,2000,21.51471989368383,national,Safely managed,31042238.28125,Middle East & North Africa,LMC
+Algeria,DZA,2010,19.84678822150222,national,Safely managed,35977449.21875,Middle East & North Africa,LMC
+Algeria,DZA,2020,17.61258970077127,national,Safely managed,43851042.96875,Middle East & North Africa,LMC
+American Samoa,ASM,2000,NA,national,Safely managed,57816.00189208984,East Asia & Pacific,UMC
+American Samoa,ASM,2010,NA,national,Safely managed,56083.99963378906,East Asia & Pacific,UMC
+American Samoa,ASM,2020,NA,national,Safely managed,55196.99859619141,East Asia & Pacific,UMC
+Andorra,AND,2000,14.60403561900707,national,Safely managed,65389.99938964844,Europe & Central Asia,HIC
+Andorra,AND,2010,86.45028443831089,national,Safely managed,84454.0023803711,Europe & Central Asia,HIC
+Andorra,AND,2020,100.0000037028706,national,Safely managed,77264.99938964844,Europe & Central Asia,HIC
+Angola,AGO,2000,NA,national,Safely managed,16395476.5625,Sub-Saharan Africa,LMC
+Angola,AGO,2010,NA,national,Safely managed,23356246.09375,Sub-Saharan Africa,LMC
+Angola,AGO,2020,NA,national,Safely managed,32866269.53125,Sub-Saharan Africa,LMC
+Anguilla,AIA,2000,NA,national,Safely managed,11246.99974060059,NA,NA
+Anguilla,AIA,2010,NA,national,Safely managed,13435.99987030029,NA,NA
+Anguilla,AIA,2020,NA,national,Safely managed,15001.9998550415,NA,NA
+Antigua and Barbuda,ATG,2000,NA,national,Safely managed,76007.00378417969,Latin America & Caribbean,HIC
+Antigua and Barbuda,ATG,2010,NA,national,Safely managed,88029.998779296875,Latin America & Caribbean,HIC
+Antigua and Barbuda,ATG,2020,NA,national,Safely managed,97928.0014038086,Latin America & Caribbean,HIC
+Argentina,ARG,2000,47.84462111816595,national,Safely managed,36870796.875,Latin America & Caribbean,UMC
+Argentina,ARG,2010,49.97256188675441,national,Safely managed,40895750,Latin America & Caribbean,UMC
+Argentina,ARG,2020,NA,national,Safely managed,45195777.34375,Latin America & Caribbean,UMC
+Armenia,ARM,2000,46.26395804428453,national,Safely managed,3069596.923828125,Europe & Central Asia,UMC
+Armenia,ARM,2010,53.90871358105002,national,Safely managed,2877313.96484375,Europe & Central Asia,UMC
+Armenia,ARM,2020,69.32908129380998,national,Safely managed,2963233.88671875,Europe & Central Asia,UMC
+Aruba,ABW,2000,NA,national,Safely managed,90865.997314453125,Latin America & Caribbean,HIC
+Aruba,ABW,2010,NA,national,Safely managed,101665.0009155273,Latin America & Caribbean,HIC
+Aruba,ABW,2020,NA,national,Safely managed,106765.998840332,Latin America & Caribbean,HIC
+Australia,AUS,2000,58.78889398917533,national,Safely managed,18991433.59375,East Asia & Pacific,HIC
+Australia,AUS,2010,64.59036914758447,national,Safely managed,22154687.5,East Asia & Pacific,HIC
+Australia,AUS,2020,74.25949441159996,national,Safely managed,25499880.859375,East Asia & Pacific,HIC
+Austria,AUT,2000,99.68162202086492,national,Safely managed,8069275.87890625,Europe & Central Asia,HIC
+Austria,AUT,2010,99.6449620996691,national,Safely managed,8409945.3125,Europe & Central Asia,HIC
+Austria,AUT,2020,99.64252490894502,national,Safely managed,9006400.390625,Europe & Central Asia,HIC
+Azerbaijan,AZE,2000,18.66676954201478,national,Safely managed,8122743.1640625,Europe & Central Asia,UMC
+Azerbaijan,AZE,2010,24.6080592467381,national,Safely managed,9032464.84375,Europe & Central Asia,UMC
+Azerbaijan,AZE,2020,NA,national,Safely managed,10139174.8046875,Europe & Central Asia,UMC
+Bahamas,BHS,2000,NA,national,Safely managed,298045.0134277344,Latin America & Caribbean,HIC
+Bahamas,BHS,2010,NA,national,Safely managed,354936.0046386719,Latin America & Caribbean,HIC
+Bahamas,BHS,2020,NA,national,Safely managed,393247.9858398438,Latin America & Caribbean,HIC
+Bahrain,BHR,2000,68.17329222801048,national,Safely managed,664609.9853515625,Middle East & North Africa,HIC
+Bahrain,BHR,2010,80.31126812921606,national,Safely managed,1240864.013671875,Middle East & North Africa,HIC
+Bahrain,BHR,2020,91.2338181637325,national,Safely managed,1701583.0078125,Middle East & North Africa,HIC
+Bangladesh,BGD,2000,17.66102355118061,national,Safely managed,127657859.375,South Asia,LMC
+Bangladesh,BGD,2010,28.42291983396473,national,Safely managed,147575437.5,South Asia,LMC
+Bangladesh,BGD,2020,38.66941873764463,national,Safely managed,164689390.625,South Asia,LMC
+Barbados,BRB,2000,NA,national,Safely managed,271510.986328125,Latin America & Caribbean,HIC
+Barbados,BRB,2010,NA,national,Safely managed,282131.0119628906,Latin America & Caribbean,HIC
+Barbados,BRB,2020,NA,national,Safely managed,287371.0021972656,Latin America & Caribbean,HIC
+Belarus,BLR,2000,84.14757408730537,national,Safely managed,9871634.765625,Europe & Central Asia,UMC
+Belarus,BLR,2010,79.73070574416752,national,Safely managed,9420576.171875,Europe & Central Asia,UMC
+Belarus,BLR,2020,73.89504617756346,national,Safely managed,9449321.2890625,Europe & Central Asia,UMC
+Belgium,BEL,2000,73.8443161029507,national,Safely managed,10282045.8984375,Europe & Central Asia,HIC
+Belgium,BEL,2010,80.01221709424708,national,Safely managed,10938735.3515625,Europe & Central Asia,HIC
+Belgium,BEL,2020,88.82071007876445,national,Safely managed,11589616.2109375,Europe & Central Asia,HIC
+Belize,BLZ,2000,NA,national,Safely managed,247309.9975585938,Latin America & Caribbean,UMC
+Belize,BLZ,2010,NA,national,Safely managed,322464.9963378906,Latin America & Caribbean,UMC
+Belize,BLZ,2020,NA,national,Safely managed,397621.0021972656,Latin America & Caribbean,UMC
+Benin,BEN,2000,NA,national,Safely managed,6865945.80078125,Sub-Saharan Africa,LMC
+Benin,BEN,2010,NA,national,Safely managed,9199253.90625,Sub-Saharan Africa,LMC
+Benin,BEN,2020,NA,national,Safely managed,12123198.2421875,Sub-Saharan Africa,LMC
+Bermuda,BMU,2000,NA,national,Safely managed,65016.998291015625,North America,HIC
+Bermuda,BMU,2010,NA,national,Safely managed,65388.00048828125,North America,HIC
+Bermuda,BMU,2020,NA,national,Safely managed,62272.99880981445,North America,HIC
+Bhutan,BTN,2000,62.1264611101255,national,Safely managed,591013.97705078125,South Asia,LMC
+Bhutan,BTN,2010,64.55864345824392,national,Safely managed,685502.01416015625,South Asia,LMC
+Bhutan,BTN,2020,65.21665840360455,national,Safely managed,771611.99951171875,South Asia,LMC
+Bolivia (Plurinational State of),BOL,2000,27.9874822925933,national,Safely managed,8418269.53125,Latin America & Caribbean,LMC
+Bolivia (Plurinational State of),BOL,2010,38.69755070354619,national,Safely managed,10048596.6796875,Latin America & Caribbean,LMC
+Bolivia (Plurinational State of),BOL,2020,52.92221397689464,national,Safely managed,11673029.296875,Latin America & Caribbean,LMC
+Bosnia and Herzegovina,BIH,2000,16.94551357261767,national,Safely managed,3751176.025390625,Europe & Central Asia,UMC
+Bosnia and Herzegovina,BIH,2010,24.79573784359664,national,Safely managed,3705478.02734375,Europe & Central Asia,UMC
+Bosnia and Herzegovina,BIH,2020,NA,national,Safely managed,3280814.94140625,Europe & Central Asia,UMC
+Botswana,BWA,2000,NA,national,Safely managed,1643333.0078125,Sub-Saharan Africa,UMC
+Botswana,BWA,2010,NA,national,Safely managed,1987105.95703125,Sub-Saharan Africa,UMC
+Botswana,BWA,2020,NA,national,Safely managed,2351625,Sub-Saharan Africa,UMC
+Brazil,BRA,2000,35.74204341274388,national,Safely managed,174790343.75,Latin America & Caribbean,UMC
+Brazil,BRA,2010,39.85950933685704,national,Safely managed,195713640.625,Latin America & Caribbean,UMC
+Brazil,BRA,2020,48.70631499755618,national,Safely managed,212559406.25,Latin America & Caribbean,UMC
+British Virgin Islands,VGB,2000,NA,national,Safely managed,20312.9997253418,Latin America & Caribbean,HIC
+British Virgin Islands,VGB,2010,NA,national,Safely managed,27795.99952697754,Latin America & Caribbean,HIC
+British Virgin Islands,VGB,2020,NA,national,Safely managed,30236.99951171875,Latin America & Caribbean,HIC
+Brunei Darussalam,BRN,2000,NA,national,Safely managed,333165.9851074219,East Asia & Pacific,HIC
+Brunei Darussalam,BRN,2010,NA,national,Safely managed,388634.0026855469,East Asia & Pacific,HIC
+Brunei Darussalam,BRN,2020,NA,national,Safely managed,437483.0017089844,East Asia & Pacific,HIC
+Bulgaria,BGR,2000,50.98889338915401,national,Safely managed,7997951.171875,Europe & Central Asia,UMC
+Bulgaria,BGR,2010,53.13918148005182,national,Safely managed,7425011.23046875,Europe & Central Asia,UMC
+Bulgaria,BGR,2020,72.22877411776082,national,Safely managed,6948444.82421875,Europe & Central Asia,UMC
+Burkina Faso,BFA,2000,NA,national,Safely managed,11607951.171875,Sub-Saharan Africa,LIC
+Burkina Faso,BFA,2010,NA,national,Safely managed,15605210.9375,Sub-Saharan Africa,LIC
+Burkina Faso,BFA,2020,NA,national,Safely managed,20903277.34375,Sub-Saharan Africa,LIC
+Burundi,BDI,2000,NA,national,Safely managed,6378871.09375,Sub-Saharan Africa,LIC
+Burundi,BDI,2010,NA,national,Safely managed,8675606.4453125,Sub-Saharan Africa,LIC
+Burundi,BDI,2020,NA,national,Safely managed,11890781.25,Sub-Saharan Africa,LIC
+Cabo Verde,CPV,2000,NA,national,Safely managed,428178.0090332031,Sub-Saharan Africa,LMC
+Cabo Verde,CPV,2010,NA,national,Safely managed,492644.0124511719,Sub-Saharan Africa,LMC
+Cabo Verde,CPV,2020,NA,national,Safely managed,555987.97607421875,Sub-Saharan Africa,LMC
+Cambodia,KHM,2000,NA,national,Safely managed,12155241.2109375,East Asia & Pacific,LMC
+Cambodia,KHM,2010,NA,national,Safely managed,14312205.078125,East Asia & Pacific,LMC
+Cambodia,KHM,2020,NA,national,Safely managed,16718970.703125,East Asia & Pacific,LMC
+Cameroon,CMR,2000,NA,national,Safely managed,15513944.3359375,Sub-Saharan Africa,LMC
+Cameroon,CMR,2010,NA,national,Safely managed,20341236.328125,Sub-Saharan Africa,LMC
+Cameroon,CMR,2020,NA,national,Safely managed,26545863.28125,Sub-Saharan Africa,LMC
+Canada,CAN,2000,77.57492526191191,national,Safely managed,30588378.90625,North America,HIC
+Canada,CAN,2010,80.85439847550397,national,Safely managed,34147566.40625,North America,HIC
+Canada,CAN,2020,84.3683932245171,national,Safely managed,37742156.25,North America,HIC
+Caribbean Netherlands,BES,2000,NA,national,Safely managed,14387.00008392334,NA,NA
+Caribbean Netherlands,BES,2010,NA,national,Safely managed,20940.99998474121,NA,NA
+Caribbean Netherlands,BES,2020,NA,national,Safely managed,26221.00067138672,NA,NA
+Cayman Islands,CYM,2000,NA,national,Safely managed,42305.00030517578,Latin America & Caribbean,HIC
+Cayman Islands,CYM,2010,NA,national,Safely managed,56672.00088500977,Latin America & Caribbean,HIC
+Cayman Islands,CYM,2020,NA,national,Safely managed,65720.001220703125,Latin America & Caribbean,HIC
+Central African Republic,CAF,2000,19.67585889665365,national,Safely managed,3640420.8984375,Sub-Saharan Africa,LIC
+Central African Republic,CAF,2010,17.15613615813037,national,Safely managed,4386765.13671875,Sub-Saharan Africa,LIC
+Central African Republic,CAF,2020,13.60380656230462,national,Safely managed,4829764.16015625,Sub-Saharan Africa,LIC
+Chad,TCD,2000,8.60256927965537,national,Safely managed,8355654.296875,Sub-Saharan Africa,LIC
+Chad,TCD,2010,8.895495426620078,national,Safely managed,11952133.7890625,Sub-Saharan Africa,LIC
+Chad,TCD,2020,10.1371175936059,national,Safely managed,16425859.375,Sub-Saharan Africa,LIC
+Channel Islands,CHI,2000,NA,national,Safely managed,148438.9953613281,Europe & Central Asia,HIC
+Channel Islands,CHI,2010,81.5,national,Safely managed,159718.0023193359,Europe & Central Asia,HIC
+Channel Islands,CHI,2020,NA,national,Safely managed,173858.9935302734,Europe & Central Asia,HIC
+Chile,CHL,2000,50.93020344107615,national,Safely managed,15342349.609375,Latin America & Caribbean,HIC
+Chile,CHL,2010,62.85662722821329,national,Safely managed,17062531.25,Latin America & Caribbean,HIC
+Chile,CHL,2020,78.60140201053301,national,Safely managed,19116208.984375,Latin America & Caribbean,HIC
+China,CHN,2000,13.12912376306078,national,Safely managed,1312517250,East Asia & Pacific,UMC
+China,CHN,2010,35.32940401616524,national,Safely managed,1391998125,East Asia & Pacific,UMC
+China,CHN,2020,69.65580704648934,national,Safely managed,1463140500,East Asia & Pacific,UMC
+"China, Hong Kong SAR",HKG,2000,86.10844888552322,national,Safely managed,6606328.125,East Asia & Pacific,HIC
+"China, Hong Kong SAR",HKG,2010,86.03163817445608,national,Safely managed,6966324.21875,East Asia & Pacific,HIC
+"China, Hong Kong SAR",HKG,2020,85.92190858721729,national,Safely managed,7496987.79296875,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2000,54.72221620347318,national,Safely managed,427772.0031738281,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2010,55.79875247463541,national,Safely managed,538215.02685546875,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2020,66.56411518625964,national,Safely managed,649341.97998046875,East Asia & Pacific,HIC
+Colombia,COL,2000,15.16005961797358,national,Safely managed,39629964.84375,Latin America & Caribbean,UMC
+Colombia,COL,2010,16.79012144922092,national,Safely managed,45222699.21875,Latin America & Caribbean,UMC
+Colombia,COL,2020,18.31487835811589,national,Safely managed,50882882.8125,Latin America & Caribbean,UMC
+Comoros,COM,2000,NA,national,Safely managed,542357.97119140625,Sub-Saharan Africa,LMC
+Comoros,COM,2010,NA,national,Safely managed,689695.98388671875,Sub-Saharan Africa,LMC
+Comoros,COM,2020,NA,national,Safely managed,869594.970703125,Sub-Saharan Africa,LMC
+Congo,COG,2000,NA,national,Safely managed,3127419.921875,Sub-Saharan Africa,LMC
+Congo,COG,2010,NA,national,Safely managed,4273737.79296875,Sub-Saharan Africa,LMC
+Congo,COG,2020,NA,national,Safely managed,5518091.796875,Sub-Saharan Africa,LMC
+Cook Islands,COK,2000,NA,national,Safely managed,17934.99946594238,NA,NA
+Cook Islands,COK,2010,NA,national,Safely managed,18392.00019836426,NA,NA
+Cook Islands,COK,2020,NA,national,Safely managed,17563.99917602539,NA,NA
+Costa Rica,CRI,2000,38.85099431978247,national,Safely managed,3962368.896484375,Latin America & Caribbean,UMC
+Costa Rica,CRI,2010,35.1215559306444,national,Safely managed,4577371.09375,Latin America & Caribbean,UMC
+Costa Rica,CRI,2020,30.20443582185965,national,Safely managed,5094113.76953125,Latin America & Caribbean,UMC
+Côte d'Ivoire,CIV,2000,NA,national,Safely managed,16454660.15625,Sub-Saharan Africa,LMC
+Côte d'Ivoire,CIV,2010,NA,national,Safely managed,20532943.359375,Sub-Saharan Africa,LMC
+Côte d'Ivoire,CIV,2020,NA,national,Safely managed,26378275.390625,Sub-Saharan Africa,LMC
+Croatia,HRV,2000,77.87473814625339,national,Safely managed,4428075.1953125,Europe & Central Asia,HIC
+Croatia,HRV,2010,78.4572064695551,national,Safely managed,4328163.0859375,Europe & Central Asia,HIC
+Croatia,HRV,2020,67.78555485045831,national,Safely managed,4105268.06640625,Europe & Central Asia,HIC
+Cuba,CUB,2000,40.3663036642403,national,Safely managed,11126422.8515625,Latin America & Caribbean,UMC
+Cuba,CUB,2010,37.9582213085874,national,Safely managed,11225833.0078125,Latin America & Caribbean,UMC
+Cuba,CUB,2020,36.63753198569273,national,Safely managed,11326616.2109375,Latin America & Caribbean,UMC
+Curaçao,CUW,2000,NA,national,Safely managed,132147.0031738281,Latin America & Caribbean,HIC
+Curaçao,CUW,2010,NA,national,Safely managed,149188.0035400391,Latin America & Caribbean,HIC
+Curaçao,CUW,2020,NA,national,Safely managed,164100.0061035156,Latin America & Caribbean,HIC
+Cyprus,CYP,2000,76.13447378706671,national,Safely managed,943288.02490234375,Europe & Central Asia,HIC
+Cyprus,CYP,2010,76.5324497171764,national,Safely managed,1112616.943359375,Europe & Central Asia,HIC
+Cyprus,CYP,2020,77.0844042919295,national,Safely managed,1207360.961914063,Europe & Central Asia,HIC
+Czech Republic,CZE,2000,66.95266478847125,national,Safely managed,10289374.0234375,Europe & Central Asia,HIC
+Czech Republic,CZE,2010,76.18771715667421,national,Safely managed,10536513.671875,Europe & Central Asia,HIC
+Czech Republic,CZE,2020,85.20441770013458,national,Safely managed,10708982.421875,Europe & Central Asia,HIC
+Democratic People's Republic of Korea,PRK,2000,NA,national,Safely managed,22929078.125,East Asia & Pacific,LIC
+Democratic People's Republic of Korea,PRK,2010,NA,national,Safely managed,24548839.84375,East Asia & Pacific,LIC
+Democratic People's Republic of Korea,PRK,2020,NA,national,Safely managed,25778814.453125,East Asia & Pacific,LIC
+Democratic Republic of the Congo,COD,2000,22.25010663907918,national,Safely managed,47105828.125,Sub-Saharan Africa,LIC
+Democratic Republic of the Congo,COD,2010,17.6304709968621,national,Safely managed,64563851.5625,Sub-Saharan Africa,LIC
+Democratic Republic of the Congo,COD,2020,12.69102623173899,national,Safely managed,89561406.25,Sub-Saharan Africa,LIC
+Denmark,DNK,2000,86.80214186586359,national,Safely managed,5341191.89453125,Europe & Central Asia,HIC
+Denmark,DNK,2010,88.15870079798015,national,Safely managed,5554849.12109375,Europe & Central Asia,HIC
+Denmark,DNK,2020,91.88920328996599,national,Safely managed,5792203.125,Europe & Central Asia,HIC
+Djibouti,DJI,2000,24.85121412189512,national,Safely managed,717577.0263671875,Middle East & North Africa,LMC
+Djibouti,DJI,2010,29.77494808748327,national,Safely managed,840193.9697265625,Middle East & North Africa,LMC
+Djibouti,DJI,2020,37.08001590531707,national,Safely managed,988002.01416015625,Middle East & North Africa,LMC
+Dominica,DMA,2000,NA,national,Safely managed,69650.0015258789,Latin America & Caribbean,UMC
+Dominica,DMA,2010,NA,national,Safely managed,70876.99890136719,Latin America & Caribbean,UMC
+Dominica,DMA,2020,NA,national,Safely managed,71990.997314453125,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2000,NA,national,Safely managed,8471317.3828125,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2010,NA,national,Safely managed,9695117.1875,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2020,NA,national,Safely managed,10847904.296875,Latin America & Caribbean,UMC
+Ecuador,ECU,2000,39.93561000204864,national,Safely managed,12681123.046875,Latin America & Caribbean,UMC
+Ecuador,ECU,2010,41.03788242926505,national,Safely managed,15011114.2578125,Latin America & Caribbean,UMC
+Ecuador,ECU,2020,41.63194052300025,national,Safely managed,17643060.546875,Latin America & Caribbean,UMC
+Egypt,EGY,2000,54.1566090210363,national,Safely managed,68831562.5,Middle East & North Africa,LMC
+Egypt,EGY,2010,59.14712972232811,national,Safely managed,82761242.1875,Middle East & North Africa,LMC
+Egypt,EGY,2020,67.06102993356461,national,Safely managed,102334406.25,Middle East & North Africa,LMC
+El Salvador,SLV,2000,NA,national,Safely managed,5887930.17578125,Latin America & Caribbean,LMC
+El Salvador,SLV,2010,NA,national,Safely managed,6183876.953125,Latin America & Caribbean,LMC
+El Salvador,SLV,2020,NA,national,Safely managed,6486201.171875,Latin America & Caribbean,LMC
+Equatorial Guinea,GNQ,2000,NA,national,Safely managed,606179.99267578125,Sub-Saharan Africa,UMC
+Equatorial Guinea,GNQ,2010,NA,national,Safely managed,943640.0146484375,Sub-Saharan Africa,UMC
+Equatorial Guinea,GNQ,2020,NA,national,Safely managed,1402984.985351563,Sub-Saharan Africa,UMC
+Eritrea,ERI,2000,NA,national,Safely managed,2292413.0859375,Sub-Saharan Africa,LIC
+Eritrea,ERI,2010,NA,national,Safely managed,3170437.01171875,Sub-Saharan Africa,LIC
+Eritrea,ERI,2020,NA,national,Safely managed,3546427.001953125,Sub-Saharan Africa,LIC
+Estonia,EST,2000,92.5673505618956,national,Safely managed,1399110.961914063,Europe & Central Asia,HIC
+Estonia,EST,2010,92.69742931759154,national,Safely managed,1332103.02734375,Europe & Central Asia,HIC
+Estonia,EST,2020,93.06072860507174,national,Safely managed,1326538.940429688,Europe & Central Asia,HIC
+Eswatini,SWZ,2000,NA,national,Safely managed,1005432.006835938,Sub-Saharan Africa,LMC
+Eswatini,SWZ,2010,NA,national,Safely managed,1064840.942382813,Sub-Saharan Africa,LMC
+Eswatini,SWZ,2020,NA,national,Safely managed,1160163.940429688,Sub-Saharan Africa,LMC
+Ethiopia,ETH,2000,2.116906837281577,national,Safely managed,66224812.5,Sub-Saharan Africa,LIC
+Ethiopia,ETH,2010,4.54242330035617,national,Safely managed,87639960.9375,Sub-Saharan Africa,LIC
+Ethiopia,ETH,2020,6.679274945284962,national,Safely managed,114963585.9375,Sub-Saharan Africa,LIC
+Faeroe Islands,FRO,2000,NA,national,Safely managed,46737.99896240234,Europe & Central Asia,HIC
+Faeroe Islands,FRO,2010,NA,national,Safely managed,47803.00140380859,Europe & Central Asia,HIC
+Faeroe Islands,FRO,2020,NA,national,Safely managed,48865.0016784668,Europe & Central Asia,HIC
+Falkland Islands (Malvinas),FLK,2000,NA,national,Safely managed,2892.999887466431,NA,NA
+Falkland Islands (Malvinas),FLK,2010,NA,national,Safely managed,2901.999950408936,NA,NA
+Falkland Islands (Malvinas),FLK,2020,NA,national,Safely managed,3483.000040054321,NA,NA
+Fiji,FJI,2000,NA,national,Safely managed,811010.986328125,East Asia & Pacific,UMC
+Fiji,FJI,2010,NA,national,Safely managed,859815.97900390625,East Asia & Pacific,UMC
+Fiji,FJI,2020,NA,national,Safely managed,896443.9697265625,East Asia & Pacific,UMC
+Finland,FIN,2000,79.98952889006416,national,Safely managed,5187953.125,Europe & Central Asia,HIC
+Finland,FIN,2010,82.55851739777285,national,Safely managed,5365784.1796875,Europe & Central Asia,HIC
+Finland,FIN,2020,84.09986144145343,national,Safely managed,5540717.7734375,Europe & Central Asia,HIC
+France,FRA,2000,79.2359205457015,national,Safely managed,59015093.75,Europe & Central Asia,HIC
+France,FRA,2010,78.92085652327334,national,Safely managed,62879535.15625,Europe & Central Asia,HIC
+France,FRA,2020,78.58847669673597,national,Safely managed,65273511.71875,Europe & Central Asia,HIC
+French Guiana,GUF,2000,NA,national,Safely managed,163162.9943847656,NA,NA
+French Guiana,GUF,2010,NA,national,Safely managed,232996.0021972656,NA,NA
+French Guiana,GUF,2020,NA,national,Safely managed,298682.0068359375,NA,NA
+French Polynesia,PYF,2000,NA,national,Safely managed,240680.9997558594,East Asia & Pacific,HIC
+French Polynesia,PYF,2010,NA,national,Safely managed,266449.0051269531,East Asia & Pacific,HIC
+French Polynesia,PYF,2020,NA,national,Safely managed,280903.9916992188,East Asia & Pacific,HIC
+Gabon,GAB,2000,NA,national,Safely managed,1228359.008789063,Sub-Saharan Africa,UMC
+Gabon,GAB,2010,NA,national,Safely managed,1624145.99609375,Sub-Saharan Africa,UMC
+Gabon,GAB,2020,NA,national,Safely managed,2225728.02734375,Sub-Saharan Africa,UMC
+Gambia,GMB,2000,43.21158262082293,national,Safely managed,1317708.0078125,Sub-Saharan Africa,LIC
+Gambia,GMB,2010,34.88985407680504,national,Safely managed,1793198.974609375,Sub-Saharan Africa,LIC
+Gambia,GMB,2020,28.96715938159637,national,Safely managed,2416664.0625,Sub-Saharan Africa,LIC
+Georgia,GEO,2000,47.90429213899754,national,Safely managed,4362184.08203125,Europe & Central Asia,UMC
+Georgia,GEO,2010,40.85714085014971,national,Safely managed,4099096.19140625,Europe & Central Asia,UMC
+Georgia,GEO,2020,34.41872720359513,national,Safely managed,3989175.048828125,Europe & Central Asia,UMC
+Germany,DEU,2000,95.79906422740804,national,Safely managed,81400882.8125,Europe & Central Asia,HIC
+Germany,DEU,2010,96.47614557431528,national,Safely managed,80827000,Europe & Central Asia,HIC
+Germany,DEU,2020,97.12541087005127,national,Safely managed,83783945.3125,Europe & Central Asia,HIC
+Ghana,GHA,2000,4.36550165340988,national,Safely managed,19278849.609375,Sub-Saharan Africa,LMC
+Ghana,GHA,2010,8.638307607930356,national,Safely managed,24779613.28125,Sub-Saharan Africa,LMC
+Ghana,GHA,2020,13.32480098412747,national,Safely managed,31072945.3125,Sub-Saharan Africa,LMC
+Gibraltar,GIB,2000,NA,national,Safely managed,31080.99937438965,Europe & Central Asia,HIC
+Gibraltar,GIB,2010,NA,national,Safely managed,33584.99908447266,Europe & Central Asia,HIC
+Gibraltar,GIB,2020,NA,national,Safely managed,33691.00189208984,Europe & Central Asia,HIC
+Greece,GRC,2000,77.26847343970029,national,Safely managed,11082102.5390625,Europe & Central Asia,HIC
+Greece,GRC,2010,83.83710578767895,national,Safely managed,10887639.6484375,Europe & Central Asia,HIC
+Greece,GRC,2020,91.71870528841725,national,Safely managed,10423055.6640625,Europe & Central Asia,HIC
+Greenland,GRL,2000,85.91056578336028,national,Safely managed,56176.99813842773,Europe & Central Asia,HIC
+Greenland,GRL,2010,87.37089352400322,national,Safely managed,56638.00048828125,Europe & Central Asia,HIC
+Greenland,GRL,2020,91.88920703175641,national,Safely managed,56771.99935913086,Europe & Central Asia,HIC
+Grenada,GRD,2000,NA,national,Safely managed,102836.9979858398,Latin America & Caribbean,UMC
+Grenada,GRD,2010,NA,national,Safely managed,106226.9973754883,Latin America & Caribbean,UMC
+Grenada,GRD,2020,NA,national,Safely managed,112518.9971923828,Latin America & Caribbean,UMC
+Guadeloupe,GLP,2000,NA,national,Safely managed,422048.0041503906,NA,NA
+Guadeloupe,GLP,2010,NA,national,Safely managed,406072.998046875,NA,NA
+Guadeloupe,GLP,2020,NA,national,Safely managed,400127.0141601563,NA,NA
+Guam,GUM,2000,NA,national,Safely managed,155322.998046875,East Asia & Pacific,HIC
+Guam,GUM,2010,NA,national,Safely managed,159438.9953613281,East Asia & Pacific,HIC
+Guam,GUM,2020,NA,national,Safely managed,168783.0047607422,East Asia & Pacific,HIC
+Guatemala,GTM,2000,NA,national,Safely managed,11650744.140625,Latin America & Caribbean,UMC
+Guatemala,GTM,2010,NA,national,Safely managed,14630419.921875,Latin America & Caribbean,UMC
+Guatemala,GTM,2020,NA,national,Safely managed,17915566.40625,Latin America & Caribbean,UMC
+Guinea,GIN,2000,NA,national,Safely managed,8240735.3515625,Sub-Saharan Africa,LIC
+Guinea,GIN,2010,NA,national,Safely managed,10192167.96875,Sub-Saharan Africa,LIC
+Guinea,GIN,2020,NA,national,Safely managed,13132791.9921875,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2000,3.26292595986489,national,Safely managed,1201305.053710938,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2010,7.306968688292396,national,Safely managed,1522603.02734375,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2020,12.16331268135814,national,Safely managed,1967998.046875,Sub-Saharan Africa,LIC
+Guyana,GUY,2000,NA,national,Safely managed,746718.017578125,Latin America & Caribbean,UMC
+Guyana,GUY,2010,NA,national,Safely managed,749429.99267578125,Latin America & Caribbean,UMC
+Guyana,GUY,2020,NA,national,Safely managed,786559.02099609375,Latin America & Caribbean,UMC
+Haiti,HTI,2000,NA,national,Safely managed,8463801.7578125,Latin America & Caribbean,LMC
+Haiti,HTI,2010,NA,national,Safely managed,9949318.359375,Latin America & Caribbean,LMC
+Haiti,HTI,2020,NA,national,Safely managed,11402533.203125,Latin America & Caribbean,LMC
+Holy See,VAT,2000,NA,national,Safely managed,790.0000214576721,NA,NA
+Holy See,VAT,2010,NA,national,Safely managed,782.9999923706055,NA,NA
+Holy See,VAT,2020,NA,national,Safely managed,809.0000152587891,NA,NA
+Honduras,HND,2000,40.04916505218431,national,Safely managed,6574509.765625,Latin America & Caribbean,LMC
+Honduras,HND,2010,45.71609364201461,national,Safely managed,8317466.796875,Latin America & Caribbean,LMC
+Honduras,HND,2020,49.67509858271092,national,Safely managed,9904608.3984375,Latin America & Caribbean,LMC
+Hungary,HUN,2000,63.88115863439972,national,Safely managed,10220508.7890625,Europe & Central Asia,HIC
+Hungary,HUN,2010,75.04872452219072,national,Safely managed,9927379.8828125,Europe & Central Asia,HIC
+Hungary,HUN,2020,87.780486501072,national,Safely managed,9660349.609375,Europe & Central Asia,HIC
+Iceland,ISL,2000,41.85407095280075,national,Safely managed,280438.9953613281,Europe & Central Asia,HIC
+Iceland,ISL,2010,62.68396140413262,national,Safely managed,320342.0104980469,Europe & Central Asia,HIC
+Iceland,ISL,2020,83.68756132257438,national,Safely managed,341250,Europe & Central Asia,HIC
+India,IND,2000,6.582622413936268,national,Safely managed,1056575500,South Asia,LMC
+India,IND,2010,25.37938816074447,national,Safely managed,1234281125,South Asia,LMC
+India,IND,2020,45.90965898713165,national,Safely managed,1380004375,South Asia,LMC
+Indonesia,IDN,2000,NA,national,Safely managed,211513828.125,East Asia & Pacific,LMC
+Indonesia,IDN,2010,NA,national,Safely managed,241834218.75,East Asia & Pacific,LMC
+Indonesia,IDN,2020,NA,national,Safely managed,273523625,East Asia & Pacific,LMC
+Iran (Islamic Republic of),IRN,2000,NA,national,Safely managed,65623398.4375,Middle East & North Africa,LMC
+Iran (Islamic Republic of),IRN,2010,NA,national,Safely managed,73762515.625,Middle East & North Africa,LMC
+Iran (Islamic Republic of),IRN,2020,NA,national,Safely managed,83992953.125,Middle East & North Africa,LMC
+Iraq,IRQ,2000,32.89814045261809,national,Safely managed,23497589.84375,Middle East & North Africa,UMC
+Iraq,IRQ,2010,38.02676548618412,national,Safely managed,29741976.5625,Middle East & North Africa,UMC
+Iraq,IRQ,2020,42.87731862267459,national,Safely managed,40222503.90625,Middle East & North Africa,UMC
+Ireland,IRL,2000,53.92023579956555,national,Safely managed,3783094.970703125,Europe & Central Asia,HIC
+Ireland,IRL,2010,70.18702353200165,national,Safely managed,4554330.078125,Europe & Central Asia,HIC
+Ireland,IRL,2020,82.89898929328778,national,Safely managed,4937795.8984375,Europe & Central Asia,HIC
+Isle of Man,IMN,2000,NA,national,Safely managed,76942.00134277344,Europe & Central Asia,HIC
+Isle of Man,IMN,2010,NA,national,Safely managed,84856.00280761719,Europe & Central Asia,HIC
+Isle of Man,IMN,2020,NA,national,Safely managed,85031.99768066406,Europe & Central Asia,HIC
+Israel,ISR,2000,79.81501086839906,national,Safely managed,5945949.21875,Middle East & North Africa,HIC
+Israel,ISR,2010,87.39807076504194,national,Safely managed,7346445.80078125,Middle East & North Africa,HIC
+Israel,ISR,2020,94.96232761625151,national,Safely managed,8655541.015625,Middle East & North Africa,HIC
+Italy,ITA,2000,95.64219410282524,national,Safely managed,56692179.6875,Europe & Central Asia,HIC
+Italy,ITA,2010,95.69591975261405,national,Safely managed,59325230.46875,Europe & Central Asia,HIC
+Italy,ITA,2020,95.7833950675558,national,Safely managed,60461828.125,Europe & Central Asia,HIC
+Jamaica,JAM,2000,NA,national,Safely managed,2654697.998046875,Latin America & Caribbean,UMC
+Jamaica,JAM,2010,NA,national,Safely managed,2810464.111328125,Latin America & Caribbean,UMC
+Jamaica,JAM,2020,NA,national,Safely managed,2961160.888671875,Latin America & Caribbean,UMC
+Japan,JPN,2000,73.03258581547924,national,Safely managed,127524171.875,East Asia & Pacific,HIC
+Japan,JPN,2010,77.36110127811816,national,Safely managed,128542351.5625,East Asia & Pacific,HIC
+Japan,JPN,2020,81.42986093179312,national,Safely managed,126476460.9375,East Asia & Pacific,HIC
+Jordan,JOR,2000,75.57301435685304,national,Safely managed,5122495.1171875,Middle East & North Africa,UMC
+Jordan,JOR,2010,79.28402183750218,national,Safely managed,7261541.015625,Middle East & North Africa,UMC
+Jordan,JOR,2020,82.27367940983441,national,Safely managed,10203139.6484375,Middle East & North Africa,UMC
+Kazakhstan,KAZ,2000,NA,national,Safely managed,14922723.6328125,Europe & Central Asia,UMC
+Kazakhstan,KAZ,2010,NA,national,Safely managed,16252273.4375,Europe & Central Asia,UMC
+Kazakhstan,KAZ,2020,NA,national,Safely managed,18776707.03125,Europe & Central Asia,UMC
+Kenya,KEN,2000,NA,national,Safely managed,31964556.640625,Sub-Saharan Africa,LMC
+Kenya,KEN,2010,NA,national,Safely managed,42030683.59375,Sub-Saharan Africa,LMC
+Kenya,KEN,2020,NA,national,Safely managed,53771300.78125,Sub-Saharan Africa,LMC
+Kiribati,KIR,2000,16.00249394623726,national,Safely managed,84404.998779296875,East Asia & Pacific,LMC
+Kiribati,KIR,2010,22.71219897069014,national,Safely managed,102930.0003051758,East Asia & Pacific,LMC
+Kiribati,KIR,2020,26.66472691728754,national,Safely managed,119445.9991455078,East Asia & Pacific,LMC
+Kuwait,KWT,2000,100,national,Safely managed,2045123.046875,Middle East & North Africa,HIC
+Kuwait,KWT,2010,100,national,Safely managed,2991884.033203125,Middle East & North Africa,HIC
+Kuwait,KWT,2020,100,national,Safely managed,4270562.98828125,Middle East & North Africa,HIC
+Kyrgyzstan,KGZ,2000,85.08256520980366,national,Safely managed,4920711.9140625,Europe & Central Asia,LMC
+Kyrgyzstan,KGZ,2010,89.24915637433108,national,Safely managed,5422297.8515625,Europe & Central Asia,LMC
+Kyrgyzstan,KGZ,2020,92.46858395105619,national,Safely managed,6524190.91796875,Europe & Central Asia,LMC
+Lao People's Democratic Republic,LAO,2000,21.69555915843027,national,Safely managed,5323701.171875,East Asia & Pacific,LMC
+Lao People's Democratic Republic,LAO,2010,44.08422957560371,national,Safely managed,6249167.96875,East Asia & Pacific,LMC
+Lao People's Democratic Republic,LAO,2020,61.38126570529612,national,Safely managed,7275556.15234375,East Asia & Pacific,LMC
+Latvia,LVA,2000,52.41175178961677,national,Safely managed,2384149.90234375,Europe & Central Asia,HIC
+Latvia,LVA,2010,61.80530966083385,national,Safely managed,2118854.98046875,Europe & Central Asia,HIC
+Latvia,LVA,2020,83.40960117269908,national,Safely managed,1886202.026367188,Europe & Central Asia,HIC
+Lebanon,LBN,2000,9.42546602434722,national,Safely managed,3842773.92578125,Middle East & North Africa,LMC
+Lebanon,LBN,2010,12.8010861472435,national,Safely managed,4953063.96484375,Middle East & North Africa,LMC
+Lebanon,LBN,2020,16.28275163848977,national,Safely managed,6825441.89453125,Middle East & North Africa,LMC
+Lesotho,LSO,2000,6.956036538039235,national,Safely managed,2032805.053710938,Sub-Saharan Africa,LMC
+Lesotho,LSO,2010,28.56272936882638,national,Safely managed,1995574.951171875,Sub-Saharan Africa,LMC
+Lesotho,LSO,2020,47.62168822874764,national,Safely managed,2142251.953125,Sub-Saharan Africa,LMC
+Liberia,LBR,2000,NA,national,Safely managed,2848447.021484375,Sub-Saharan Africa,LIC
+Liberia,LBR,2010,NA,national,Safely managed,3891356.93359375,Sub-Saharan Africa,LIC
+Liberia,LBR,2020,NA,national,Safely managed,5057676.7578125,Sub-Saharan Africa,LIC
+Libya,LBY,2000,24.83189219796065,national,Safely managed,5357893.06640625,Middle East & North Africa,UMC
+Libya,LBY,2010,22.83564948787206,national,Safely managed,6197666.9921875,Middle East & North Africa,UMC
+Libya,LBY,2020,21.617049483401,national,Safely managed,6871287.109375,Middle East & North Africa,UMC
+Liechtenstein,LIE,2000,98.75,national,Safely managed,33183.99810791016,Europe & Central Asia,HIC
+Liechtenstein,LIE,2010,98.75,national,Safely managed,35995.99838256836,Europe & Central Asia,HIC
+Liechtenstein,LIE,2020,98.75,national,Safely managed,38137.00103759766,Europe & Central Asia,HIC
+Lithuania,LTU,2000,79.53671187944435,national,Safely managed,3501842.041015625,Europe & Central Asia,HIC
+Lithuania,LTU,2010,84.23002088910579,national,Safely managed,3123824.951171875,Europe & Central Asia,HIC
+Lithuania,LTU,2020,93.93707197847426,national,Safely managed,2722291.015625,Europe & Central Asia,HIC
+Luxembourg,LUX,2000,90.88224415632625,national,Safely managed,436105.9875488281,Europe & Central Asia,HIC
+Luxembourg,LUX,2010,92.41794700750832,national,Safely managed,507890.0146484375,Europe & Central Asia,HIC
+Luxembourg,LUX,2020,96.78404531528795,national,Safely managed,625976.01318359375,Europe & Central Asia,HIC
+Madagascar,MDG,2000,3.458752195755493,national,Safely managed,15766805.6640625,Sub-Saharan Africa,LIC
+Madagascar,MDG,2010,7.041632577405752,national,Safely managed,21151640.625,Sub-Saharan Africa,LIC
+Madagascar,MDG,2020,10.37903328442555,national,Safely managed,27691019.53125,Sub-Saharan Africa,LIC
+Malawi,MWI,2000,19.18289749905873,national,Safely managed,11148750.9765625,Sub-Saharan Africa,LIC
+Malawi,MWI,2010,21.68798232111269,national,Safely managed,14539609.375,Sub-Saharan Africa,LIC
+Malawi,MWI,2020,24.21093279933965,national,Safely managed,19129955.078125,Sub-Saharan Africa,LIC
+Malaysia,MYS,2000,65.64841979164245,national,Safely managed,23194251.953125,East Asia & Pacific,UMC
+Malaysia,MYS,2010,69.04108319997222,national,Safely managed,28208027.34375,East Asia & Pacific,UMC
+Malaysia,MYS,2020,NA,national,Safely managed,32365998.046875,East Asia & Pacific,UMC
+Maldives,MDV,2000,NA,national,Safely managed,279395.99609375,South Asia,UMC
+Maldives,MDV,2010,NA,national,Safely managed,365730.0109863281,South Asia,UMC
+Maldives,MDV,2020,NA,national,Safely managed,540541.9921875,South Asia,UMC
+Mali,MLI,2000,6.130797482868354,national,Safely managed,10946448.2421875,Sub-Saharan Africa,LIC
+Mali,MLI,2010,12.85689471710274,national,Safely managed,15049351.5625,Sub-Saharan Africa,LIC
+Mali,MLI,2020,19.92464209940177,national,Safely managed,20250833.984375,Sub-Saharan Africa,LIC
+Malta,MLT,2000,91.86797469286256,national,Safely managed,393648.9868164063,Middle East & North Africa,HIC
+Malta,MLT,2010,91.86797469286256,national,Safely managed,414256.9885253906,Middle East & North Africa,HIC
+Malta,MLT,2020,91.86797469286256,national,Safely managed,441539.0014648438,Middle East & North Africa,HIC
+Marshall Islands,MHL,2000,NA,national,Safely managed,50754.00161743164,East Asia & Pacific,UMC
+Marshall Islands,MHL,2010,NA,national,Safely managed,56361.00006103516,East Asia & Pacific,UMC
+Marshall Islands,MHL,2020,NA,national,Safely managed,59194.00024414063,East Asia & Pacific,UMC
+Martinique,MTQ,2000,NA,national,Safely managed,387015.9912109375,NA,NA
+Martinique,MTQ,2010,NA,national,Safely managed,394665.9851074219,NA,NA
+Martinique,MTQ,2020,NA,national,Safely managed,375265.0146484375,NA,NA
+Mauritania,MRT,2000,NA,national,Safely managed,2630217.041015625,Sub-Saharan Africa,LMC
+Mauritania,MRT,2010,NA,national,Safely managed,3494199.951171875,Sub-Saharan Africa,LMC
+Mauritania,MRT,2020,NA,national,Safely managed,4649660.15625,Sub-Saharan Africa,LMC
+Mauritius,MUS,2000,NA,national,Safely managed,1185146.97265625,Sub-Saharan Africa,UMC
+Mauritius,MUS,2010,NA,national,Safely managed,1247953.002929688,Sub-Saharan Africa,UMC
+Mauritius,MUS,2020,NA,national,Safely managed,1271766.967773438,Sub-Saharan Africa,UMC
+Mayotte,MYT,2000,NA,national,Safely managed,150330.9936523438,NA,NA
+Mayotte,MYT,2010,NA,national,Safely managed,208716.0034179688,NA,NA
+Mayotte,MYT,2020,NA,national,Safely managed,272812.98828125,NA,NA
+Mexico,MEX,2000,17.82838677155349,national,Safely managed,98899843.75,Latin America & Caribbean,UMC
+Mexico,MEX,2010,34.20129297507334,national,Safely managed,114092960.9375,Latin America & Caribbean,UMC
+Mexico,MEX,2020,57.34110283784079,national,Safely managed,128932750,Latin America & Caribbean,UMC
+Micronesia (Federated States of),FSM,2000,NA,national,Safely managed,107404.9987792969,East Asia & Pacific,LMC
+Micronesia (Federated States of),FSM,2010,NA,national,Safely managed,102916.0003662109,East Asia & Pacific,LMC
+Micronesia (Federated States of),FSM,2020,NA,national,Safely managed,115021.0037231445,East Asia & Pacific,LMC
+Monaco,MCO,2000,100,national,Safely managed,32147.998809814453,Europe & Central Asia,HIC
+Monaco,MCO,2010,100,national,Safely managed,35609.00115966797,Europe & Central Asia,HIC
+Monaco,MCO,2020,100,national,Safely managed,39243.99948120117,Europe & Central Asia,HIC
+Mongolia,MNG,2000,33.27068659897157,national,Safely managed,2397416.9921875,East Asia & Pacific,LMC
+Mongolia,MNG,2010,41.47895886186084,national,Safely managed,2719902.099609375,East Asia & Pacific,LMC
+Mongolia,MNG,2020,55.53872038117214,national,Safely managed,3278291.9921875,East Asia & Pacific,LMC
+Montenegro,MNE,2000,NA,national,Safely managed,NA,Europe & Central Asia,UMC
+Montenegro,MNE,2010,33.8808171320653,national,Safely managed,624278.99169921875,Europe & Central Asia,UMC
+Montenegro,MNE,2020,45.43822064043187,national,Safely managed,628062.01171875,Europe & Central Asia,UMC
+Montserrat,MSR,2000,NA,national,Safely managed,4925.000190734863,NA,NA
+Montserrat,MSR,2010,NA,national,Safely managed,4894.999980926514,NA,NA
+Montserrat,MSR,2020,NA,national,Safely managed,4999.000072479248,NA,NA
+Morocco,MAR,2000,32.1538472707382,national,Safely managed,28793671.875,Middle East & North Africa,LMC
+Morocco,MAR,2010,36.1341996896516,national,Safely managed,32343384.765625,Middle East & North Africa,LMC
+Morocco,MAR,2020,39.31960908341513,national,Safely managed,36910558.59375,Middle East & North Africa,LMC
+Mozambique,MOZ,2000,NA,national,Safely managed,17711925.78125,Sub-Saharan Africa,LIC
+Mozambique,MOZ,2010,NA,national,Safely managed,23531566.40625,Sub-Saharan Africa,LIC
+Mozambique,MOZ,2020,NA,national,Safely managed,31255435.546875,Sub-Saharan Africa,LIC
+Myanmar,MMR,2000,58.38123919342043,national,Safely managed,46719699.21875,East Asia & Pacific,LMC
+Myanmar,MMR,2010,61.03403891675951,national,Safely managed,50600828.125,East Asia & Pacific,LMC
+Myanmar,MMR,2020,60.71341701517773,national,Safely managed,54409792.96875,East Asia & Pacific,LMC
+Namibia,"NAM",2000,NA,national,Safely managed,1794583.0078125,Sub-Saharan Africa,UMC
+Namibia,"NAM",2010,NA,national,Safely managed,2118876.953125,Sub-Saharan Africa,UMC
+Namibia,"NAM",2020,NA,national,Safely managed,2540916.015625,Sub-Saharan Africa,UMC
+Nauru,NRU,2000,NA,national,Safely managed,10335.00003814697,East Asia & Pacific,HIC
+Nauru,NRU,2010,NA,national,Safely managed,10008.99982452393,East Asia & Pacific,HIC
+Nauru,NRU,2020,NA,national,Safely managed,10833.99963378906,East Asia & Pacific,HIC
+Nepal,NPL,2000,9.127947280151647,national,Safely managed,23941099.609375,South Asia,LMC
+Nepal,NPL,2010,26.86283220581885,national,Safely managed,27013207.03125,South Asia,LMC
+Nepal,NPL,2020,48.64083655694307,national,Safely managed,29136808.59375,South Asia,LMC
+Netherlands,NLD,2000,97.44100299705487,national,Safely managed,15926188.4765625,Europe & Central Asia,HIC
+Netherlands,NLD,2010,97.46614959700263,national,Safely managed,16682927.734375,Europe & Central Asia,HIC
+Netherlands,NLD,2020,97.49706115441384,national,Safely managed,17134873.046875,Europe & Central Asia,HIC
+New Caledonia,NCL,2000,NA,national,Safely managed,217263.0004882813,East Asia & Pacific,HIC
+New Caledonia,NCL,2010,NA,national,Safely managed,253529.0069580078,East Asia & Pacific,HIC
+New Caledonia,NCL,2020,NA,national,Safely managed,285490.9973144531,East Asia & Pacific,HIC
+New Zealand,NZL,2000,74.38479966314173,national,Safely managed,3858991.943359375,East Asia & Pacific,HIC
+New Zealand,NZL,2010,79.96293988428279,national,Safely managed,4370060.05859375,East Asia & Pacific,HIC
+New Zealand,NZL,2020,82.19090812959193,national,Safely managed,4822232.91015625,East Asia & Pacific,HIC
+Nicaragua,NIC,2000,NA,national,Safely managed,5069310.05859375,Latin America & Caribbean,LMC
+Nicaragua,NIC,2010,NA,national,Safely managed,5824058.10546875,Latin America & Caribbean,LMC
+Nicaragua,NIC,2020,NA,national,Safely managed,6624554.19921875,Latin America & Caribbean,LMC
+Niger,NER,2000,5.824545887634502,national,Safely managed,11331560.546875,Sub-Saharan Africa,LIC
+Niger,NER,2010,11.89706100064494,national,Safely managed,16464025.390625,Sub-Saharan Africa,LIC
+Niger,NER,2020,16.18740842772884,national,Safely managed,24206636.71875,Sub-Saharan Africa,LIC
+Nigeria,NGA,2000,21.30113182821173,national,Safely managed,122283851.5625,Sub-Saharan Africa,LMC
+Nigeria,NGA,2010,25.07123103095782,national,Safely managed,158503203.125,Sub-Saharan Africa,LMC
+Nigeria,NGA,2020,30.50948611710985,national,Safely managed,206139593.75,Sub-Saharan Africa,LMC
+Niue,NIU,2000,NA,national,Safely managed,1901.999950408936,NA,NA
+Niue,NIU,2010,NA,national,Safely managed,1621.999979019165,NA,NA
+Niue,NIU,2020,NA,national,Safely managed,1618.000030517578,NA,NA
+North Macedonia,MKD,2000,12.88307654819876,national,Safely managed,2034822.998046875,Europe & Central Asia,UMC
+North Macedonia,MKD,2010,12.72318656016516,national,Safely managed,2070737.060546875,Europe & Central Asia,UMC
+North Macedonia,MKD,2020,12.19672276118517,national,Safely managed,2083379.8828125,Europe & Central Asia,UMC
+Northern Mariana Islands,MNP,2000,NA,national,Safely managed,57452.99911499023,East Asia & Pacific,HIC
+Northern Mariana Islands,MNP,2010,NA,national,Safely managed,53971.00067138672,East Asia & Pacific,HIC
+Northern Mariana Islands,MNP,2020,NA,national,Safely managed,57556.99920654297,East Asia & Pacific,HIC
+Norway,NOR,2000,58.56154898507646,national,Safely managed,4499375,Europe & Central Asia,HIC
+Norway,NOR,2010,61.93395738631784,national,Safely managed,4885877.9296875,Europe & Central Asia,HIC
+Norway,NOR,2020,65.38813798591937,national,Safely managed,5421242.1875,Europe & Central Asia,HIC
+Oman,OMN,2000,NA,national,Safely managed,2267972.900390625,Middle East & North Africa,HIC
+Oman,OMN,2010,NA,national,Safely managed,3041435.05859375,Middle East & North Africa,HIC
+Oman,OMN,2020,NA,national,Safely managed,5106622.0703125,Middle East & North Africa,HIC
+Pakistan,PAK,2000,NA,national,Safely managed,142343578.125,South Asia,LMC
+Pakistan,PAK,2010,NA,national,Safely managed,179424640.625,South Asia,LMC
+Pakistan,PAK,2020,NA,national,Safely managed,220892328.125,South Asia,LMC
+Palau,PLW,2000,NA,national,Safely managed,19104.00009155273,East Asia & Pacific,UMC
+Palau,PLW,2010,NA,national,Safely managed,17954.00047302246,East Asia & Pacific,UMC
+Palau,PLW,2020,NA,national,Safely managed,18091.99905395508,East Asia & Pacific,UMC
+Panama,PAN,2000,NA,national,Safely managed,3030333.0078125,Latin America & Caribbean,HIC
+Panama,PAN,2010,NA,national,Safely managed,3642690.91796875,Latin America & Caribbean,HIC
+Panama,PAN,2020,NA,national,Safely managed,4314768.06640625,Latin America & Caribbean,HIC
+Papua New Guinea,PNG,2000,NA,national,Safely managed,5847589.84375,East Asia & Pacific,LMC
+Papua New Guinea,PNG,2010,NA,national,Safely managed,7310512.20703125,East Asia & Pacific,LMC
+Papua New Guinea,PNG,2020,NA,national,Safely managed,8947027.34375,East Asia & Pacific,LMC
+Paraguay,PRY,2000,43.9811007107967,national,Safely managed,5323202.1484375,Latin America & Caribbean,UMC
+Paraguay,PRY,2010,52.70109860599563,national,Safely managed,6248017.08984375,Latin America & Caribbean,UMC
+Paraguay,PRY,2020,60.12617183929078,national,Safely managed,7132529.78515625,Latin America & Caribbean,UMC
+Peru,PER,2000,10.65352442662513,national,Safely managed,26459943.359375,Latin America & Caribbean,UMC
+Peru,PER,2010,29.58676640435922,national,Safely managed,29027679.6875,Latin America & Caribbean,UMC
+Peru,PER,2020,52.80961835747825,national,Safely managed,32971847.65625,Latin America & Caribbean,UMC
+Philippines,PHL,2000,43.1755669444816,national,Safely managed,77991757.8125,East Asia & Pacific,LMC
+Philippines,PHL,2010,49.15443033792015,national,Safely managed,93966781.25,East Asia & Pacific,LMC
+Philippines,PHL,2020,60.63807214749746,national,Safely managed,109581085.9375,East Asia & Pacific,LMC
+Poland,POL,2000,79.27167312218464,national,Safely managed,38556699.21875,Europe & Central Asia,HIC
+Poland,POL,2010,85.7042876654155,national,Safely managed,38329785.15625,Europe & Central Asia,HIC
+Poland,POL,2020,90.5419632133788,national,Safely managed,37846605.46875,Europe & Central Asia,HIC
+Portugal,PRT,2000,50.66800869029645,national,Safely managed,10297117.1875,Europe & Central Asia,HIC
+Portugal,PRT,2010,66.67505884678566,national,Safely managed,10596054.6875,Europe & Central Asia,HIC
+Portugal,PRT,2020,85.0813595009938,national,Safely managed,10196707.03125,Europe & Central Asia,HIC
+Puerto Rico,PRI,2000,32.53851260069604,national,Safely managed,3668955.078125,Latin America & Caribbean,HIC
+Puerto Rico,PRI,2010,32.516344480095,national,Safely managed,3579842.041015625,Latin America & Caribbean,HIC
+Puerto Rico,PRI,2020,32.50916087980982,national,Safely managed,2860840.087890625,Latin America & Caribbean,HIC
+Qatar,QAT,2000,71.09999999999945,national,Safely managed,592466.97998046875,Middle East & North Africa,HIC
+Qatar,QAT,2010,76.89999999999964,national,Safely managed,1856328.979492188,Middle East & North Africa,HIC
+Qatar,QAT,2020,97.19999999999982,national,Safely managed,2881060.05859375,Middle East & North Africa,HIC
+Republic of Korea,KOR,2000,75.60819180281621,national,Safely managed,47379238.28125,East Asia & Pacific,HIC
+Republic of Korea,KOR,2010,88.6277880404221,national,Safely managed,49545636.71875,East Asia & Pacific,HIC
+Republic of Korea,KOR,2020,99.9374936024239,national,Safely managed,51269183.59375,East Asia & Pacific,HIC
+Republic of Moldova,MDA,2000,NA,national,Safely managed,4202659.1796875,Europe & Central Asia,UMC
+Republic of Moldova,MDA,2010,NA,national,Safely managed,4086090.087890625,Europe & Central Asia,UMC
+Republic of Moldova,MDA,2020,NA,national,Safely managed,4033962.890625,Europe & Central Asia,UMC
+Réunion,REU,2000,NA,national,Safely managed,736713.9892578125,NA,NA
+Réunion,REU,2010,NA,national,Safely managed,830507.01904296875,NA,NA
+Réunion,REU,2020,NA,national,Safely managed,895307.9833984375,NA,NA
+Romania,ROU,2000,NA,national,Safely managed,22137423.828125,Europe & Central Asia,HIC
+Romania,ROU,2010,62.35767608529484,national,Safely managed,20471859.375,Europe & Central Asia,HIC
+Romania,ROU,2020,83.14104862909183,national,Safely managed,19237681.640625,Europe & Central Asia,HIC
+Russian Federation,RUS,2000,55.37526676643984,national,Safely managed,146404890.625,Europe & Central Asia,UMC
+Russian Federation,RUS,2010,58.16059986469546,national,Safely managed,143479265.625,Europe & Central Asia,UMC
+Russian Federation,RUS,2020,60.81736622587043,national,Safely managed,145934453.125,Europe & Central Asia,UMC
+Rwanda,RWA,2000,NA,national,Safely managed,7933687.98828125,Sub-Saharan Africa,LIC
+Rwanda,RWA,2010,NA,national,Safely managed,10039337.890625,Sub-Saharan Africa,LIC
+Rwanda,RWA,2020,NA,national,Safely managed,12952208.984375,Sub-Saharan Africa,LIC
+Saint Barthelemy,BLM,2000,NA,national,Safely managed,7416,NA,NA
+Saint Barthelemy,BLM,2010,NA,national,Safely managed,9234,NA,NA
+Saint Barthelemy,BLM,2020,NA,national,Safely managed,9885,NA,NA
+Saint Helena,SHN,2000,NA,national,Safely managed,6053.999900817871,NA,NA
+Saint Helena,SHN,2010,NA,national,Safely managed,5183.000087738037,NA,NA
+Saint Helena,SHN,2020,NA,national,Safely managed,6071.000099182129,NA,NA
+Saint Kitts and Nevis,KNA,2000,NA,national,Safely managed,44083.00018310547,Latin America & Caribbean,HIC
+Saint Kitts and Nevis,KNA,2010,NA,national,Safely managed,49011.00158691406,Latin America & Caribbean,HIC
+Saint Kitts and Nevis,KNA,2020,NA,national,Safely managed,53192.00134277344,Latin America & Caribbean,HIC
+Saint Lucia,LCA,2000,NA,national,Safely managed,156736.9995117188,Latin America & Caribbean,UMC
+Saint Lucia,LCA,2010,NA,national,Safely managed,174091.9952392578,Latin America & Caribbean,UMC
+Saint Lucia,LCA,2020,NA,national,Safely managed,183628.9978027344,Latin America & Caribbean,UMC
+Saint Martin (French part),MAF,2000,NA,national,Safely managed,28935,Latin America & Caribbean,HIC
+Saint Martin (French part),MAF,2010,NA,national,Safely managed,37582,Latin America & Caribbean,HIC
+Saint Martin (French part),MAF,2020,NA,national,Safely managed,38659,Latin America & Caribbean,HIC
+Saint Pierre and Miquelon,SPM,2000,NA,national,Safely managed,6297.999858856201,NA,NA
+Saint Pierre and Miquelon,SPM,2010,NA,national,Safely managed,6361.000061035156,NA,NA
+Saint Pierre and Miquelon,SPM,2020,NA,national,Safely managed,5795.000076293945,NA,NA
+Saint Vincent and the Grenadines,VCT,2000,NA,national,Safely managed,107787.0025634766,Latin America & Caribbean,UMC
+Saint Vincent and the Grenadines,VCT,2010,NA,national,Safely managed,108260.0021362305,Latin America & Caribbean,UMC
+Saint Vincent and the Grenadines,VCT,2020,NA,national,Safely managed,110946.9985961914,Latin America & Caribbean,UMC
+Samoa,WSM,2000,47.82975879308412,national,Safely managed,174453.9947509766,East Asia & Pacific,LMC
+Samoa,WSM,2010,48.20075591245133,national,Safely managed,185944.0002441406,East Asia & Pacific,LMC
+Samoa,WSM,2020,47.72143687165907,national,Safely managed,198410.0036621094,East Asia & Pacific,LMC
+San Marino,SMR,2000,70.37150000000001,national,Safely managed,27459.99908447266,Europe & Central Asia,HIC
+San Marino,SMR,2010,70.37150000000001,national,Safely managed,31221.00067138672,Europe & Central Asia,HIC
+San Marino,SMR,2020,70.37150000000001,national,Safely managed,33937.9997253418,Europe & Central Asia,HIC
+Sao Tome and Principe,STP,2000,12.65635366478682,national,Safely managed,142264.0075683594,Sub-Saharan Africa,LMC
+Sao Tome and Principe,STP,2010,23.49769521091089,national,Safely managed,180371.9940185547,Sub-Saharan Africa,LMC
+Sao Tome and Principe,STP,2020,34.66002275008579,national,Safely managed,219160.9954833984,Sub-Saharan Africa,LMC
+Saudi Arabia,SAU,2000,37.28527112596686,national,Safely managed,20663839.84375,Middle East & North Africa,HIC
+Saudi Arabia,SAU,2010,46.97630644533484,national,Safely managed,27421468.75,Middle East & North Africa,HIC
+Saudi Arabia,SAU,2020,59.1135753894273,national,Safely managed,34813867.1875,Middle East & North Africa,HIC
+Senegal,SEN,2000,13.9549718703037,national,Safely managed,9797731.4453125,Sub-Saharan Africa,LMC
+Senegal,SEN,2010,17.67660034516026,national,Safely managed,12678142.578125,Sub-Saharan Africa,LMC
+Senegal,SEN,2020,24.1237383646912,national,Safely managed,16743929.6875,Sub-Saharan Africa,LMC
+Serbia,SRB,2000,22.76739431958564,national,Safely managed,9487612.3046875,Europe & Central Asia,UMC
+Serbia,SRB,2010,19.64339450332881,national,Safely managed,8991257.8125,Europe & Central Asia,UMC
+Serbia,SRB,2020,18.35384379948626,national,Safely managed,8737370.1171875,Europe & Central Asia,UMC
+Seychelles,SYC,2000,NA,national,Safely managed,80998.00109863281,Sub-Saharan Africa,HIC
+Seychelles,SYC,2010,NA,national,Safely managed,91273.00262451172,Sub-Saharan Africa,HIC
+Seychelles,SYC,2020,NA,national,Safely managed,98339.996337890625,Sub-Saharan Africa,HIC
+Sierra Leone,SLE,2000,8.754886266906993,national,Safely managed,4584569.82421875,Sub-Saharan Africa,LIC
+Sierra Leone,SLE,2010,11.38759339412994,national,Safely managed,6415636.23046875,Sub-Saharan Africa,LIC
+Sierra Leone,SLE,2020,14.04994901257621,national,Safely managed,7976984.86328125,Sub-Saharan Africa,LIC
+Singapore,SGP,2000,100,national,Safely managed,4028872.0703125,East Asia & Pacific,HIC
+Singapore,SGP,2010,100,national,Safely managed,5131169.921875,East Asia & Pacific,HIC
+Singapore,SGP,2020,100,national,Safely managed,5850342.7734375,East Asia & Pacific,HIC
+Sint Maarten (Dutch part),SXM,2000,NA,national,Safely managed,32563.99917602539,Latin America & Caribbean,HIC
+Sint Maarten (Dutch part),SXM,2010,NA,national,Safely managed,34166.00036621094,Latin America & Caribbean,HIC
+Sint Maarten (Dutch part),SXM,2020,NA,national,Safely managed,42881.99996948242,Latin America & Caribbean,HIC
+Slovakia,SVK,2000,85.6189446307575,national,Safely managed,5399207.03125,Europe & Central Asia,HIC
+Slovakia,SVK,2010,83.52347717187305,national,Safely managed,5404292.96875,Europe & Central Asia,HIC
+Slovakia,SVK,2020,81.93498230750532,national,Safely managed,5459643.06640625,Europe & Central Asia,HIC
+Slovenia,SVN,2000,24.69443025711507,national,Safely managed,1987709.9609375,Europe & Central Asia,HIC
+Slovenia,SVN,2010,47.56590822737571,national,Safely managed,2043336.059570313,Europe & Central Asia,HIC
+Slovenia,SVN,2020,71.54819663371579,national,Safely managed,2078931.884765625,Europe & Central Asia,HIC
+Solomon Islands,SLB,2000,NA,national,Safely managed,412665.0085449219,East Asia & Pacific,LMC
+Solomon Islands,SLB,2010,NA,national,Safely managed,527861.02294921875,East Asia & Pacific,LMC
+Solomon Islands,SLB,2020,NA,national,Safely managed,686877.99072265625,East Asia & Pacific,LMC
+Somalia,SOM,2000,15.6394537207903,national,Safely managed,8872250,Sub-Saharan Africa,LIC
+Somalia,SOM,2010,22.68708444647967,national,Safely managed,12043885.7421875,Sub-Saharan Africa,LIC
+Somalia,SOM,2020,31.51954305685332,national,Safely managed,15893218.75,Sub-Saharan Africa,LIC
+South Africa,ZAF,2000,NA,national,Safely managed,44967714.84375,Sub-Saharan Africa,UMC
+South Africa,ZAF,2010,NA,national,Safely managed,51216968.75,Sub-Saharan Africa,UMC
+South Africa,ZAF,2020,NA,national,Safely managed,59308691.40625,Sub-Saharan Africa,UMC
+South Sudan,SSD,2000,NA,national,Safely managed,NA,Sub-Saharan Africa,LIC
+South Sudan,SSD,2010,NA,national,Safely managed,NA,Sub-Saharan Africa,LIC
+South Sudan,SSD,2020,NA,national,Safely managed,11193728.515625,Sub-Saharan Africa,LIC
+Spain,ESP,2000,94.01193269272353,national,Safely managed,40824746.09375,Europe & Central Asia,HIC
+Spain,ESP,2010,94.52545981903285,national,Safely managed,46931011.71875,Europe & Central Asia,HIC
+Spain,ESP,2020,95.6652171209202,national,Safely managed,46754781.25,Europe & Central Asia,HIC
+Sri Lanka,LKA,2000,NA,national,Safely managed,18777605.46875,South Asia,LMC
+Sri Lanka,LKA,2010,NA,national,Safely managed,20261738.28125,South Asia,LMC
+Sri Lanka,LKA,2020,NA,national,Safely managed,21413250,South Asia,LMC
+State of Palestine,PSE,2000,43.62120900597831,national,Safely managed,3224009.033203125,Middle East & North Africa,LMC
+State of Palestine,PSE,2010,51.51107915623204,national,Safely managed,4055632.080078125,Middle East & North Africa,LMC
+State of Palestine,PSE,2020,66.69318248730771,national,Safely managed,5101416.015625,Middle East & North Africa,LMC
+Sudan,SDN,2000,NA,national,Safely managed,27275019.53125,Sub-Saharan Africa,LIC
+Sudan,SDN,2010,NA,national,Safely managed,34545015.625,Sub-Saharan Africa,LIC
+Sudan,SDN,2020,NA,national,Safely managed,43849269.53125,Sub-Saharan Africa,LIC
+Suriname,SUR,2000,29.46502985714924,national,Safely managed,470944.0002441406,Latin America & Caribbean,UMC
+Suriname,SUR,2010,28.53333707254313,national,Safely managed,529125.9765625,Latin America & Caribbean,UMC
+Suriname,SUR,2020,25.18060240954927,national,Safely managed,586633.97216796875,Latin America & Caribbean,UMC
+Sweden,SWE,2000,92.97941450157671,national,Safely managed,8881641.6015625,Europe & Central Asia,HIC
+Sweden,SWE,2010,93.8817529892594,national,Safely managed,9390157.2265625,Europe & Central Asia,HIC
+Sweden,SWE,2020,94.93116239028802,national,Safely managed,10099269.53125,Europe & Central Asia,HIC
+Switzerland,CHE,2000,99.61506660570446,national,Safely managed,7143764.16015625,Europe & Central Asia,HIC
+Switzerland,CHE,2010,99.61746538577998,national,Safely managed,7808673.828125,Europe & Central Asia,HIC
+Switzerland,CHE,2020,99.65155911051782,national,Safely managed,8654618.1640625,Europe & Central Asia,HIC
+Syrian Arab Republic,SYR,2000,NA,national,Safely managed,16410847.65625,Middle East & North Africa,LIC
+Syrian Arab Republic,SYR,2010,NA,national,Safely managed,21362541.015625,Middle East & North Africa,LIC
+Syrian Arab Republic,SYR,2020,NA,national,Safely managed,17500656.25,Middle East & North Africa,LIC
+Tajikistan,TJK,2000,NA,national,Safely managed,6216329.1015625,Europe & Central Asia,LMC
+Tajikistan,TJK,2010,NA,national,Safely managed,7527396.97265625,Europe & Central Asia,LMC
+Tajikistan,TJK,2020,NA,national,Safely managed,9537641.6015625,Europe & Central Asia,LMC
+Thailand,THA,2000,19.92458618538872,national,Safely managed,62952640.625,East Asia & Pacific,UMC
+Thailand,THA,2010,22.57295995771826,national,Safely managed,67195031.25,East Asia & Pacific,UMC
+Thailand,THA,2020,25.93233520832256,national,Safely managed,69799976.5625,East Asia & Pacific,UMC
+Timor-Leste,TLS,2000,NA,national,Safely managed,NA,East Asia & Pacific,LMC
+Timor-Leste,TLS,2010,NA,national,Safely managed,1093516.967773438,East Asia & Pacific,LMC
+Timor-Leste,TLS,2020,NA,national,Safely managed,1318442.016601563,East Asia & Pacific,LMC
+Togo,TGO,2000,5.534385778095797,national,Safely managed,4924405.76171875,Sub-Saharan Africa,LIC
+Togo,TGO,2010,7.36111886284125,national,Safely managed,6421673.828125,Sub-Saharan Africa,LIC
+Togo,TGO,2020,9.134181091387251,national,Safely managed,8278737.3046875,Sub-Saharan Africa,LIC
+Tokelau,TKL,2000,NA,national,Safely managed,1549.999952316284,NA,NA
+Tokelau,TKL,2010,NA,national,Safely managed,1128.999948501587,NA,NA
+Tokelau,TKL,2020,NA,national,Safely managed,1350.000023841858,NA,NA
+Tonga,TON,2000,33.24482548410108,national,Safely managed,97961.99798583984,East Asia & Pacific,UMC
+Tonga,TON,2010,36.41198999430464,national,Safely managed,103981.0028076172,East Asia & Pacific,UMC
+Tonga,TON,2020,33.79848178915321,national,Safely managed,105696.9985961914,East Asia & Pacific,UMC
+Trinidad and Tobago,TTO,2000,NA,national,Safely managed,1267159.057617188,Latin America & Caribbean,HIC
+Trinidad and Tobago,TTO,2010,NA,national,Safely managed,1328144.04296875,Latin America & Caribbean,HIC
+Trinidad and Tobago,TTO,2020,NA,national,Safely managed,1399490.966796875,Latin America & Caribbean,HIC
+Tunisia,TUN,2000,54.32867656901837,national,Safely managed,9708346.6796875,Middle East & North Africa,LMC
+Tunisia,TUN,2010,67.1314429861328,national,Safely managed,10635245.1171875,Middle East & North Africa,LMC
+Tunisia,TUN,2020,80.75702278956871,national,Safely managed,11818618.1640625,Middle East & North Africa,LMC
+Turkey,TUR,2000,58.9725947605416,national,Safely managed,63240195.3125,Europe & Central Asia,UMC
+Turkey,TUR,2010,68.39420635719934,national,Safely managed,72326992.1875,Europe & Central Asia,UMC
+Turkey,TUR,2020,78.42842828536374,national,Safely managed,84339070.3125,Europe & Central Asia,UMC
+Turkmenistan,TKM,2000,NA,national,Safely managed,4516127.9296875,Europe & Central Asia,UMC
+Turkmenistan,TKM,2010,NA,national,Safely managed,5087210.9375,Europe & Central Asia,UMC
+Turkmenistan,TKM,2020,NA,national,Safely managed,6031187.01171875,Europe & Central Asia,UMC
+Turks and Caicos Islands,TCA,2000,NA,national,Safely managed,20170.99952697754,Latin America & Caribbean,HIC
+Turks and Caicos Islands,TCA,2010,NA,national,Safely managed,32658.000946044922,Latin America & Caribbean,HIC
+Turks and Caicos Islands,TCA,2020,NA,national,Safely managed,38717.99850463867,Latin America & Caribbean,HIC
+Tuvalu,TUV,2000,NA,national,Safely managed,9392.000198364258,East Asia & Pacific,UMC
+Tuvalu,TUV,2010,6.150751889039364,national,Safely managed,10520.99990844727,East Asia & Pacific,UMC
+Tuvalu,TUV,2020,NA,national,Safely managed,11791.99981689453,East Asia & Pacific,UMC
+Uganda,UGA,2000,NA,national,Safely managed,23650158.203125,Sub-Saharan Africa,LIC
+Uganda,UGA,2010,NA,national,Safely managed,32428164.0625,Sub-Saharan Africa,LIC
+Uganda,UGA,2020,NA,national,Safely managed,45741000,Sub-Saharan Africa,LIC
+Ukraine,UKR,2000,42.25100096564501,national,Safely managed,48838058.59375,Europe & Central Asia,LMC
+Ukraine,UKR,2010,51.3879423578375,national,Safely managed,45792085.9375,Europe & Central Asia,LMC
+Ukraine,UKR,2020,71.9638210208748,national,Safely managed,43733757.8125,Europe & Central Asia,LMC
+United Arab Emirates,ARE,2000,NA,national,Safely managed,3134066.89453125,Middle East & North Africa,HIC
+United Arab Emirates,ARE,2010,81.71197912136981,national,Safely managed,8549998.046875,Middle East & North Africa,HIC
+United Arab Emirates,ARE,2020,99.22957,national,Safely managed,9890400.390625,Middle East & North Africa,HIC
+United Kingdom,GBR,2000,97.7410101983777,national,Safely managed,58923304.6875,Europe & Central Asia,HIC
+United Kingdom,GBR,2010,97.92715807810798,national,Safely managed,63459800.78125,Europe & Central Asia,HIC
+United Kingdom,GBR,2020,98.09505712906254,national,Safely managed,67886007.8125,Europe & Central Asia,HIC
+United Republic of Tanzania,TZA,2000,4.687665866813555,national,Safely managed,33499175.78125,Sub-Saharan Africa,LMC
+United Republic of Tanzania,TZA,2010,16.93562274824815,national,Safely managed,44346531.25,Sub-Saharan Africa,LMC
+United Republic of Tanzania,TZA,2020,26.32853153748047,national,Safely managed,59734214.84375,Sub-Saharan Africa,LMC
+United States Virgin Islands,VIR,2000,NA,national,Safely managed,108730.0033569336,Latin America & Caribbean,HIC
+United States Virgin Islands,VIR,2010,NA,national,Safely managed,106085.99853515631,Latin America & Caribbean,HIC
+United States Virgin Islands,VIR,2020,NA,national,Safely managed,104422.9965209961,Latin America & Caribbean,HIC
+United States of America,USA,2000,97.50824100469461,national,Safely managed,281710906.25,North America,HIC
+United States of America,USA,2010,98.13517395908379,national,Safely managed,309011468.75,North America,HIC
+United States of America,USA,2020,98.26364732998893,national,Safely managed,331002656.25,North America,HIC
+Uruguay,URY,2000,NA,national,Safely managed,3319733.88671875,Latin America & Caribbean,HIC
+Uruguay,URY,2010,NA,national,Safely managed,3359272.94921875,Latin America & Caribbean,HIC
+Uruguay,URY,2020,NA,national,Safely managed,3473727.05078125,Latin America & Caribbean,HIC
+Uzbekistan,UZB,2000,NA,national,Safely managed,24769955.078125,Europe & Central Asia,LMC
+Uzbekistan,UZB,2010,NA,national,Safely managed,28515908.203125,Europe & Central Asia,LMC
+Uzbekistan,UZB,2020,NA,national,Safely managed,33469199.21875,Europe & Central Asia,LMC
+Vanuatu,VUT,2000,NA,national,Safely managed,184964.0045166016,East Asia & Pacific,LMC
+Vanuatu,VUT,2010,NA,national,Safely managed,236216.0034179688,East Asia & Pacific,LMC
+Vanuatu,VUT,2020,NA,national,Safely managed,307149.9938964844,East Asia & Pacific,LMC
+Venezuela (Bolivarian Republic of),VEN,2000,NA,national,Safely managed,24192449.21875,Latin America & Caribbean,NA
+Venezuela (Bolivarian Republic of),VEN,2010,20.93963142759119,national,Safely managed,28439941.40625,Latin America & Caribbean,NA
+Venezuela (Bolivarian Republic of),VEN,2020,23.06658960984844,national,Safely managed,28435943.359375,Latin America & Caribbean,NA
+Viet Nam,VNM,2000,NA,national,Safely managed,79910414.0625,East Asia & Pacific,LMC
+Viet Nam,VNM,2010,NA,national,Safely managed,87967656.25,East Asia & Pacific,LMC
+Viet Nam,VNM,2020,NA,national,Safely managed,97338585.9375,East Asia & Pacific,LMC
+Wallis and Futuna Islands,WLF,2000,NA,national,Safely managed,14696.99954986572,NA,NA
+Wallis and Futuna Islands,WLF,2010,NA,national,Safely managed,12685.99987030029,NA,NA
+Wallis and Futuna Islands,WLF,2020,NA,national,Safely managed,11246.00028991699,NA,NA
+Western Sahara,ESH,2000,NA,national,Safely managed,314115.9973144531,NA,NA
+Western Sahara,ESH,2010,NA,national,Safely managed,480268.0053710938,NA,NA
+Western Sahara,ESH,2020,NA,national,Safely managed,597330.01708984375,NA,NA
+Yemen,YEM,2000,24.77158850903378,national,Safely managed,17409070.3125,Middle East & North Africa,LIC
+Yemen,YEM,2010,20.3576838978972,national,Safely managed,23154853.515625,Middle East & North Africa,LIC
+Yemen,YEM,2020,18.83797863095606,national,Safely managed,29825968.75,Middle East & North Africa,LIC
+Zambia,ZMB,2000,NA,national,Safely managed,10415942.3828125,Sub-Saharan Africa,LIC
+Zambia,ZMB,2010,NA,national,Safely managed,13605986.328125,Sub-Saharan Africa,LIC
+Zambia,ZMB,2020,NA,national,Safely managed,18383955.078125,Sub-Saharan Africa,LIC
+Zimbabwe,ZWE,2000,30.36642957984741,national,Safely managed,11881482.421875,Sub-Saharan Africa,LMC
+Zimbabwe,ZWE,2010,28.64037305858934,national,Safely managed,12697727.5390625,Sub-Saharan Africa,LMC
+Zimbabwe,ZWE,2020,25.65058817000341,national,Safely managed,14862926.7578125,Sub-Saharan Africa,LMC
+Afghanistan,AFG,2000,NA,rural,Safely managed,16192158.301795272,South Asia,LIC
+Afghanistan,AFG,2010,NA,rural,Safely managed,22257746.387908235,South Asia,LIC
+Afghanistan,AFG,2020,NA,rural,Safely managed,28796850.478355214,South Asia,LIC
+Albania,ALB,2000,38.78251691701634,rural,Safely managed,1823067.446423918,Europe & Central Asia,UMC
+Albania,ALB,2010,45.75310436397451,rural,Safely managed,1410248.7110369,Europe & Central Asia,UMC
+Albania,ALB,2020,53.60535791784449,rural,Safely managed,1090340.896551758,Europe & Central Asia,UMC
+Algeria,DZA,2000,24.39973105248272,rural,Safely managed,12442038.739220647,Middle East & North Africa,LMC
+Algeria,DZA,2010,23.63584106188319,rural,Safely managed,11678279.687022865,Middle East & North Africa,LMC
+Algeria,DZA,2020,22.55927241895977,rural,Safely managed,11518352.70719409,Middle East & North Africa,LMC
+American Samoa,ASM,2000,NA,rural,Safely managed,6598.541460451087,East Asia & Pacific,UMC
+American Samoa,ASM,2010,NA,rural,Safely managed,6957.780001870124,East Asia & Pacific,UMC
+American Samoa,ASM,2020,NA,rural,Safely managed,7091.15847703186,East Asia & Pacific,UMC
+Andorra,AND,2000,14.60403551251147,rural,Safely managed,4972.906659820583,Europe & Central Asia,HIC
+Andorra,AND,2010,86.45028248587732,rural,Safely managed,9442.801799962763,Europe & Central Asia,HIC
+Andorra,AND,2020,100,rural,Safely managed,9336.702243292239,Europe & Central Asia,HIC
+Angola,AGO,2000,NA,rural,Safely managed,8183474.546871781,Sub-Saharan Africa,LMC
+Angola,AGO,2010,NA,rural,Safely managed,9393181.270562857,Sub-Saharan Africa,LMC
+Angola,AGO,2020,NA,rural,Safely managed,10903385.919991136,Sub-Saharan Africa,LMC
+Anguilla,AIA,2000,NA,rural,Safely managed,0,NA,NA
+Anguilla,AIA,2010,NA,rural,Safely managed,0,NA,NA
+Anguilla,AIA,2020,NA,rural,Safely managed,0,NA,NA
+Antigua and Barbuda,ATG,2000,NA,rural,Safely managed,51588.23451347416,Latin America & Caribbean,HIC
+Antigua and Barbuda,ATG,2010,NA,rural,Safely managed,64932.68693394318,Latin America & Caribbean,HIC
+Antigua and Barbuda,ATG,2020,NA,rural,Safely managed,74001.25226793883,Latin America & Caribbean,HIC
+Argentina,ARG,2000,NA,rural,Safely managed,4003428.941785097,Latin America & Caribbean,UMC
+Argentina,ARG,2010,NA,rural,Safely managed,3742370.4818725586,Latin America & Caribbean,UMC
+Argentina,ARG,2020,NA,rural,Safely managed,3565494.847063124,Latin America & Caribbean,UMC
+Armenia,ARM,2000,NA,rural,Safely managed,1084611.36582423,Europe & Central Asia,UMC
+Armenia,ARM,2010,NA,rural,Safely managed,1051945.915299952,Europe & Central Asia,UMC
+Armenia,ARM,2020,NA,rural,Safely managed,1087121.6241592728,Europe & Central Asia,UMC
+Aruba,ABW,2000,NA,rural,Safely managed,48416.13020869321,Latin America & Caribbean,HIC
+Aruba,ABW,2010,NA,rural,Safely managed,57889.07009490356,Latin America & Caribbean,HIC
+Aruba,ABW,2020,NA,rural,Safely managed,60112.461825862396,Latin America & Caribbean,HIC
+Australia,AUS,2000,NA,rural,Safely managed,2993999.390140176,East Asia & Pacific,HIC
+Australia,AUS,2010,NA,rural,Safely managed,3282880.079269409,East Asia & Pacific,HIC
+Australia,AUS,2020,NA,rural,Safely managed,3508529.29225266,East Asia & Pacific,HIC
+Austria,AUT,2000,99.19979399367485,rural,Safely managed,3210523.0007944256,Europe & Central Asia,HIC
+Austria,AUT,2010,99.19984551123115,rural,Safely managed,3582720.628055334,Europe & Central Asia,HIC
+Austria,AUT,2020,99.19984551123115,rural,Safely managed,3715320.190193355,Europe & Central Asia,HIC
+Azerbaijan,AZE,2000,NA,rural,Safely managed,3948790.542734451,Europe & Central Asia,UMC
+Azerbaijan,AZE,2010,NA,rural,Safely managed,4208586.4846120775,Europe & Central Asia,UMC
+Azerbaijan,AZE,2020,NA,rural,Safely managed,4420984.068287909,Europe & Central Asia,UMC
+Bahamas,BHS,2000,NA,rural,Safely managed,53627.22798749339,Latin America & Caribbean,HIC
+Bahamas,BHS,2010,NA,rural,Safely managed,62372.89716280997,Latin America & Caribbean,HIC
+Bahamas,BHS,2020,NA,rural,Safely managed,65888.68922658732,Latin America & Caribbean,HIC
+Bahrain,BHR,2000,NA,rural,Safely managed,77280.8888499625,Middle East & North Africa,HIC
+Bahrain,BHR,2010,NA,rural,Safely managed,141036.66514037177,Middle East & North Africa,HIC
+Bahrain,BHR,2020,NA,rural,Safely managed,178564.04710181057,Middle East & North Africa,HIC
+Bangladesh,BGD,2000,15.24151079059387,rural,Safely managed,97543370.15364707,South Asia,LMC
+Bangladesh,BGD,2010,27.47630438028909,rural,Safely managed,102621007.88637756,South Asia,LMC
+Bangladesh,BGD,2020,41.85623078596046,rural,Safely managed,101815918.74950409,South Asia,LMC
+Barbados,BRB,2000,NA,rural,Safely managed,179666.9658943545,Latin America & Caribbean,HIC
+Barbados,BRB,2010,NA,rural,Safely managed,192215.8668450237,Latin America & Caribbean,HIC
+Barbados,BRB,2020,NA,rural,Safely managed,197737.11294576584,Latin America & Caribbean,HIC
+Belarus,BLR,2000,73.61166756075075,rural,Safely managed,2964155.8132503927,Europe & Central Asia,UMC
+Belarus,BLR,2010,62.62883664678381,rural,Safely managed,2386043.8088059425,Europe & Central Asia,UMC
+Belarus,BLR,2020,48.98193707165878,rural,Safely managed,1938717.0873895288,Europe & Central Asia,UMC
+Belgium,BEL,2000,NA,rural,Safely managed,295196.9792101532,Europe & Central Asia,HIC
+Belgium,BEL,2010,NA,rural,Safely managed,256950.7865846157,Europe & Central Asia,HIC
+Belgium,BEL,2020,NA,rural,Safely managed,222637.1357537806,Europe & Central Asia,HIC
+Belize,BLZ,2000,NA,rural,Safely managed,135036.19837626352,Latin America & Caribbean,UMC
+Belize,BLZ,2010,NA,rural,Safely managed,176620.5257276108,Latin America & Caribbean,UMC
+Belize,BLZ,2020,NA,rural,Safely managed,214615.92986875915,Latin America & Caribbean,UMC
+Benin,BEN,2000,NA,rural,Safely managed,4234023.046310898,Sub-Saharan Africa,LMC
+Benin,BEN,2010,NA,rural,Safely managed,5235019.557991773,Sub-Saharan Africa,LMC
+Benin,BEN,2020,NA,rural,Safely managed,6253752.164704539,Sub-Saharan Africa,LMC
+Bermuda,BMU,2000,NA,rural,Safely managed,0,North America,HIC
+Bermuda,BMU,2010,NA,rural,Safely managed,0,North America,HIC
+Bermuda,BMU,2020,NA,rural,Safely managed,0,North America,HIC
+Bhutan,BTN,2000,56.20277946658901,rural,Safely managed,440790.0374200323,South Asia,LMC
+Bhutan,BTN,2010,62.11652931866362,rural,Safely managed,446995.2772443532,South Asia,LMC
+Bhutan,BTN,2020,66.7741783461762,rural,Safely managed,445096.6806334094,South Asia,LMC
+Bolivia (Plurinational State of),BOL,2000,NA,rural,Safely managed,3216873.4413076937,Latin America & Caribbean,LMC
+Bolivia (Plurinational State of),BOL,2010,NA,rural,Safely managed,3373313.108058125,Latin America & Caribbean,LMC
+Bolivia (Plurinational State of),BOL,2020,NA,rural,Safely managed,3487550.8347836137,Latin America & Caribbean,LMC
+Bosnia and Herzegovina,BIH,2000,NA,rural,Safely managed,2161277.6211454812,Europe & Central Asia,UMC
+Bosnia and Herzegovina,BIH,2010,NA,rural,Safely managed,2017336.2560498898,Europe & Central Asia,UMC
+Bosnia and Herzegovina,BIH,2020,NA,rural,Safely managed,1672559.442110527,Europe & Central Asia,UMC
+Botswana,BWA,2000,NA,rural,Safely managed,768767.5852974504,Sub-Saharan Africa,UMC
+Botswana,BWA,2010,NA,rural,Safely managed,746913.487794064,Sub-Saharan Africa,UMC
+Botswana,BWA,2020,NA,rural,Safely managed,684863.7745857239,Sub-Saharan Africa,UMC
+Brazil,BRA,2000,NA,rural,Safely managed,32874565.505461693,Latin America & Caribbean,UMC
+Brazil,BRA,2010,NA,rural,Safely managed,30658543.595718145,Latin America & Caribbean,UMC
+Brazil,BRA,2020,NA,rural,Safely managed,27477558.597488403,Latin America & Caribbean,UMC
+British Virgin Islands,VGB,2000,NA,rural,Safely managed,11827.447573422543,Latin America & Caribbean,HIC
+British Virgin Islands,VGB,2010,NA,rural,Safely managed,15339.500527989803,Latin America & Caribbean,HIC
+British Virgin Islands,VGB,2020,NA,rural,Safely managed,15567.519383160397,Latin America & Caribbean,HIC
+Brunei Darussalam,BRN,2000,NA,rural,Safely managed,96071.73858521506,East Asia & Pacific,HIC
+Brunei Darussalam,BRN,2010,NA,rural,Safely managed,97310.04397489363,East Asia & Pacific,HIC
+Brunei Darussalam,BRN,2020,NA,rural,Safely managed,95152.5194943999,East Asia & Pacific,HIC
+Bulgaria,BGR,2000,44.54263830338147,rural,Safely managed,2487442.627991736,Europe & Central Asia,UMC
+Bulgaria,BGR,2010,43.42905243072452,rural,Safely managed,2056579.4655954838,Europe & Central Asia,UMC
+Bulgaria,BGR,2020,60.09489923656338,rural,Safely managed,1689445.0823692605,Europe & Central Asia,UMC
+Burkina Faso,BFA,2000,NA,rural,Safely managed,9536628.38070672,Sub-Saharan Africa,LIC
+Burkina Faso,BFA,2010,NA,rural,Safely managed,11761179.417749941,Sub-Saharan Africa,LIC
+Burkina Faso,BFA,2020,NA,rural,Safely managed,14505411.173787937,Sub-Saharan Africa,LIC
+Burundi,BDI,2000,NA,rural,Safely managed,5852869.364865945,Sub-Saharan Africa,LIC
+Burundi,BDI,2010,NA,rural,Safely managed,7752348.390193041,Sub-Saharan Africa,LIC
+Burundi,BDI,2020,NA,rural,Safely managed,10260792.93447733,Sub-Saharan Africa,LIC
+Cabo Verde,CPV,2000,NA,rural,Safely managed,199381.1003598757,Sub-Saharan Africa,LMC
+Cabo Verde,CPV,2010,NA,rural,Safely managed,188086.54293045984,Sub-Saharan Africa,LMC
+Cabo Verde,CPV,2020,NA,rural,Safely managed,185410.86788579356,Sub-Saharan Africa,LMC
+Cambodia,KHM,2000,NA,rural,Safely managed,9896068.02568512,East Asia & Pacific,LMC
+Cambodia,KHM,2010,NA,rural,Safely managed,11407686.090031676,East Asia & Pacific,LMC
+Cambodia,KHM,2020,NA,rural,Safely managed,12667629.663668163,East Asia & Pacific,LMC
+Cameroon,CMR,2000,NA,rural,Safely managed,8448583.834871724,Sub-Saharan Africa,LMC
+Cameroon,CMR,2010,NA,rural,Safely managed,9853497.898624912,Sub-Saharan Africa,LMC
+Cameroon,CMR,2020,NA,rural,Safely managed,11266062.999366224,Sub-Saharan Africa,LMC
+Canada,CAN,2000,77.3618455066499,rural,Safely managed,6277345.75625509,North America,HIC
+Canada,CAN,2010,80.60480756388591,rural,Safely managed,6509551.792860627,North America,HIC
+Canada,CAN,2020,84.10229814235662,rural,Safely managed,6958897.225964069,North America,HIC
+Caribbean Netherlands,BES,2000,NA,rural,Safely managed,3604.375332991258,NA,NA
+Caribbean Netherlands,BES,2010,NA,rural,Safely managed,5290.11563342865,NA,NA
+Caribbean Netherlands,BES,2020,NA,rural,Safely managed,6542.66299925046,NA,NA
+Cayman Islands,CYM,2000,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Cayman Islands,CYM,2010,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Cayman Islands,CYM,2020,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Central African Republic,CAF,2000,9.322319405875591,rural,Safely managed,2270202.878696546,Sub-Saharan Africa,LIC
+Central African Republic,CAF,2010,8.037431801421674,rural,Safely managed,2680138.057381846,Sub-Saharan Africa,LIC
+Central African Republic,CAF,2020,5.917556591686458,rural,Safely managed,2791700.374184847,Sub-Saharan Africa,LIC
+Chad,TCD,2000,5.902446527997638,rural,Safely managed,6547741.289962083,Sub-Saharan Africa,LIC
+Chad,TCD,2010,4.792226161897781,rural,Safely managed,9324457.102587074,Sub-Saharan Africa,LIC
+Chad,TCD,2020,3.333442644349621,rural,Safely managed,12562497.174808383,Sub-Saharan Africa,LIC
+Channel Islands,CHI,2000,NA,rural,Safely managed,103217.0523667504,Europe & Central Asia,HIC
+Channel Islands,CHI,2010,NA,rural,Safely managed,110119.17556069061,Europe & Central Asia,HIC
+Channel Islands,CHI,2020,NA,rural,Safely managed,120027.03118813512,Europe & Central Asia,HIC
+Chile,CHL,2000,NA,rural,Safely managed,2136729.329752922,Latin America & Caribbean,HIC
+Chile,CHL,2010,NA,rural,Safely managed,2205503.216354847,Latin America & Caribbean,HIC
+Chile,CHL,2020,NA,rural,Safely managed,2346132.8303594887,Latin America & Caribbean,HIC
+China,CHN,2000,4.749129727769532,rural,Safely managed,834159227.0227432,East Asia & Pacific,UMC
+China,CHN,2010,17.32185340541614,rural,Safely managed,700869335.4808332,East Asia & Pacific,UMC
+China,CHN,2020,43.92951120853525,rural,Safely managed,560191301.1971283,East Asia & Pacific,UMC
+"China, Hong Kong SAR",HKG,2000,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+"China, Hong Kong SAR",HKG,2010,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+"China, Hong Kong SAR",HKG,2020,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2000,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2010,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2020,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+Colombia,COL,2000,NA,rural,Safely managed,10320831.453999281,Latin America & Caribbean,UMC
+Colombia,COL,2010,NA,rural,Safely managed,9965271.95731461,Latin America & Caribbean,UMC
+Colombia,COL,2020,NA,rural,Safely managed,9451497.811655402,Latin America & Caribbean,UMC
+Comoros,COM,2000,NA,rural,Safely managed,390063.8429499883,Sub-Saharan Africa,LMC
+Comoros,COM,2010,NA,rural,Safely managed,496767.329260786,Sub-Saharan Africa,LMC
+Comoros,COM,2020,NA,rural,Safely managed,614107.9756084783,Sub-Saharan Africa,LMC
+Congo,COG,2000,NA,rural,Safely managed,1291780.808274597,Sub-Saharan Africa,LMC
+Congo,COG,2010,NA,rural,Safely managed,1570342.0294461772,Sub-Saharan Africa,LMC
+Congo,COG,2020,NA,rural,Safely managed,1775225.1806215942,Sub-Saharan Africa,LMC
+Cook Islands,COK,2000,NA,rural,Safely managed,6242.99362475358,NA,NA
+Cook Islands,COK,2010,NA,rural,Safely managed,4918.939555005637,NA,NA
+Cook Islands,COK,2020,NA,rural,Safely managed,4304.057515675377,NA,NA
+Costa Rica,CRI,2000,37.9532502887507,rural,Safely managed,1622510.7383424044,Latin America & Caribbean,UMC
+Costa Rica,CRI,2010,37.03886701711158,rural,Safely managed,1293748.1631436944,Latin America & Caribbean,UMC
+Costa Rica,CRI,2020,36.57438038886482,rural,Safely managed,979547.3357319832,Latin America & Caribbean,UMC
+Côte d'Ivoire,CIV,2000,NA,rural,Safely managed,9353651.766682863,Sub-Saharan Africa,LMC
+Côte d'Ivoire,CIV,2010,NA,rural,Safely managed,10814700.89141339,Sub-Saharan Africa,LMC
+Côte d'Ivoire,CIV,2020,NA,rural,Safely managed,12739124.985299334,Sub-Saharan Africa,LMC
+Croatia,HRV,2000,NA,rural,Safely managed,2062243.1177992374,Europe & Central Asia,HIC
+Croatia,HRV,2010,NA,rural,Safely managed,1940964.788722694,Europe & Central Asia,HIC
+Croatia,HRV,2020,NA,rural,Safely managed,1742563.235120904,Europe & Central Asia,HIC
+Cuba,CUB,2000,57.10506293691064,rural,Safely managed,2745667.5843930244,Latin America & Caribbean,UMC
+Cuba,CUB,2010,54.60075701785711,rural,Safely managed,2627181.68511495,Latin America & Caribbean,UMC
+Cuba,CUB,2020,50.95447942342289,rural,Safely managed,2583148.0654135346,Latin America & Caribbean,UMC
+Curaçao,CUW,2000,NA,rural,Safely managed,12220.95630532596,Latin America & Caribbean,HIC
+Curaçao,CUW,2010,NA,rural,Safely managed,15060.530778509567,Latin America & Caribbean,HIC
+Curaçao,CUW,2020,NA,rural,Safely managed,17949.264476806853,Latin America & Caribbean,HIC
+Cyprus,CYP,2000,NA,rural,Safely managed,295739.70877784304,Europe & Central Asia,HIC
+Cyprus,CYP,2010,NA,rural,Safely managed,361033.0441080965,Europe & Central Asia,HIC
+Cyprus,CYP,2020,NA,rural,Safely managed,400590.30387027207,Europe & Central Asia,HIC
+Czech Republic,CZE,2000,NA,rural,Safely managed,2676471.292721927,Europe & Central Asia,HIC
+Czech Republic,CZE,2010,NA,rural,Safely managed,2817990.067064762,Europe & Central Asia,HIC
+Czech Republic,CZE,2020,NA,rural,Safely managed,2777802.4536556005,Europe & Central Asia,HIC
+Democratic People's Republic of Korea,PRK,2000,NA,rural,Safely managed,9306454.516268373,East Asia & Pacific,LIC
+Democratic People's Republic of Korea,PRK,2010,18.37256880890771,rural,Safely managed,9726986.14452675,East Asia & Pacific,LIC
+Democratic People's Republic of Korea,PRK,2020,1.227910789833337,rural,Safely managed,9697732.075380906,East Asia & Pacific,LIC
+Democratic Republic of the Congo,COD,2000,23.65325638730678,rural,Safely managed,30561318.394657373,Sub-Saharan Africa,LIC
+Democratic Republic of the Congo,COD,2010,17.38993805264024,rural,Safely managed,38729917.32154369,Sub-Saharan Africa,LIC
+Democratic Republic of the Congo,COD,2020,11.17079856191531,rural,Safely managed,48687371.228313446,Sub-Saharan Africa,LIC
+Denmark,DNK,2000,NA,rural,Safely managed,795837.2662846744,Europe & Central Asia,HIC
+Denmark,DNK,2010,NA,rural,Safely managed,733517.5043513998,Europe & Central Asia,HIC
+Denmark,DNK,2020,NA,rural,Safely managed,688345.1330173016,Europe & Central Asia,HIC
+Djibouti,DJI,2000,10.92345323900232,rural,Safely managed,168400.9931908734,Middle East & North Africa,LMC
+Djibouti,DJI,2010,14.8826567303193,rural,Safely managed,193253.01036148332,Middle East & North Africa,LMC
+Djibouti,DJI,2020,20.92939168742994,rural,Safely managed,216747.91684211232,Middle East & North Africa,LMC
+Dominica,DMA,2000,NA,rural,Safely managed,24192.92845512391,Latin America & Caribbean,UMC
+Dominica,DMA,2010,NA,rural,Safely managed,22614.01942241937,Latin America & Caribbean,UMC
+Dominica,DMA,2020,NA,rural,Safely managed,20812.594467520248,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2000,NA,rural,Safely managed,3240024.8990073055,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2010,NA,rural,Safely managed,2544677.567973733,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2020,NA,rural,Safely managed,1894043.990918845,Latin America & Caribbean,UMC
+Ecuador,ECU,2000,41.82724056731001,rural,Safely managed,5034533.171676099,Latin America & Caribbean,UMC
+Ecuador,ECU,2010,50.77911777827569,rural,Safely managed,5600646.363107562,Latin America & Caribbean,UMC
+Ecuador,ECU,2020,60.26800813059494,rural,Safely managed,6322214.25175637,Latin America & Caribbean,UMC
+Egypt,EGY,2000,46.28911669328089,rural,Safely managed,39373718.08770895,Middle East & North Africa,LMC
+Egypt,EGY,2010,52.83809556755919,rural,Safely managed,47158182.57738739,Middle East & North Africa,LMC
+Egypt,EGY,2020,62.73531752148673,rural,Safely managed,58552676.25593305,Middle East & North Africa,LMC
+El Salvador,SLV,2000,NA,rural,Safely managed,2419232.8242960013,Latin America & Caribbean,LMC
+El Salvador,SLV,2010,NA,rural,Safely managed,2136406.0664206743,Latin America & Caribbean,LMC
+El Salvador,SLV,2020,NA,rural,Safely managed,1722475.567367673,Latin America & Caribbean,LMC
+Equatorial Guinea,GNQ,2000,NA,rural,Safely managed,308594.11640612176,Sub-Saharan Africa,UMC
+Equatorial Guinea,GNQ,2010,NA,rural,Safely managed,321403.8379451912,Sub-Saharan Africa,UMC
+Equatorial Guinea,GNQ,2020,NA,rural,Safely managed,377402.98246742244,Sub-Saharan Africa,UMC
+Eritrea,ERI,2000,NA,rural,Safely managed,1682929.1775035486,Sub-Saharan Africa,LIC
+Eritrea,ERI,2010,NA,rural,Safely managed,2055235.8170351947,Sub-Saharan Africa,LIC
+Eritrea,ERI,2020,NA,rural,Safely managed,2080085.8251264319,Sub-Saharan Africa,LIC
+Estonia,EST,2000,NA,rural,Safely managed,428575.7227983886,Europe & Central Asia,HIC
+Estonia,EST,2010,NA,rural,Safely managed,425020.7683258131,Europe & Central Asia,HIC
+Estonia,EST,2020,NA,rural,Safely managed,408189.24554169195,Europe & Central Asia,HIC
+Eswatini,SWZ,2000,NA,rural,Safely managed,777339.7126577263,Sub-Saharan Africa,LMC
+Eswatini,SWZ,2010,NA,rural,Safely managed,825464.6830993826,Sub-Saharan Africa,LMC
+Eswatini,SWZ,2020,NA,rural,Safely managed,879740.697747893,Sub-Saharan Africa,LMC
+Ethiopia,ETH,2000,0.3535987277986943,rural,Safely managed,56463274.65750753,Sub-Saharan Africa,LIC
+Ethiopia,ETH,2010,2.551293586991084,rural,Safely managed,72461595.88876963,Sub-Saharan Africa,LIC
+Ethiopia,ETH,2020,4.120076052632691,rural,Safely managed,90022236.3192004,Sub-Saharan Africa,LIC
+Faeroe Islands,FRO,2000,NA,rural,Safely managed,29754.811437899185,Europe & Central Asia,HIC
+Faeroe Islands,FRO,2010,NA,rural,Safely managed,28239.145676583572,Europe & Central Asia,HIC
+Faeroe Islands,FRO,2020,NA,rural,Safely managed,28147.21884841463,Europe & Central Asia,HIC
+Falkland Islands (Malvinas),FLK,2000,NA,rural,Safely managed,937.1583023215136,NA,NA
+Falkland Islands (Malvinas),FLK,2010,NA,rural,Safely managed,764.212656313248,NA,NA
+Falkland Islands (Malvinas),FLK,2020,NA,rural,Safely managed,748.5665216699998,NA,NA
+Fiji,FJI,2000,NA,rural,Safely managed,422471.86626313254,East Asia & Pacific,UMC
+Fiji,FJI,2010,NA,rural,Safely managed,411241.4050645894,East Asia & Pacific,UMC
+Fiji,FJI,2020,NA,rural,Safely managed,383256.6414076322,East Asia & Pacific,UMC
+Finland,FIN,2000,NA,rural,Safely managed,924338.0737531185,Europe & Central Asia,HIC
+Finland,FIN,2010,NA,rural,Safely managed,870866.5431122482,Europe & Central Asia,HIC
+Finland,FIN,2020,NA,rural,Safely managed,802461.8270937353,Europe & Central Asia,HIC
+France,FRA,2000,NA,rural,Safely managed,14239750.674219131,Europe & Central Asia,HIC
+France,FRA,2010,NA,rural,Safely managed,13601474.974530637,Europe & Central Asia,HIC
+France,FRA,2020,NA,rural,Safely managed,12418286.600486934,Europe & Central Asia,HIC
+French Guiana,GUF,2000,NA,rural,Safely managed,34083.117797446896,NA,NA
+French Guiana,GUF,2010,NA,rural,Safely managed,39786.388944846105,NA,NA
+French Guiana,GUF,2020,NA,rural,Safely managed,42353.109480841085,NA,NA
+French Polynesia,PYF,2000,NA,rural,Safely managed,105786.52687389405,East Asia & Pacific,HIC
+French Polynesia,PYF,2010,NA,rural,Safely managed,105734.96529094524,East Asia & Pacific,HIC
+French Polynesia,PYF,2020,NA,rural,Safely managed,106813.73641424581,East Asia & Pacific,HIC
+Gabon,GAB,2000,NA,rural,Safely managed,259441.73323664826,Sub-Saharan Africa,UMC
+Gabon,GAB,2010,NA,rural,Safely managed,234965.247845985,Sub-Saharan Africa,UMC
+Gabon,GAB,2020,NA,rural,Safely managed,220525.06910081953,Sub-Saharan Africa,UMC
+Gambia,GMB,2000,57.27721217260875,rural,Safely managed,686947.4879641086,Sub-Saharan Africa,LIC
+Gambia,GMB,2010,41.02459060900619,rural,Safely managed,795068.5153940693,Sub-Saharan Africa,LIC
+Gambia,GMB,2020,24.1942734613884,rural,Safely managed,904267.4333944917,Sub-Saharan Africa,LIC
+Georgia,GEO,2000,56.68894381183291,rural,Safely managed,2066017.6036319137,Europe & Central Asia,UMC
+Georgia,GEO,2010,50.59694072922286,rural,Safely managed,1822663.1277635132,Europe & Central Asia,UMC
+Georgia,GEO,2020,44.48195464416684,rural,Safely managed,1617490.9945278799,Europe & Central Asia,UMC
+Germany,DEU,2000,90.58290478805417,rural,Safely managed,20378713.993098736,Europe & Central Asia,HIC
+Germany,DEU,2010,91.06970649790297,rural,Safely managed,18617688.4173584,Europe & Central Asia,HIC
+Germany,DEU,2020,91.62605130915874,rural,Safely managed,18890763.695001602,Europe & Central Asia,HIC
+Ghana,GHA,2000,2.577590170805331,rural,Safely managed,10809843.599736392,Sub-Saharan Africa,LMC
+Ghana,GHA,2010,7.804020897318726,rural,Safely managed,12213126.742614806,Sub-Saharan Africa,LMC
+Ghana,GHA,2020,14.98328067071825,rural,Safely managed,13252922.208681107,Sub-Saharan Africa,LMC
+Gibraltar,GIB,2000,NA,rural,Safely managed,0,Europe & Central Asia,HIC
+Gibraltar,GIB,2010,NA,rural,Safely managed,0,Europe & Central Asia,HIC
+Gibraltar,GIB,2020,NA,rural,Safely managed,0,Europe & Central Asia,HIC
+Greece,GRC,2000,NA,rural,Safely managed,3023641.323472336,Europe & Central Asia,HIC
+Greece,GRC,2010,NA,rural,Safely managed,2581240.797126442,Europe & Central Asia,HIC
+Greece,GRC,2020,NA,rural,Safely managed,2114316.427942738,Europe & Central Asia,HIC
+Greenland,GRL,2000,NA,rural,Safely managed,10336.568514663666,Europe & Central Asia,HIC
+Greenland,GRL,2010,NA,rural,Safely managed,8845.159025229514,Europe & Central Asia,HIC
+Greenland,GRL,2020,NA,rural,Safely managed,7220.259863867832,Europe & Central Asia,HIC
+Grenada,GRD,2000,NA,rural,Safely managed,66126.24845338982,Latin America & Caribbean,UMC
+Grenada,GRD,2010,NA,rural,Safely managed,68128.68298378453,Latin America & Caribbean,UMC
+Grenada,GRD,2020,NA,rural,Safely managed,71407.93259606289,Latin America & Caribbean,UMC
+Guadeloupe,GLP,2000,NA,rural,Safely managed,6752.76162646478,NA,NA
+Guadeloupe,GLP,2010,NA,rural,Safely managed,6456.576779019088,NA,NA
+Guadeloupe,GLP,2020,NA,rural,Safely managed,6005.934811849148,NA,NA
+Guam,GUM,2000,NA,rural,Safely managed,10672.246608659625,East Asia & Pacific,HIC
+Guam,GUM,2010,NA,rural,Safely managed,9408.49667329341,East Asia & Pacific,HIC
+Guam,GUM,2020,NA,rural,Safely managed,8543.78972600447,East Asia & Pacific,HIC
+Guatemala,GTM,2000,NA,rural,Safely managed,6369229.165904894,Latin America & Caribbean,UMC
+Guatemala,GTM,2010,NA,rural,Safely managed,7548857.226843013,Latin America & Caribbean,UMC
+Guatemala,GTM,2020,NA,rural,Safely managed,8628853.666341305,Latin America & Caribbean,UMC
+Guinea,GIN,2000,NA,rural,Safely managed,5696902.641461957,Sub-Saharan Africa,LIC
+Guinea,GIN,2010,NA,rural,Safely managed,6759649.497155845,Sub-Saharan Africa,LIC
+Guinea,GIN,2020,NA,rural,Safely managed,8290074.945068359,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2000,0.4639754974435252,rural,Safely managed,765916.0627278734,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2010,2.268187971358871,rural,Safely managed,911871.7841992714,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2020,4.20428368413435,rural,Safely managed,1098221.6468945146,Sub-Saharan Africa,LIC
+Guyana,GUY,2000,NA,rural,Safely managed,532454.7477912158,Latin America & Caribbean,UMC
+Guyana,GUY,2010,NA,rural,Safely managed,549826.8168887054,Latin America & Caribbean,UMC
+Guyana,GUY,2020,NA,rural,Safely managed,575871.3271529716,Latin America & Caribbean,UMC
+Haiti,HTI,2000,NA,rural,Safely managed,5450688.1383102015,Latin America & Caribbean,LMC
+Haiti,HTI,2010,NA,rural,Safely managed,5222496.432825923,Latin America & Caribbean,LMC
+Haiti,HTI,2020,NA,rural,Safely managed,4893055.340426266,Latin America & Caribbean,LMC
+Holy See,VAT,2000,NA,rural,Safely managed,0,NA,NA
+Holy See,VAT,2010,NA,rural,Safely managed,0,NA,NA
+Holy See,VAT,2020,NA,rural,Safely managed,0,NA,NA
+Honduras,HND,2000,46.29010002101431,rural,Safely managed,3585869.1043289006,Latin America & Caribbean,LMC
+Honduras,HND,2010,58.32676657903811,rural,Safely managed,4001948.654349968,Latin America & Caribbean,LMC
+Honduras,HND,2020,70.63554130245875,rural,Safely managed,4124378.2461636136,Latin America & Caribbean,LMC
+Hungary,HUN,2000,62.47995315318843,rural,Safely managed,3620615.550430566,Europe & Central Asia,HIC
+Hungary,HUN,2010,69.39021311813988,rural,Safely managed,3086323.580147773,Europe & Central Asia,HIC
+Hungary,HUN,2020,80.68586974880024,rural,Safely managed,2710500.763681829,Europe & Central Asia,HIC
+Iceland,ISL,2000,NA,rural,Safely managed,21310.577914642636,Europe & Central Asia,HIC
+Iceland,ISL,2010,NA,rural,Safely managed,20585.185610975605,Europe & Central Asia,HIC
+Iceland,ISL,2020,NA,rural,Safely managed,20823.092079162598,Europe & Central Asia,HIC
+India,IND,2000,0.9251174054040184,rural,Safely managed,764252758.3496475,South Asia,LMC
+India,IND,2010,23.67600923574089,rural,Safely managed,852517969.270773,South Asia,LMC
+India,IND,2020,50.52028955510617,rural,Safely managed,898024012.453699,South Asia,LMC
+Indonesia,IDN,2000,NA,rural,Safely managed,122673792.35969782,East Asia & Pacific,LMC
+Indonesia,IDN,2010,NA,rural,Safely managed,121125083.26063156,East Asia & Pacific,LMC
+Indonesia,IDN,2020,NA,rural,Safely managed,118597111.73571587,East Asia & Pacific,LMC
+Iran (Islamic Republic of),IRN,2000,NA,rural,Safely managed,23596861.73031628,Middle East & North Africa,LMC
+Iran (Islamic Republic of),IRN,2010,NA,rural,Safely managed,21667001.7448771,Middle East & North Africa,LMC
+Iran (Islamic Republic of),IRN,2020,NA,rural,Safely managed,20264139.40955043,Middle East & North Africa,LMC
+Iraq,IRQ,2000,32.86757921189952,rural,Safely managed,7402680.188070536,Middle East & North Africa,UMC
+Iraq,IRQ,2010,40.98034474899075,rural,Safely managed,9189377.173342109,Middle East & North Africa,UMC
+Iraq,IRQ,2020,44.39321181121936,rural,Safely managed,11707565.120337307,Middle East & North Africa,UMC
+Ireland,IRL,2000,62.41276746881561,rural,Safely managed,1545205.0426504295,Europe & Central Asia,HIC
+Ireland,IRL,2010,67.19549116276859,rural,Safely managed,1751504.443518445,Europe & Central Asia,HIC
+Ireland,IRL,2020,72.95218988381366,rural,Safely managed,1794740.681232661,Europe & Central Asia,HIC
+Isle of Man,IMN,2000,NA,rural,Safely managed,37068.346554577,Europe & Central Asia,HIC
+Isle of Man,IMN,2010,NA,rural,Safely managed,40735.96991105704,Europe & Central Asia,HIC
+Isle of Man,IMN,2020,NA,rural,Safely managed,40051.76931587164,Europe & Central Asia,HIC
+Israel,ISR,2000,78.37458194104643,rural,Safely managed,523065.432215631,Middle East & North Africa,HIC
+Israel,ISR,2010,85.71155720908327,rural,Safely managed,600498.7443068251,Middle East & North Africa,HIC
+Israel,ISR,2020,92.7127315262681,rural,Safely managed,641635.4298247397,Middle East & North Africa,HIC
+Italy,ITA,2000,94.23277134759438,rural,Safely managed,18582562.58876443,Europe & Central Asia,HIC
+Italy,ITA,2010,94.26262195990199,rural,Safely managed,18790082.70859599,Europe & Central Asia,HIC
+Italy,ITA,2020,94.29247257220963,rural,Safely managed,17510353.770481348,Europe & Central Asia,HIC
+Jamaica,JAM,2000,NA,rural,Safely managed,1279192.7992129046,Latin America & Caribbean,UMC
+Jamaica,JAM,2010,NA,rural,Safely managed,1300036.3831193652,Latin America & Caribbean,UMC
+Jamaica,JAM,2020,NA,rural,Safely managed,1293701.5562526416,Latin America & Caribbean,UMC
+Japan,JPN,2000,NA,rural,Safely managed,27227683.290655613,East Asia & Pacific,HIC
+Japan,JPN,2010,NA,rural,Safely managed,11810475.812011957,East Asia & Pacific,HIC
+Japan,JPN,2020,NA,rural,Safely managed,10393838.493257761,East Asia & Pacific,HIC
+Jordan,JOR,2000,NA,rural,Safely managed,1113117.9701082408,Middle East & North Africa,UMC
+Jordan,JOR,2010,NA,rural,Safely managed,1010225.772241652,Middle East & North Africa,UMC
+Jordan,JOR,2020,NA,rural,Safely managed,875633.519358933,Middle East & North Africa,UMC
+Kazakhstan,KAZ,2000,NA,rural,Safely managed,6551374.1930340985,Europe & Central Asia,UMC
+Kazakhstan,KAZ,2010,NA,rural,Safely managed,7016593.445754647,Europe & Central Asia,UMC
+Kazakhstan,KAZ,2020,NA,rural,Safely managed,7947992.049938589,Europe & Central Asia,UMC
+Kenya,KEN,2000,27.02609635311391,rural,Safely managed,25606166.970265616,Sub-Saharan Africa,LMC
+Kenya,KEN,2010,28.4005275257852,rural,Safely managed,32123631.523016095,Sub-Saharan Africa,LMC
+Kenya,KEN,2020,29.47861185845798,rural,Safely managed,38718025.70187852,Sub-Saharan Africa,LMC
+Kiribati,KIR,2000,11.96891834100578,rural,Safely managed,48146.296029341174,East Asia & Pacific,LMC
+Kiribati,KIR,2010,20.17716643958409,rural,Safely managed,54151.47378878785,East Asia & Pacific,LMC
+Kiribati,KIR,2020,27.39876277351809,rural,Safely managed,53041.19282283994,East Asia & Pacific,LMC
+Kuwait,KWT,2000,NA,rural,Safely managed,20451.23046875,Middle East & North Africa,HIC
+Kuwait,KWT,2010,NA,rural,Safely managed,0,Middle East & North Africa,HIC
+Kuwait,KWT,2020,NA,rural,Safely managed,0,Middle East & North Africa,HIC
+Kyrgyzstan,KGZ,2000,89.25491167494756,rural,Safely managed,3183799.006118215,Europe & Central Asia,LMC
+Kyrgyzstan,KGZ,2010,93.47375348441034,rural,Safely managed,3507901.3853278756,Europe & Central Asia,LMC
+Kyrgyzstan,KGZ,2020,96.45762957724293,rural,Safely managed,4119635.1789460145,Europe & Central Asia,LMC
+Lao People's Democratic Republic,LAO,2000,14.97394052730945,rural,Safely managed,4153711.4035116504,East Asia & Pacific,LMC
+Lao People's Democratic Republic,LAO,2010,39.10776852168019,rural,Safely managed,4370418.162116557,East Asia & Pacific,LMC
+Lao People's Democratic Republic,LAO,2020,60.2662784586129,rural,Safely managed,4635256.758048497,East Asia & Pacific,LMC
+Latvia,LVA,2000,NA,rural,Safely managed,761330.5563016981,Europe & Central Asia,HIC
+Latvia,LVA,2010,NA,rural,Safely managed,681402.6624029502,Europe & Central Asia,HIC
+Latvia,LVA,2020,NA,rural,Safely managed,597643.0660045893,Europe & Central Asia,HIC
+Lebanon,LBN,2000,NA,rural,Safely managed,537988.349609375,Middle East & North Africa,LMC
+Lebanon,LBN,2010,NA,rural,Safely managed,627355.0999257714,Middle East & North Africa,LMC
+Lebanon,LBN,2020,NA,rural,Safely managed,755918.0022632703,Middle East & North Africa,LMC
+Lesotho,LSO,2000,4.590790864543412,rural,Safely managed,1635432.314987532,Sub-Saharan Africa,LMC
+Lesotho,LSO,2010,28.61463814795593,rural,Safely managed,1500712.2680812608,Sub-Saharan Africa,LMC
+Lesotho,LSO,2020,50.96680456163237,rural,Safely managed,1520399.0587869287,Sub-Saharan Africa,LMC
+Liberia,LBR,2000,NA,rural,Safely managed,1585702.0445401315,Sub-Saharan Africa,LIC
+Liberia,LBR,2010,NA,rural,Safely managed,2030782.3051790148,Sub-Saharan Africa,LIC
+Liberia,LBR,2020,NA,rural,Safely managed,2423183.6688705534,Sub-Saharan Africa,LIC
+Libya,LBY,2000,NA,rural,Safely managed,1265159.234177135,Middle East & North Africa,UMC
+Libya,LBY,2010,NA,rural,Safely managed,1360263.830397129,Middle East & North Africa,UMC
+Libya,LBY,2020,NA,rural,Safely managed,1326776.6979382932,Middle East & North Africa,UMC
+Liechtenstein,LIE,2000,NA,rural,Safely managed,28163.259156207285,Europe & Central Asia,HIC
+Liechtenstein,LIE,2010,NA,rural,Safely managed,30789.5372671408,Europe & Central Asia,HIC
+Liechtenstein,LIE,2020,NA,rural,Safely managed,32639.170828355713,Europe & Central Asia,HIC
+Lithuania,LTU,2000,63.07817269865391,rural,Safely managed,1156098.1292835437,Europe & Central Asia,HIC
+Lithuania,LTU,2010,72.97853034389051,rural,Safely managed,1038453.0103069171,Europe & Central Asia,HIC
+Lithuania,LTU,2020,86.22330456058083,rural,Safely managed,869880.9359334409,Europe & Central Asia,HIC
+Luxembourg,LUX,2000,84.69567941177186,rural,Safely managed,68834.95416874066,Europe & Central Asia,HIC
+Luxembourg,LUX,2010,85.72952040867442,rural,Safely managed,58168.65825727582,Europe & Central Asia,HIC
+Luxembourg,LUX,2020,89.34414784536125,rural,Safely managed,53502.19926584046,Europe & Central Asia,HIC
+Madagascar,MDG,2000,1.986600146545811,rural,Safely managed,11490689.953473508,Sub-Saharan Africa,LIC
+Madagascar,MDG,2010,5.179705589687078,rural,Safely managed,14396230.103717744,Sub-Saharan Africa,LIC
+Madagascar,MDG,2020,7.955542389399874,rural,Safely managed,17020561.955219954,Sub-Saharan Africa,LIC
+Malawi,MWI,2000,17.96702106262132,rural,Safely managed,9519918.497162918,Sub-Saharan Africa,LIC
+Malawi,MWI,2010,20.77038499733387,rural,Safely managed,12279572.541449217,Sub-Saharan Africa,LIC
+Malawi,MWI,2020,23.62052285884112,rural,Safely managed,15796177.797903158,Sub-Saharan Africa,LIC
+Malaysia,MYS,2000,NA,rural,Safely managed,8819150.144082084,East Asia & Pacific,UMC
+Malaysia,MYS,2010,NA,rural,Safely managed,8205152.422745526,East Asia & Pacific,UMC
+Malaysia,MYS,2020,NA,rural,Safely managed,7392395.237957686,East Asia & Pacific,UMC
+Maldives,MDV,2000,NA,rural,Safely managed,201986.5431639459,South Asia,UMC
+Maldives,MDV,2010,NA,rural,Safely managed,232479.931752017,South Asia,UMC
+Maldives,MDV,2020,NA,rural,Safely managed,320708.97631309927,South Asia,UMC
+Mali,MLI,2000,5.784970516452788,rural,Safely managed,7842473.488872312,Sub-Saharan Africa,LIC
+Mali,MLI,2010,15.41099516295856,rural,Safely managed,9631735.410847068,Sub-Saharan Africa,LIC
+Mali,MLI,2020,27.99107527644084,rural,Safely managed,11358894.437326936,Sub-Saharan Africa,LIC
+Malta,MLT,2000,NA,rural,Safely managed,30043.275537178855,Middle East & North Africa,HIC
+Malta,MLT,2010,NA,rural,Safely managed,24557.16009516036,Middle East & North Africa,HIC
+Malta,MLT,2020,NA,rural,Safely managed,23207.27536431514,Middle East & North Africa,HIC
+Marshall Islands,MHL,2000,NA,rural,Safely managed,15946.906378863496,East Asia & Pacific,UMC
+Marshall Islands,MHL,2010,NA,rural,Safely managed,14897.339088932496,East Asia & Pacific,UMC
+Marshall Islands,MHL,2020,NA,rural,Safely managed,13144.624969069848,East Asia & Pacific,UMC
+Martinique,MTQ,2000,NA,rural,Safely managed,39812.3154099565,NA,NA
+Martinique,MTQ,2010,NA,rural,Safely managed,43215.91332501266,NA,NA
+Martinique,MTQ,2020,NA,rural,Safely managed,40753.78288125619,NA,NA
+Mauritania,MRT,2000,NA,rural,Safely managed,1628341.0783571843,Sub-Saharan Africa,LMC
+Mauritania,MRT,2010,NA,rural,Safely managed,1866322.0341997687,Sub-Saharan Africa,LMC
+Mauritania,MRT,2020,NA,rural,Safely managed,2077142.8745806217,Sub-Saharan Africa,LMC
+Mauritius,MUS,2000,NA,rural,Safely managed,679444.7811245173,Sub-Saharan Africa,UMC
+Mauritius,MUS,2010,NA,rural,Safely managed,729366.1287538058,Sub-Saharan Africa,UMC
+Mauritius,MUS,2020,NA,rural,Safely managed,753394.7730551709,Sub-Saharan Africa,UMC
+Mayotte,MYT,2000,NA,rural,Safely managed,78576.50858609707,NA,NA
+Mayotte,MYT,2010,NA,rural,Safely managed,106541.16613652096,NA,NA
+Mayotte,MYT,2020,NA,rural,Safely managed,147998.31951130182,NA,NA
+Mexico,MEX,2000,NA,rural,Safely managed,24999909.927856922,Latin America & Caribbean,UMC
+Mexico,MEX,2010,NA,rural,Safely managed,25311520.598511696,Latin America & Caribbean,UMC
+Mexico,MEX,2020,NA,rural,Safely managed,24844057.81435013,Latin America & Caribbean,UMC
+Micronesia (Federated States of),FSM,2000,NA,rural,Safely managed,83421.46263382342,East Asia & Pacific,LMC
+Micronesia (Federated States of),FSM,2010,NA,rural,Safely managed,79967.79025907101,East Asia & Pacific,LMC
+Micronesia (Federated States of),FSM,2020,NA,rural,Safely managed,88643.23628993571,East Asia & Pacific,LMC
+Monaco,MCO,2000,NA,rural,Safely managed,0,Europe & Central Asia,HIC
+Monaco,MCO,2010,NA,rural,Safely managed,0,Europe & Central Asia,HIC
+Monaco,MCO,2020,NA,rural,Safely managed,0,Europe & Central Asia,HIC
+Mongolia,MNG,2000,24.32268913815749,rural,Safely managed,1027700.6644878536,East Asia & Pacific,LMC
+Mongolia,MNG,2010,34.12459631284006,rural,Safely managed,882145.8114441857,East Asia & Pacific,LMC
+Mongolia,MNG,2020,48.70861265884538,rural,Safely managed,1027515.1351459324,East Asia & Pacific,LMC
+Montenegro,MNE,2000,NA,rural,Safely managed,NA,Europe & Central Asia,UMC
+Montenegro,MNE,2010,35.64767362334661,rural,Safely managed,223866.45023363642,Europe & Central Asia,UMC
+Montenegro,MNE,2020,38.90352915069905,rural,Safely managed,204195.47984942794,Europe & Central Asia,UMC
+Montserrat,MSR,2000,NA,rural,Safely managed,4822.215442014694,NA,NA
+Montserrat,MSR,2010,NA,rural,Safely managed,4447.0096084407805,NA,NA
+Montserrat,MSR,2020,NA,rural,Safely managed,4543.341227314568,NA,NA
+Morocco,MAR,2000,NA,rural,Safely managed,13436567.24408269,Middle East & North Africa,LMC
+Morocco,MAR,2010,NA,rural,Safely managed,13578400.522715596,Middle East & North Africa,LMC
+Morocco,MAR,2020,NA,rural,Safely managed,13460543.3640486,Middle East & North Africa,LMC
+Mozambique,MOZ,2000,0.6579137870608814,rural,Safely managed,12558109.355267212,Sub-Saharan Africa,LIC
+Mozambique,MOZ,2010,10.10434261292715,rural,Safely managed,16041468.837093785,Sub-Saharan Africa,LIC
+Mozambique,MOZ,2020,21.27734467848747,rural,Safely managed,19667796.154375523,Sub-Saharan Africa,LIC
+Myanmar,MMR,2000,55.41661288400284,rural,Safely managed,34093701.574211866,East Asia & Pacific,LMC
+Myanmar,MMR,2010,61.1133861552216,rural,Safely managed,35984777.84014344,East Asia & Pacific,LMC
+Myanmar,MMR,2020,64.0148054492789,rural,Safely managed,37466038.93354006,East Asia & Pacific,LMC
+Namibia,"NAM",2000,NA,rural,Safely managed,1213622.6994353905,Sub-Saharan Africa,UMC
+Namibia,"NAM",2010,NA,rural,Safely managed,1237085.1772159338,Sub-Saharan Africa,UMC
+Namibia,"NAM",2020,NA,rural,Safely managed,1218801.1611766368,Sub-Saharan Africa,UMC
+Nauru,NRU,2000,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+Nauru,NRU,2010,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+Nauru,NRU,2020,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+Nepal,NPL,2000,7.967081860377667,rural,Safely managed,20733710.191497914,South Asia,LMC
+Nepal,NPL,2010,26.57530976820968,rural,Safely managed,22483632.57105343,South Asia,LMC
+Nepal,NPL,2020,50.23701926511831,rural,Safely managed,23141618.79525706,South Asia,LMC
+Netherlands,NLD,2000,97.42165110375922,rural,Safely managed,3695672.3276035488,Europe & Central Asia,HIC
+Netherlands,NLD,2010,97.44066564406609,rural,Safely managed,2146426.3070832193,Europe & Central Asia,HIC
+Netherlands,NLD,2020,97.46731132913352,rural,Safely managed,1330351.5329010785,Europe & Central Asia,HIC
+New Caledonia,NCL,2000,NA,rural,Safely managed,82735.93428861118,East Asia & Pacific,HIC
+New Caledonia,NCL,2010,NA,rural,Safely managed,83405.97936294391,East Asia & Pacific,HIC
+New Caledonia,NCL,2020,NA,rural,Safely managed,81313.55230234796,East Asia & Pacific,HIC
+New Zealand,NZL,2000,NA,rural,Safely managed,539448.3400863595,East Asia & Pacific,HIC
+New Zealand,NZL,2010,NA,rural,Safely managed,604816.485482119,East Asia & Pacific,HIC
+New Zealand,NZL,2020,NA,rural,Safely managed,641405.3200534359,East Asia & Pacific,HIC
+Nicaragua,NIC,2000,NA,rural,Safely managed,2271811.2331424095,Latin America & Caribbean,LMC
+Nicaragua,NIC,2010,NA,rural,Safely managed,2509178.9642432705,Latin America & Caribbean,LMC
+Nicaragua,NIC,2020,NA,rural,Safely managed,2715272.2064395617,Latin America & Caribbean,LMC
+Niger,NER,2000,2.461167144178001,rural,Safely managed,9497434.06338863,Sub-Saharan Africa,LIC
+Niger,NER,2010,7.743179657627275,rural,Safely managed,13793395.721474437,Sub-Saharan Africa,LIC
+Niger,NER,2020,10.8479881555604,rural,Safely managed,20182041.430861652,Sub-Saharan Africa,LIC
+Nigeria,NGA,2000,21.93001213456273,rural,Safely managed,79680157.49153465,Sub-Saharan Africa,LMC
+Nigeria,NGA,2010,23.67112823357724,rural,Safely managed,89586005.08540271,Sub-Saharan Africa,LMC
+Nigeria,NGA,2020,25.58788591750742,rural,Safely managed,99033583.25192213,Sub-Saharan Africa,LMC
+Niue,NIU,2000,NA,rural,Safely managed,1273.0275821646503,NA,NA
+Niue,NIU,2010,NA,rural,Safely managed,994.6104440589899,NA,NA
+Niue,NIU,2020,NA,rural,Safely managed,870.4516001275623,NA,NA
+North Macedonia,MKD,2000,16.80961357723068,rural,Safely managed,843474.8223196251,Europe & Central Asia,UMC
+North Macedonia,MKD,2010,17.21497784989824,rural,Safely managed,888573.9655166772,Europe & Central Asia,UMC
+North Macedonia,MKD,2020,17.89096498216322,rural,Safely managed,864977.692171745,Europe & Central Asia,UMC
+Northern Mariana Islands,MNP,2000,NA,rural,Safely managed,5657.971107378543,East Asia & Pacific,HIC
+Northern Mariana Islands,MNP,2010,NA,rural,Safely managed,4884.912503699306,East Asia & Pacific,HIC
+Northern Mariana Islands,MNP,2020,NA,rural,Safely managed,4720.827077330905,East Asia & Pacific,HIC
+Norway,NOR,2000,NA,rural,Safely managed,1078949.9327659607,Europe & Central Asia,HIC
+Norway,NOR,2010,NA,rural,Safely managed,1021050.8979765326,Europe & Central Asia,HIC
+Norway,NOR,2020,NA,rural,Safely managed,923021.1613935232,Europe & Central Asia,HIC
+Oman,OMN,2000,NA,rural,Safely managed,644807.3697730154,Middle East & North Africa,HIC
+Oman,OMN,2010,NA,rural,Safely managed,755462.1915736049,Middle East & North Africa,HIC
+Oman,OMN,2020,NA,rural,Safely managed,700833.1526646763,Middle East & North Africa,HIC
+Pakistan,PAK,2000,NA,rural,Safely managed,95395815.97326638,South Asia,LMC
+Pakistan,PAK,2010,NA,rural,Safely managed,116631396.18864177,South Asia,LMC
+Pakistan,PAK,2020,NA,rural,Safely managed,138797692.3550141,South Asia,LMC
+Palau,PLW,2000,NA,rural,Safely managed,5666.628996882936,East Asia & Pacific,UMC
+Palau,PLW,2010,NA,rural,Safely managed,4521.355698039697,East Asia & Pacific,UMC
+Palau,PLW,2020,NA,rural,Safely managed,3439.651047860098,East Asia & Pacific,UMC
+Panama,PAN,2000,NA,rural,Safely managed,1145526.5427994728,Latin America & Caribbean,HIC
+Panama,PAN,2010,NA,rural,Safely managed,1269842.0762371272,Latin America & Caribbean,HIC
+Panama,PAN,2020,NA,rural,Safely managed,1362862.5782504678,Latin America & Caribbean,HIC
+Papua New Guinea,PNG,2000,NA,rural,Safely managed,5075474.108887799,East Asia & Pacific,LMC
+Papua New Guinea,PNG,2010,NA,rural,Safely managed,6358756.618893618,East Asia & Pacific,LMC
+Papua New Guinea,PNG,2020,NA,rural,Safely managed,7753046.520835422,East Asia & Pacific,LMC
+Paraguay,PRY,2000,36.90050409980176,rural,Safely managed,2377821.302520074,Latin America & Caribbean,UMC
+Paraguay,PRY,2010,54.07585333206909,rural,Safely managed,2545379.5830807835,Latin America & Caribbean,UMC
+Paraguay,PRY,2020,70.7242528880134,rural,Safely managed,2697309.156710673,Latin America & Caribbean,UMC
+Peru,PER,2000,NA,rural,Safely managed,7133071.579269916,Latin America & Caribbean,UMC
+Peru,PER,2010,NA,rural,Safely managed,6841824.013758302,Latin America & Caribbean,UMC
+Peru,PER,2020,NA,rural,Safely managed,7155878.547255695,Latin America & Caribbean,UMC
+Philippines,PHL,2000,41.10957239435286,rural,Safely managed,42010261.654768884,East Asia & Pacific,LMC
+Philippines,PHL,2010,50.23244571634826,rural,Safely managed,51369762.870064974,East Asia & Pacific,LMC
+Philippines,PHL,2020,65.84295211521064,rural,Safely managed,57630887.85975038,East Asia & Pacific,LMC
+Poland,POL,2000,NA,rural,Safely managed,14761045.41105032,Europe & Central Asia,HIC
+Poland,POL,2010,NA,rural,Safely managed,14990013.03395629,Europe & Central Asia,HIC
+Poland,POL,2020,NA,rural,Safely managed,15122366.98061183,Europe & Central Asia,HIC
+Portugal,PRT,2000,NA,rural,Safely managed,4695588.194986582,Europe & Central Asia,HIC
+Portugal,PRT,2010,NA,rural,Safely managed,4178342.1026408672,Europe & Central Asia,HIC
+Portugal,PRT,2020,NA,rural,Safely managed,3435270.8477711678,Europe & Central Asia,HIC
+Puerto Rico,PRI,2000,NA,rural,Safely managed,205938.41046616435,Latin America & Caribbean,HIC
+Puerto Rico,PRI,2010,NA,rural,Safely managed,221055.0821605511,Latin America & Caribbean,HIC
+Puerto Rico,PRI,2020,NA,rural,Safely managed,183637.28857321665,Latin America & Caribbean,HIC
+Qatar,QAT,2000,NA,rural,Safely managed,21856.079408880323,Middle East & North Africa,HIC
+Qatar,QAT,2010,NA,rural,Safely managed,27826.23997304589,Middle East & North Africa,HIC
+Qatar,QAT,2020,NA,rural,Safely managed,22040.091863647103,Middle East & North Africa,HIC
+Republic of Korea,KOR,2000,NA,rural,Safely managed,9655413.928288221,East Asia & Pacific,HIC
+Republic of Korea,KOR,2010,NA,rural,Safely managed,8949921.518615484,East Asia & Pacific,HIC
+Republic of Korea,KOR,2020,NA,rural,Safely managed,9528889.711720943,East Asia & Pacific,HIC
+Republic of Moldova,MDA,2000,NA,rural,Safely managed,2328735.4485579953,Europe & Central Asia,UMC
+Republic of Moldova,MDA,2010,NA,rural,Safely managed,2344598.5360757913,Europe & Central Asia,UMC
+Republic of Moldova,MDA,2020,NA,rural,Safely managed,2305450.0171317905,Europe & Central Asia,UMC
+Réunion,REU,2000,NA,rural,Safely managed,65059.221834102646,NA,NA
+Réunion,REU,2010,NA,rural,Safely managed,12449.304777565412,NA,NA
+Réunion,REU,2020,NA,rural,Safely managed,3052.9625181574374,NA,NA
+Romania,ROU,2000,NA,rural,Safely managed,10403703.344207928,Europe & Central Asia,HIC
+Romania,ROU,2010,NA,rural,Safely managed,9452061.704725027,Europe & Central Asia,HIC
+Romania,ROU,2020,NA,rural,Safely managed,8812012.405337691,Europe & Central Asia,HIC
+Russian Federation,RUS,2000,41.15585684736476,rural,Safely managed,39016905.585523844,Europe & Central Asia,UMC
+Russian Federation,RUS,2010,46.66227566360958,rural,Safely managed,37753704.2431283,Europe & Central Asia,UMC
+Russian Federation,RUS,2020,52.17182702655358,rural,Safely managed,36842604.10858989,Europe & Central Asia,UMC
+Rwanda,RWA,2000,31.32652692885533,rural,Safely managed,6749505.7475991305,Sub-Saharan Africa,LIC
+Rwanda,RWA,2010,43.34374105452777,rural,Safely managed,8339276.410694681,Sub-Saharan Africa,LIC
+Rwanda,RWA,2020,53.83036157056893,rural,Safely managed,10694379.769945182,Sub-Saharan Africa,LIC
+Saint Barthelemy,BLM,2000,NA,rural,Safely managed,0,NA,NA
+Saint Barthelemy,BLM,2010,NA,rural,Safely managed,0,NA,NA
+Saint Barthelemy,BLM,2020,NA,rural,Safely managed,0,NA,NA
+Saint Helena,SHN,2000,NA,rural,Safely managed,3610.302970180128,NA,NA
+Saint Helena,SHN,2010,NA,rural,Safely managed,3135.7150530815125,NA,NA
+Saint Helena,SHN,2020,NA,rural,Safely managed,3637.6217949626152,NA,NA
+Saint Kitts and Nevis,KNA,2000,NA,rural,Safely managed,29633.474436899414,Latin America & Caribbean,HIC
+Saint Kitts and Nevis,KNA,2010,NA,rural,Safely managed,33659.77542307082,Latin America & Caribbean,HIC
+Saint Kitts and Nevis,KNA,2020,NA,rural,Safely managed,36785.993164034444,Latin America & Caribbean,HIC
+Saint Lucia,LCA,2000,NA,rural,Safely managed,113204.86500425618,Latin America & Caribbean,UMC
+Saint Lucia,LCA,2010,NA,rural,Safely managed,141972.02410993952,Latin America & Caribbean,UMC
+Saint Lucia,LCA,2020,NA,rural,Safely managed,149031.45905522982,Latin America & Caribbean,UMC
+Saint Martin (French part),MAF,2000,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Saint Martin (French part),MAF,2010,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Saint Martin (French part),MAF,2020,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Saint Pierre and Miquelon,SPM,2000,NA,rural,Safely managed,683.5217247939727,NA,NA
+Saint Pierre and Miquelon,SPM,2010,NA,rural,Safely managed,642.333273680415,NA,NA
+Saint Pierre and Miquelon,SPM,2020,NA,rural,Safely managed,581.7022243789688,NA,NA
+Saint Vincent and the Grenadines,VCT,2000,NA,rural,Safely managed,59082.36669700653,Latin America & Caribbean,UMC
+Saint Vincent and the Grenadines,VCT,2010,NA,rural,Safely managed,55254.824076150566,Latin America & Caribbean,UMC
+Saint Vincent and the Grenadines,VCT,2020,NA,rural,Safely managed,52109.58887389279,Latin America & Caribbean,UMC
+Samoa,WSM,2000,50.42360206747713,rural,Safely managed,136114.2382482282,East Asia & Pacific,LMC
+Samoa,WSM,2010,50.72620580481359,rural,Safely managed,148610.1655207446,East Asia & Pacific,LMC
+Samoa,WSM,2020,50.14743252474958,rural,Safely managed,162916.4382280945,East Asia & Pacific,LMC
+San Marino,SMR,2000,NA,rural,Safely managed,1801.3752695312726,Europe & Central Asia,HIC
+San Marino,SMR,2010,NA,rural,Safely managed,1330.0129135802854,Europe & Central Asia,HIC
+San Marino,SMR,2020,NA,rural,Safely managed,848.7891867037979,Europe & Central Asia,HIC
+Sao Tome and Principe,STP,2000,8.897219143468314,rural,Safely managed,66260.87904200658,Sub-Saharan Africa,LMC
+Sao Tome and Principe,STP,2010,18.75290156590452,rural,Safely managed,63216.78394976538,Sub-Saharan Africa,LMC
+Sao Tome and Principe,STP,2020,30.34628646837722,rural,Safely managed,56206.02034069597,Sub-Saharan Africa,LMC
+Saudi Arabia,SAU,2000,NA,rural,Safely managed,4164177.0935979486,Middle East & North Africa,HIC
+Saudi Arabia,SAU,2010,NA,rural,Safely managed,4912830.441670418,Middle East & North Africa,HIC
+Saudi Arabia,SAU,2020,NA,rural,Safely managed,5470302.058726549,Middle East & North Africa,HIC
+Senegal,SEN,2000,12.8727326466641,rural,Safely managed,5847286.156462803,Sub-Saharan Africa,LMC
+Senegal,SEN,2010,18.19638165168858,rural,Safely managed,7128538.894663006,Sub-Saharan Africa,LMC
+Senegal,SEN,2020,23.90389073224618,rural,Safely managed,8686415.567349792,Sub-Saharan Africa,LMC
+Serbia,SRB,2000,32.56724819036436,rural,Safely managed,4481094.0720791,Europe & Central Asia,UMC
+Serbia,SRB,2010,25.61267734402036,rural,Safely managed,4046695.743917227,Europe & Central Asia,UMC
+Serbia,SRB,2020,19.89449697678037,rural,Safely managed,3805474.255499989,Europe & Central Asia,UMC
+Seychelles,SYC,2000,NA,rural,Safely managed,40148.28029217897,Sub-Saharan Africa,HIC
+Seychelles,SYC,2010,NA,rural,Safely managed,42591.63179992029,Sub-Saharan Africa,HIC
+Seychelles,SYC,2020,NA,rural,Safely managed,41749.26063477178,Sub-Saharan Africa,HIC
+Sierra Leone,SLE,2000,4.308024689115557,rural,Safely managed,2951271.003826373,Sub-Saharan Africa,LIC
+Sierra Leone,SLE,2010,6.799686633674241,rural,Safely managed,3922776.681368407,Sub-Saharan Africa,LIC
+Sierra Leone,SLE,2020,9.74838157857387,rural,Safely managed,4553023.623636831,Sub-Saharan Africa,LIC
+Singapore,SGP,2000,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+Singapore,SGP,2010,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+Singapore,SGP,2020,NA,rural,Safely managed,0,East Asia & Pacific,HIC
+Sint Maarten (Dutch part),SXM,2000,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Sint Maarten (Dutch part),SXM,2010,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Sint Maarten (Dutch part),SXM,2020,NA,rural,Safely managed,0,Latin America & Caribbean,HIC
+Slovakia,SVK,2000,79.10230810217166,rural,Safely managed,2363070.849095583,Europe & Central Asia,HIC
+Slovakia,SVK,2010,76.66040985820447,rural,Safely managed,2448955.2845723927,Europe & Central Asia,HIC
+Slovakia,SVK,2020,75.00813039625217,rural,Safely managed,2524539.045544546,Europe & Central Asia,HIC
+Slovenia,SVN,2000,NA,rural,Safely managed,978867.691038549,Europe & Central Asia,HIC
+Slovenia,SVN,2010,NA,rural,Safely managed,967356.2159379853,Europe & Central Asia,HIC
+Slovenia,SVN,2020,NA,rural,Safely managed,933066.1285811104,Europe & Central Asia,HIC
+Solomon Islands,SLB,2000,NA,rural,Safely managed,347410.2840061713,East Asia & Pacific,LMC
+Solomon Islands,SLB,2010,NA,rural,Safely managed,422035.443296365,East Asia & Pacific,LMC
+Solomon Islands,SLB,2020,NA,rural,Safely managed,517425.18988733063,East Asia & Pacific,LMC
+Somalia,SOM,2000,6.422928365071288,rural,Safely managed,5922493.234739304,Sub-Saharan Africa,LIC
+Somalia,SOM,2010,12.52062302476702,rural,Safely managed,7309434.550973773,Sub-Saharan Africa,LIC
+Somalia,SOM,2020,20.87759840930837,rural,Safely managed,8559928.870871067,Sub-Saharan Africa,LIC
+South Africa,ZAF,2000,NA,rural,Safely managed,19385132.713468373,Sub-Saharan Africa,UMC
+South Africa,ZAF,2010,NA,rural,Safely managed,19350795.899003744,Sub-Saharan Africa,UMC
+South Africa,ZAF,2020,NA,rural,Safely managed,19361913.079738617,Sub-Saharan Africa,UMC
+South Sudan,SSD,2000,NA,rural,Safely managed,NA,Sub-Saharan Africa,LIC
+South Sudan,SSD,2010,NA,rural,Safely managed,NA,Sub-Saharan Africa,LIC
+South Sudan,SSD,2020,NA,rural,Safely managed,8932707.359366976,Sub-Saharan Africa,LIC
+Spain,ESP,2000,NA,rural,Safely managed,9690977.804137766,Europe & Central Asia,HIC
+Spain,ESP,2010,NA,rural,Safely managed,10117386.876150966,Europe & Central Asia,HIC
+Spain,ESP,2020,NA,rural,Safely managed,8972243.663349152,Europe & Central Asia,HIC
+Sri Lanka,LKA,2000,NA,rural,Safely managed,15326281.741181687,South Asia,LMC
+Sri Lanka,LKA,2010,NA,rural,Safely managed,16568833.89611803,South Asia,LMC
+Sri Lanka,LKA,2020,NA,rural,Safely managed,17406188.667998314,South Asia,LMC
+State of Palestine,PSE,2000,13.99258900624292,rural,Safely managed,903721.9150315784,Middle East & North Africa,LMC
+State of Palestine,PSE,2010,24.91085817540614,rural,Safely managed,1048421.3648587093,Middle East & North Africa,LMC
+State of Palestine,PSE,2020,48.037802175759,rural,Safely managed,1187660.961508751,Middle East & North Africa,LMC
+Sudan,SDN,2000,NA,rural,Safely managed,18412002.22589895,Sub-Saharan Africa,LIC
+Sudan,SDN,2010,NA,rural,Safely managed,23114415.1623708,Sub-Saharan Africa,LIC
+Sudan,SDN,2020,NA,rural,Safely managed,28391087.266012136,Sub-Saharan Africa,LIC
+Suriname,SUR,2000,37.38469185113135,rural,Safely managed,158029.9675721582,Latin America & Caribbean,UMC
+Suriname,SUR,2010,38.25736828814476,rural,Safely managed,178082.62930624187,Latin America & Caribbean,UMC
+Suriname,SUR,2020,33.94891047753703,rural,Safely managed,198581.4537447784,Latin America & Caribbean,UMC
+Sweden,SWE,2000,87.20160325817028,rural,Safely managed,1418752.6650833338,Europe & Central Asia,HIC
+Sweden,SWE,2010,88.71209029127053,rural,Safely managed,1403265.1188626885,Europe & Central Asia,HIC
+Sweden,SWE,2020,90.56667239148784,rural,Safely managed,1214235.4407986999,Europe & Central Asia,HIC
+Switzerland,CHE,2000,98.82978849264795,rural,Safely managed,1901456.0204437375,Europe & Central Asia,HIC
+Switzerland,CHE,2010,98.82978849264795,rural,Safely managed,2060943.1071136892,Europe & Central Asia,HIC
+Switzerland,CHE,2020,98.94784476192265,rural,Safely managed,2257557.0688603073,Europe & Central Asia,HIC
+Syrian Arab Republic,SYR,2000,NA,rural,Safely managed,7885905.480658859,Middle East & North Africa,LIC
+Syrian Arab Republic,SYR,2010,NA,rural,Safely managed,9484968.536904007,Middle East & North Africa,LIC
+Syrian Arab Republic,SYR,2020,NA,rural,Safely managed,7792166.794754267,Middle East & North Africa,LIC
+Tajikistan,TJK,2000,54.9642747123458,rural,Safely managed,4568939.641937669,Europe & Central Asia,LMC
+Tajikistan,TJK,2010,57.37786816907867,rural,Safely managed,5531131.404623827,Europe & Central Asia,LMC
+Tajikistan,TJK,2020,59.26221669104304,rural,Safely managed,6914218.035071623,Europe & Central Asia,LMC
+Thailand,THA,2000,18.38615577132712,rural,Safely managed,43194323.83943319,East Asia & Pacific,UMC
+Thailand,THA,2010,19.97211072289684,rural,Safely managed,37725979.02170777,East Asia & Pacific,UMC
+Thailand,THA,2020,22.06526510927008,rural,Safely managed,33901848.403393626,East Asia & Pacific,UMC
+Timor-Leste,TLS,2000,NA,rural,Safely managed,NA,East Asia & Pacific,LMC
+Timor-Leste,TLS,2010,NA,rural,Safely managed,790262.8384327869,East Asia & Pacific,LMC
+Timor-Leste,TLS,2020,NA,rural,Safely managed,905505.9810255192,East Asia & Pacific,LMC
+Togo,TGO,2000,2.635649157311523,rural,Safely managed,3303931.4840723015,Sub-Saharan Africa,LIC
+Togo,TGO,2010,4.433254375425596,rural,Safely managed,4011426.9294629246,Sub-Saharan Africa,LIC
+Togo,TGO,2020,6.781191240618545,rural,Safely managed,4735437.801443003,Sub-Saharan Africa,LIC
+Tokelau,TKL,2000,NA,rural,Safely managed,1549.999952316284,NA,NA
+Tokelau,TKL,2010,NA,rural,Safely managed,1128.999948501587,NA,NA
+Tokelau,TKL,2020,NA,rural,Safely managed,1350.000023841858,NA,NA
+Tonga,TON,2000,34.63432779141115,rural,Safely managed,75418.98386136381,East Asia & Pacific,UMC
+Tonga,TON,2010,38.70943353031433,rural,Safely managed,79660.88612440859,East Asia & Pacific,UMC
+Tonga,TON,2020,36.97101494007052,rural,Safely managed,81282.0499226544,East Asia & Pacific,UMC
+Trinidad and Tobago,TTO,2000,NA,rural,Safely managed,558753.8019245493,Latin America & Caribbean,HIC
+Trinidad and Tobago,TTO,2010,NA,rural,Safely managed,610614.203489013,Latin America & Caribbean,HIC
+Trinidad and Tobago,TTO,2020,NA,rural,Safely managed,654765.8339024987,Latin America & Caribbean,HIC
+Tunisia,TUN,2000,24.96094273247159,rural,Safely managed,3550147.9205156495,Middle East & North Africa,LMC
+Tunisia,TUN,2010,41.75279270264423,rural,Safely managed,3546110.02609089,Middle East & North Africa,LMC
+Tunisia,TUN,2020,62.88169733855545,rural,Safely managed,3596641.785911843,Middle East & North Africa,LMC
+Turkey,TUR,2000,51.94524049413661,rural,Safely managed,22297862.163579464,Europe & Central Asia,UMC
+Turkey,TUR,2010,64.87027065405103,rural,Safely managed,21101402.17794776,Europe & Central Asia,UMC
+Turkey,TUR,2020,79.8689478602211,rural,Safely managed,20152818.01996529,Europe & Central Asia,UMC
+Turkmenistan,TKM,2000,NA,rural,Safely managed,2442638.1946446374,Europe & Central Asia,UMC
+Turkmenistan,TKM,2010,NA,rural,Safely managed,2620371.424354613,Europe & Central Asia,UMC
+Turkmenistan,TKM,2020,NA,rural,Safely managed,2863848.680514749,Europe & Central Asia,UMC
+Turks and Caicos Islands,TCA,2000,NA,rural,Safely managed,3116.418811347976,Latin America & Caribbean,HIC
+Turks and Caicos Islands,TCA,2010,NA,rural,Safely managed,3191.340888956329,Latin America & Caribbean,HIC
+Turks and Caicos Islands,TCA,2020,NA,rural,Safely managed,2476.017658583005,Latin America & Caribbean,HIC
+Tuvalu,TUV,2000,NA,rural,Safely managed,5069.989042627858,East Asia & Pacific,UMC
+Tuvalu,TUV,2010,7.14907834101375,rural,Safely managed,4755.9126477090485,East Asia & Pacific,UMC
+Tuvalu,TUV,2020,NA,rural,Safely managed,4243.469061304931,East Asia & Pacific,UMC
+Uganda,UGA,2000,13.23762244818856,rural,Safely managed,20153245.526121445,Sub-Saharan Africa,LIC
+Uganda,UGA,2010,14.51749628782631,rural,Safely managed,26142613.210295144,Sub-Saharan Africa,LIC
+Uganda,UGA,2020,15.57435975336636,rural,Safely managed,34326790.643634796,Sub-Saharan Africa,LIC
+Ukraine,UKR,2000,NA,rural,Safely managed,16045742.064389586,Europe & Central Asia,LMC
+Ukraine,UKR,2010,NA,rural,Safely managed,14380546.360370517,Europe & Central Asia,LMC
+Ukraine,UKR,2020,NA,rural,Safely managed,13291562.926971912,Europe & Central Asia,LMC
+United Arab Emirates,ARE,2000,NA,rural,Safely managed,619416.9791222736,Middle East & North Africa,HIC
+United Arab Emirates,ARE,2010,NA,rural,Safely managed,1360560.7090967894,Middle East & North Africa,HIC
+United Arab Emirates,ARE,2020,NA,rural,Safely managed,1281005.002681166,Middle East & North Africa,HIC
+United Kingdom,GBR,2000,93.50985963922419,rural,Safely managed,12579535.742311478,Europe & Central Asia,HIC
+United Kingdom,GBR,2010,93.55038346037533,rural,Safely managed,11865717.152227461,Europe & Central Asia,HIC
+United Kingdom,GBR,2020,93.5762736794441,rural,Safely managed,10927610.760446787,Europe & Central Asia,HIC
+United Republic of Tanzania,TZA,2000,3.594263896696149,rural,Safely managed,26025844.65109937,Sub-Saharan Africa,LMC
+United Republic of Tanzania,TZA,2010,14.15230064673079,rural,Safely managed,31878947.312273383,Sub-Saharan Africa,LMC
+United Republic of Tanzania,TZA,2020,21.74834146907515,rural,Safely managed,38691642.269794196,Sub-Saharan Africa,LMC
+United States Virgin Islands,VIR,2000,NA,rural,Safely managed,8061.244041607715,Latin America & Caribbean,HIC
+United States Virgin Islands,VIR,2010,NA,rural,Safely managed,5735.0072030676565,Latin America & Caribbean,HIC
+United States Virgin Islands,VIR,2020,NA,rural,Safely managed,4240.614765715436,Latin America & Caribbean,HIC
+United States of America,USA,2000,NA,rural,Safely managed,58998695.83835602,North America,HIC
+United States of America,USA,2010,NA,rural,Safely managed,59416715.403757095,North America,HIC
+United States of America,USA,2020,NA,rural,Safely managed,57382615.63882828,North America,HIC
+Uruguay,URY,2000,NA,rural,Safely managed,264649.1895016283,Latin America & Caribbean,HIC
+Uruguay,URY,2010,NA,rural,Safely managed,187648.93773525953,Latin America & Caribbean,HIC
+Uruguay,URY,2020,NA,rural,Safely managed,155796.6794294864,Latin America & Caribbean,HIC
+Uzbekistan,UZB,2000,NA,rural,Safely managed,13344565.734854488,Europe & Central Asia,LMC
+Uzbekistan,UZB,2010,NA,rural,Safely managed,13985342.741436884,Europe & Central Asia,LMC
+Uzbekistan,UZB,2020,NA,rural,Safely managed,16595368.894805761,Europe & Central Asia,LMC
+Vanuatu,VUT,2000,NA,rural,Safely managed,144876.75519680663,East Asia & Pacific,LMC
+Vanuatu,VUT,2010,NA,rural,Safely managed,178432.84491417118,East Asia & Pacific,LMC
+Vanuatu,VUT,2020,NA,rural,Safely managed,228749.95326766974,East Asia & Pacific,LMC
+Venezuela (Bolivarian Republic of),VEN,2000,NA,rural,Safely managed,3009781.2193101645,Latin America & Caribbean,NA
+Venezuela (Bolivarian Republic of),VEN,2010,NA,rural,Safely managed,3389187.7653077245,Latin America & Caribbean,NA
+Venezuela (Bolivarian Republic of),VEN,2020,NA,rural,Safely managed,3332977.112067491,Latin America & Caribbean,NA
+Viet Nam,VNM,2000,NA,rural,Safely managed,60433049.29994524,East Asia & Pacific,LMC
+Viet Nam,VNM,2010,NA,rural,Safely managed,61210532.73166121,East Asia & Pacific,LMC
+Viet Nam,VNM,2020,NA,rural,Safely managed,60992357.799910605,East Asia & Pacific,LMC
+Wallis and Futuna Islands,WLF,2000,NA,rural,Safely managed,14696.99954986572,NA,NA
+Wallis and Futuna Islands,WLF,2010,NA,rural,Safely managed,12685.999870300288,NA,NA
+Wallis and Futuna Islands,WLF,2020,NA,rural,Safely managed,11246.00028991699,NA,NA
+Western Sahara,ESH,2000,NA,rural,Safely managed,44683.019790099934,NA,NA
+Western Sahara,ESH,2010,NA,rural,Safely managed,65950.41334345473,NA,NA
+Western Sahara,ESH,2020,NA,rural,Safely managed,78674.32233223226,NA,NA
+Yemen,YEM,2000,NA,rural,Safely managed,12836229.446930587,Middle East & North Africa,LIC
+Yemen,YEM,2010,NA,rural,Safely managed,15797167.478022166,Middle East & North Africa,LIC
+Yemen,YEM,2020,NA,rural,Safely managed,18519541.37185335,Middle East & North Africa,LIC
+Zambia,ZMB,2000,8.59171333882225,rural,Safely managed,6790986.308646388,Sub-Saharan Africa,LIC
+Zambia,ZMB,2010,15.74709190903739,rural,Safely managed,8251349.95194748,Sub-Saharan Africa,LIC
+Zambia,ZMB,2020,23.75176750283691,rural,Safely managed,10179380.17025292,Sub-Saharan Africa,LIC
+Zimbabwe,ZWE,2000,32.73209513191167,rural,Safely managed,7870531.6547913095,Sub-Saharan Africa,LMC
+Zimbabwe,ZWE,2010,31.95950586149522,rural,Safely managed,8482590.013696402,Sub-Saharan Africa,LMC
+Zimbabwe,ZWE,2020,30.24079560658547,rural,Safely managed,10070821.826378293,Sub-Saharan Africa,LMC
+Afghanistan,AFG,2000,NA,urban,Safely managed,4587798.729454726,South Asia,LIC
+Afghanistan,AFG,2010,NA,urban,Safely managed,6927765.330841766,South Asia,LIC
+Afghanistan,AFG,2020,NA,urban,Safely managed,10131489.365394786,South Asia,LIC
+Albania,ALB,2000,42.26805655031723,urban,Safely managed,1306178.647326082,Europe & Central Asia,UMC
+Albania,ALB,2010,42.96085561541705,urban,Safely managed,1537780.341697475,Europe & Central Asia,UMC
+Albania,ALB,2020,44.08340404129971,urban,Safely managed,1787459.152276367,Europe & Central Asia,UMC
+Algeria,DZA,2000,19.58487790977637,urban,Safely managed,18600199.54202935,Middle East & North Africa,LMC
+Algeria,DZA,2010,18.02575410869694,urban,Safely managed,24299169.53172713,Middle East & North Africa,LMC
+Algeria,DZA,2020,15.85036022927021,urban,Safely managed,32332690.26155591,Middle East & North Africa,LMC
+American Samoa,ASM,2000,NA,urban,Safely managed,51217.46043163875,East Asia & Pacific,UMC
+American Samoa,ASM,2010,NA,urban,Safely managed,49126.21963191894,East Asia & Pacific,UMC
+American Samoa,ASM,2020,NA,urban,Safely managed,48105.840119159555,East Asia & Pacific,UMC
+Andorra,AND,2000,14.60403551251147,urban,Safely managed,60417.092729827855,Europe & Central Asia,HIC
+Andorra,AND,2010,86.45028248587732,urban,Safely managed,75011.20058040833,Europe & Central Asia,HIC
+Andorra,AND,2020,100,urban,Safely managed,67928.2971463562,Europe & Central Asia,HIC
+Angola,AGO,2000,NA,urban,Safely managed,8212002.015628219,Sub-Saharan Africa,LMC
+Angola,AGO,2010,NA,urban,Safely managed,13963064.82318714,Sub-Saharan Africa,LMC
+Angola,AGO,2020,NA,urban,Safely managed,21962883.611258864,Sub-Saharan Africa,LMC
+Anguilla,AIA,2000,NA,urban,Safely managed,11246.999740600591,NA,NA
+Anguilla,AIA,2010,NA,urban,Safely managed,13435.999870300288,NA,NA
+Anguilla,AIA,2020,NA,urban,Safely managed,15001.999855041498,NA,NA
+Antigua and Barbuda,ATG,2000,NA,urban,Safely managed,24418.769270705525,Latin America & Caribbean,HIC
+Antigua and Barbuda,ATG,2010,NA,urban,Safely managed,23097.311845353688,Latin America & Caribbean,HIC
+Antigua and Barbuda,ATG,2020,NA,urban,Safely managed,23926.74913586976,Latin America & Caribbean,HIC
+Argentina,ARG,2000,44.52317283105587,urban,Safely managed,32867367.933214903,Latin America & Caribbean,UMC
+Argentina,ARG,2010,45.93688773780067,urban,Safely managed,37153379.51812744,Latin America & Caribbean,UMC
+Argentina,ARG,2020,47.12357129946154,urban,Safely managed,41630282.496686876,Latin America & Caribbean,UMC
+Armenia,ARM,2000,43.93344512442916,urban,Safely managed,1984985.558003895,Europe & Central Asia,UMC
+Armenia,ARM,2010,52.61192077414474,urban,Safely managed,1825368.049543798,Europe & Central Asia,UMC
+Armenia,ARM,2020,71.35784847386094,urban,Safely managed,1876112.262559477,Europe & Central Asia,UMC
+Aruba,ABW,2000,NA,urban,Safely managed,42449.86710575991,Latin America & Caribbean,HIC
+Aruba,ABW,2010,NA,urban,Safely managed,43775.93082062374,Latin America & Caribbean,HIC
+Aruba,ABW,2020,NA,urban,Safely managed,46653.537014469606,Latin America & Caribbean,HIC
+Australia,AUS,2000,NA,urban,Safely managed,15997434.203609824,East Asia & Pacific,HIC
+Australia,AUS,2010,NA,urban,Safely managed,18871807.42073059,East Asia & Pacific,HIC
+Australia,AUS,2020,NA,urban,Safely managed,21991351.56712234,East Asia & Pacific,HIC
+Austria,AUT,2000,100,urban,Safely managed,4858752.878111824,Europe & Central Asia,HIC
+Austria,AUT,2010,99.97531842800146,urban,Safely managed,4827224.684444666,Europe & Central Asia,HIC
+Austria,AUT,2020,99.95336801356014,urban,Safely managed,5291080.200431645,Europe & Central Asia,HIC
+Azerbaijan,AZE,2000,12.06877260324913,urban,Safely managed,4173952.621328049,Europe & Central Asia,UMC
+Azerbaijan,AZE,2010,13.51854191982225,urban,Safely managed,4823878.3591379225,Europe & Central Asia,UMC
+Azerbaijan,AZE,2020,8.879293377839446,urban,Safely managed,5718190.736399591,Europe & Central Asia,UMC
+Bahamas,BHS,2000,NA,urban,Safely managed,244417.785440241,Latin America & Caribbean,HIC
+Bahamas,BHS,2010,NA,urban,Safely managed,292563.1074758619,Latin America & Caribbean,HIC
+Bahamas,BHS,2020,NA,urban,Safely managed,327359.2966132565,Latin America & Caribbean,HIC
+Bahrain,BHR,2000,NA,urban,Safely managed,587329.0965016,Middle East & North Africa,HIC
+Bahrain,BHR,2010,NA,urban,Safely managed,1099827.3485315032,Middle East & North Africa,HIC
+Bahrain,BHR,2020,NA,urban,Safely managed,1523018.9607106894,Middle East & North Africa,HIC
+Bangladesh,BGD,2000,25.49803171831159,urban,Safely managed,30114489.221352935,South Asia,LMC
+Bangladesh,BGD,2010,30.5838332865959,urban,Safely managed,44954429.61362243,South Asia,LMC
+Bangladesh,BGD,2020,33.5087628380091,urban,Safely managed,62873471.87549591,South Asia,LMC
+Barbados,BRB,2000,NA,urban,Safely managed,91844.02043377049,Latin America & Caribbean,HIC
+Barbados,BRB,2010,NA,urban,Safely managed,89915.14511786692,Latin America & Caribbean,HIC
+Barbados,BRB,2020,NA,urban,Safely managed,89633.88925149979,Latin America & Caribbean,HIC
+Belarus,BLR,2000,88.668767716176,urban,Safely managed,6907478.952374607,Europe & Central Asia,UMC
+Belarus,BLR,2010,85.5314894659792,urban,Safely managed,7034532.3630690575,Europe & Central Asia,UMC
+Belarus,BLR,2020,80.32588023063563,urban,Safely managed,7510604.201672971,Europe & Central Asia,UMC
+Belgium,BEL,2000,NA,urban,Safely managed,9986848.919227347,Europe & Central Asia,HIC
+Belgium,BEL,2010,NA,urban,Safely managed,10681784.564977884,Europe & Central Asia,HIC
+Belgium,BEL,2020,NA,urban,Safely managed,11366979.075183721,Europe & Central Asia,HIC
+Belize,BLZ,2000,NA,urban,Safely managed,112273.79918233027,Latin America & Caribbean,UMC
+Belize,BLZ,2010,NA,urban,Safely managed,145844.47061027982,Latin America & Caribbean,UMC
+Belize,BLZ,2020,NA,urban,Safely managed,183005.07232850647,Latin America & Caribbean,UMC
+Benin,BEN,2000,NA,urban,Safely managed,2631922.754470352,Sub-Saharan Africa,LMC
+Benin,BEN,2010,NA,urban,Safely managed,3964234.348258227,Sub-Saharan Africa,LMC
+Benin,BEN,2020,NA,urban,Safely managed,5869446.077482961,Sub-Saharan Africa,LMC
+Bermuda,BMU,2000,NA,urban,Safely managed,65016.998291015625,North America,HIC
+Bermuda,BMU,2010,NA,urban,Safely managed,65388.00048828125,North America,HIC
+Bermuda,BMU,2020,NA,urban,Safely managed,62272.99880981445,North America,HIC
+Bhutan,BTN,2000,79.50784451688953,urban,Safely managed,150223.93963074894,South Asia,LMC
+Bhutan,BTN,2010,69.13550618276732,urban,Safely managed,238506.73691580302,South Asia,LMC
+Bhutan,BTN,2020,63.09349016954152,urban,Safely managed,326515.31887830934,South Asia,LMC
+Bolivia (Plurinational State of),BOL,2000,38.12393866734762,urban,Safely managed,5201396.089942306,Latin America & Caribbean,LMC
+Bolivia (Plurinational State of),BOL,2010,46.99531219452879,urban,Safely managed,6675283.571629375,Latin America & Caribbean,LMC
+Bolivia (Plurinational State of),BOL,2020,59.90808177113143,urban,Safely managed,8185478.462091386,Latin America & Caribbean,LMC
+Bosnia and Herzegovina,BIH,2000,6.451039657162805,urban,Safely managed,1589898.4042451438,Europe & Central Asia,UMC
+Bosnia and Herzegovina,BIH,2010,6.9887794018876654,urban,Safely managed,1688141.7712938602,Europe & Central Asia,UMC
+Bosnia and Herzegovina,BIH,2020,29.84565384840872,urban,Safely managed,1608255.499295723,Europe & Central Asia,UMC
+Botswana,BWA,2000,NA,urban,Safely managed,874565.4225150496,Sub-Saharan Africa,UMC
+Botswana,BWA,2010,NA,urban,Safely managed,1240192.469237186,Sub-Saharan Africa,UMC
+Botswana,BWA,2020,NA,urban,Safely managed,1666761.2254142761,Sub-Saharan Africa,UMC
+Brazil,BRA,2000,39.03270228654303,urban,Safely managed,141915778.2445383,Latin America & Caribbean,UMC
+Brazil,BRA,2010,42.17754584771416,urban,Safely managed,165055097.02928185,Latin America & Caribbean,UMC
+Brazil,BRA,2020,50.67438349634507,urban,Safely managed,185081847.6525116,Latin America & Caribbean,UMC
+British Virgin Islands,VGB,2000,NA,urban,Safely managed,8485.552151919257,Latin America & Caribbean,HIC
+British Virgin Islands,VGB,2010,NA,urban,Safely managed,12456.498998987736,Latin America & Caribbean,HIC
+British Virgin Islands,VGB,2020,NA,urban,Safely managed,14669.480128558353,Latin America & Caribbean,HIC
+Brunei Darussalam,BRN,2000,NA,urban,Safely managed,237094.2465222068,East Asia & Pacific,HIC
+Brunei Darussalam,BRN,2010,NA,urban,Safely managed,291323.95871065324,East Asia & Pacific,HIC
+Brunei Darussalam,BRN,2020,NA,urban,Safely managed,342330.4822145845,East Asia & Pacific,HIC
+Bulgaria,BGR,2000,53.89873226120205,urban,Safely managed,5510508.543883264,Europe & Central Asia,UMC
+Bulgaria,BGR,2010,56.85901150759233,urban,Safely managed,5368431.764873266,Europe & Central Asia,UMC
+Bulgaria,BGR,2020,76.1267622241613,urban,Safely managed,5258999.7418494895,Europe & Central Asia,UMC
+Burkina Faso,BFA,2000,NA,urban,Safely managed,2071322.79116828,Sub-Saharan Africa,LIC
+Burkina Faso,BFA,2010,NA,urban,Safely managed,3844031.5197500587,Sub-Saharan Africa,LIC
+Burkina Faso,BFA,2020,NA,urban,Safely managed,6397866.1699620625,Sub-Saharan Africa,LIC
+Burundi,BDI,2000,NA,urban,Safely managed,526001.7288840562,Sub-Saharan Africa,LIC
+Burundi,BDI,2010,NA,urban,Safely managed,923258.0551194586,Sub-Saharan Africa,LIC
+Burundi,BDI,2020,NA,urban,Safely managed,1629988.3155226707,Sub-Saharan Africa,LIC
+Cabo Verde,CPV,2000,NA,urban,Safely managed,228796.90867332742,Sub-Saharan Africa,LMC
+Cabo Verde,CPV,2010,NA,urban,Safely managed,304557.46952071204,Sub-Saharan Africa,LMC
+Cabo Verde,CPV,2020,NA,urban,Safely managed,370577.10818842513,Sub-Saharan Africa,LMC
+Cambodia,KHM,2000,NA,urban,Safely managed,2259173.1852523796,East Asia & Pacific,LMC
+Cambodia,KHM,2010,NA,urban,Safely managed,2904518.9880933235,East Asia & Pacific,LMC
+Cambodia,KHM,2020,NA,urban,Safely managed,4051341.0394568373,East Asia & Pacific,LMC
+Cameroon,CMR,2000,NA,urban,Safely managed,7065360.501065777,Sub-Saharan Africa,LMC
+Cameroon,CMR,2010,NA,urban,Safely managed,10487738.429500088,Sub-Saharan Africa,LMC
+Cameroon,CMR,2020,NA,urban,Safely managed,15279800.281883776,Sub-Saharan Africa,LMC
+Canada,CAN,2000,77.62994142376175,urban,Safely managed,24311033.149994906,North America,HIC
+Canada,CAN,2010,80.9131829185676,urban,Safely managed,27638014.613389373,North America,HIC
+Canada,CAN,2020,84.42854698286042,urban,Safely managed,30783259.02403593,North America,HIC
+Caribbean Netherlands,BES,2000,NA,urban,Safely managed,10782.624750932082,NA,NA
+Caribbean Netherlands,BES,2010,NA,urban,Safely managed,15650.88435131256,NA,NA
+Caribbean Netherlands,BES,2020,NA,urban,Safely managed,19678.33767213626,NA,NA
+Cayman Islands,CYM,2000,NA,urban,Safely managed,42305.00030517578,Latin America & Caribbean,HIC
+Cayman Islands,CYM,2010,NA,urban,Safely managed,56672.00088500977,Latin America & Caribbean,HIC
+Cayman Islands,CYM,2020,NA,urban,Safely managed,65720.001220703125,Latin America & Caribbean,HIC
+Central African Republic,CAF,2000,36.8297970857021,urban,Safely managed,1370218.019740954,Sub-Saharan Africa,LIC
+Central African Republic,CAF,2010,31.47642203343176,urban,Safely managed,1706627.079336904,Sub-Saharan Africa,LIC
+Central African Republic,CAF,2020,24.13228302829022,urban,Safely managed,2038063.7859714031,Sub-Saharan Africa,LIC
+Chad,TCD,2000,18.38163852639616,urban,Safely managed,1807913.006912917,Sub-Saharan Africa,LIC
+Chad,TCD,2010,23.45617448761817,urban,Safely managed,2627676.686475426,Sub-Saharan Africa,LIC
+Chad,TCD,2020,32.26063274770305,urban,Safely managed,3863362.200191617,Sub-Saharan Africa,LIC
+Channel Islands,CHI,2000,NA,urban,Safely managed,45221.94299457769,Europe & Central Asia,HIC
+Channel Islands,CHI,2010,NA,urban,Safely managed,49598.826758645286,Europe & Central Asia,HIC
+Channel Islands,CHI,2020,NA,urban,Safely managed,53831.96234213828,Europe & Central Asia,HIC
+Chile,CHL,2000,52.95581834538748,urban,Safely managed,13205620.279622078,Latin America & Caribbean,HIC
+Chile,CHL,2010,64.8423299991899,urban,Safely managed,14857028.033645153,Latin America & Caribbean,HIC
+Chile,CHL,2020,81.35025592885862,urban,Safely managed,16770076.154015513,Latin America & Caribbean,HIC
+China,CHN,2000,27.74213049137189,urban,Safely managed,478358022.9772568,East Asia & Pacific,UMC
+China,CHN,2010,53.59074602375906,urban,Safely managed,691128789.5191668,East Asia & Pacific,UMC
+China,CHN,2020,85.61644761268599,urban,Safely managed,902949198.8028717,East Asia & Pacific,UMC
+"China, Hong Kong SAR",HKG,2000,86.10844888552322,urban,Safely managed,6606328.125,East Asia & Pacific,HIC
+"China, Hong Kong SAR",HKG,2010,86.03163817445608,urban,Safely managed,6966324.21875,East Asia & Pacific,HIC
+"China, Hong Kong SAR",HKG,2020,85.92190858721729,urban,Safely managed,7496987.79296875,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2000,54.72221620347318,urban,Safely managed,427772.0031738281,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2010,55.79875247463541,urban,Safely managed,538215.02685546875,East Asia & Pacific,HIC
+"China, Macao SAR",MAC,2020,66.56411518625964,urban,Safely managed,649341.97998046875,East Asia & Pacific,HIC
+Colombia,COL,2000,14.23357394368315,urban,Safely managed,29309133.38975072,Latin America & Caribbean,UMC
+Colombia,COL,2010,15.41146544094562,urban,Safely managed,35257427.26143539,Latin America & Caribbean,UMC
+Colombia,COL,2020,16.59862976266254,urban,Safely managed,41431385.0008446,Latin America & Caribbean,UMC
+Comoros,COM,2000,NA,urban,Safely managed,152294.12824141793,Sub-Saharan Africa,LMC
+Comoros,COM,2010,NA,urban,Safely managed,192928.6546259327,Sub-Saharan Africa,LMC
+Comoros,COM,2020,NA,urban,Safely managed,255486.9950946467,Sub-Saharan Africa,LMC
+Congo,COG,2000,NA,urban,Safely managed,1835639.113600403,Sub-Saharan Africa,LMC
+Congo,COG,2010,NA,urban,Safely managed,2703395.7635225723,Sub-Saharan Africa,LMC
+Congo,COG,2020,NA,urban,Safely managed,3742866.616253406,Sub-Saharan Africa,LMC
+Cook Islands,COK,2000,NA,urban,Safely managed,11692.005841188799,NA,NA
+Cook Islands,COK,2010,NA,urban,Safely managed,13473.060643358624,NA,NA
+Cook Islands,COK,2020,NA,urban,Safely managed,13259.941660350014,NA,NA
+Costa Rica,CRI,2000,39.47351040325056,urban,Safely managed,2339858.1581419706,Latin America & Caribbean,UMC
+Costa Rica,CRI,2010,34.3661350318511,urban,Safely managed,3283622.9306063056,Latin America & Caribbean,UMC
+Costa Rica,CRI,2020,28.68795629721021,urban,Safely managed,4114566.433799267,Latin America & Caribbean,UMC
+Côte d'Ivoire,CIV,2000,NA,urban,Safely managed,7101008.389567137,Sub-Saharan Africa,LMC
+Côte d'Ivoire,CIV,2010,NA,urban,Safely managed,9718242.46796161,Sub-Saharan Africa,LMC
+Côte d'Ivoire,CIV,2020,NA,urban,Safely managed,13639150.405325666,Sub-Saharan Africa,LMC
+Croatia,HRV,2000,89.3439160024525,urban,Safely managed,2365832.0775132626,Europe & Central Asia,HIC
+Croatia,HRV,2010,89.5160377507226,urban,Safely managed,2387198.297214806,Europe & Central Asia,HIC
+Croatia,HRV,2020,75.59363914926153,urban,Safely managed,2362704.8312853463,Europe & Central Asia,HIC
+Cuba,CUB,2000,34.88242281191082,urban,Safely managed,8380755.267169476,Latin America & Caribbean,UMC
+Cuba,CUB,2010,32.87335674878569,urban,Safely managed,8598651.32269755,Latin America & Caribbean,UMC
+Cuba,CUB,2020,32.40776995971068,urban,Safely managed,8743468.145523965,Latin America & Caribbean,UMC
+Curaçao,CUW,2000,NA,urban,Safely managed,119926.04686850215,Latin America & Caribbean,HIC
+Curaçao,CUW,2010,NA,urban,Safely managed,134127.47276152953,Latin America & Caribbean,HIC
+Curaçao,CUW,2020,NA,urban,Safely managed,146150.74162670874,Latin America & Caribbean,HIC
+Cyprus,CYP,2000,86.3421395521932,urban,Safely managed,647548.3161245007,Europe & Central Asia,HIC
+Cyprus,CYP,2010,86.33073504462602,urban,Safely managed,751583.8992512785,Europe & Central Asia,HIC
+Cyprus,CYP,2020,86.31933053705883,urban,Safely managed,806770.658043791,Europe & Central Asia,HIC
+Czech Republic,CZE,2000,NA,urban,Safely managed,7612902.730715573,Europe & Central Asia,HIC
+Czech Republic,CZE,2010,NA,urban,Safely managed,7718523.604810238,Europe & Central Asia,HIC
+Czech Republic,CZE,2020,NA,urban,Safely managed,7931179.968219399,Europe & Central Asia,HIC
+Democratic People's Republic of Korea,PRK,2000,NA,urban,Safely managed,13622623.608731627,East Asia & Pacific,LIC
+Democratic People's Republic of Korea,PRK,2010,NA,urban,Safely managed,14821853.699223252,East Asia & Pacific,LIC
+Democratic People's Republic of Korea,PRK,2020,NA,urban,Safely managed,16081082.377744094,East Asia & Pacific,LIC
+Democratic Republic of the Congo,COD,2000,19.65818298773244,urban,Safely managed,16544509.730342627,Sub-Saharan Africa,LIC
+Democratic Republic of the Congo,COD,2010,17.99107505139711,urban,Safely managed,25833934.240956306,Sub-Saharan Africa,LIC
+Democratic Republic of the Congo,COD,2020,14.50185524396522,urban,Safely managed,40874035.021686554,Sub-Saharan Africa,LIC
+Denmark,DNK,2000,NA,urban,Safely managed,4545354.628246576,Europe & Central Asia,HIC
+Denmark,DNK,2010,NA,urban,Safely managed,4821331.61674235,Europe & Central Asia,HIC
+Denmark,DNK,2020,NA,urban,Safely managed,5103857.991982698,Europe & Central Asia,HIC
+Djibouti,DJI,2000,29.12206554103782,urban,Safely managed,549176.0331763141,Middle East & North Africa,LMC
+Djibouti,DJI,2010,34.22354531178699,urban,Safely managed,646940.9593650792,Middle East & North Africa,LMC
+Djibouti,DJI,2020,41.61887625134126,urban,Safely managed,771254.097318044,Middle East & North Africa,LMC
+Dominica,DMA,2000,NA,urban,Safely managed,45457.073070754996,Latin America & Caribbean,UMC
+Dominica,DMA,2010,NA,urban,Safely managed,48262.97947894782,Latin America & Caribbean,UMC
+Dominica,DMA,2020,NA,urban,Safely managed,51178.40284693288,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2000,NA,urban,Safely managed,5231292.4838051945,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2010,NA,urban,Safely managed,7150439.619526267,Latin America & Caribbean,UMC
+Dominican Republic,DOM,2020,NA,urban,Safely managed,8953860.305956155,Latin America & Caribbean,UMC
+Ecuador,ECU,2000,38.69015587367812,urban,Safely managed,7646589.875198901,Latin America & Caribbean,UMC
+Ecuador,ECU,2010,35.24037939069112,urban,Safely managed,9410467.894704938,Latin America & Caribbean,UMC
+Ecuador,ECU,2020,31.22448278109849,urban,Safely managed,11320846.29511863,Latin America & Caribbean,UMC
+Egypt,EGY,2000,64.67239669408431,urban,Safely managed,29457844.41229105,Middle East & North Africa,LMC
+Egypt,EGY,2010,67.50378790624215,urban,Safely managed,35603059.61011261,Middle East & North Africa,LMC
+Egypt,EGY,2020,72.84613786958167,urban,Safely managed,43781729.99406695,Middle East & North Africa,LMC
+El Salvador,SLV,2000,18.78251983976048,urban,Safely managed,3468697.3514852487,Latin America & Caribbean,LMC
+El Salvador,SLV,2010,18.03357650411921,urban,Safely managed,4047470.8867043257,Latin America & Caribbean,LMC
+El Salvador,SLV,2020,17.05736426278213,urban,Safely managed,4763725.604507327,Latin America & Caribbean,LMC
+Equatorial Guinea,GNQ,2000,NA,urban,Safely managed,297585.8762696595,Sub-Saharan Africa,UMC
+Equatorial Guinea,GNQ,2010,NA,urban,Safely managed,622236.1767032463,Sub-Saharan Africa,UMC
+Equatorial Guinea,GNQ,2020,NA,urban,Safely managed,1025582.0028841406,Sub-Saharan Africa,UMC
+Eritrea,ERI,2000,NA,urban,Safely managed,609483.9084339514,Sub-Saharan Africa,LIC
+Eritrea,ERI,2010,NA,urban,Safely managed,1115201.1946835555,Sub-Saharan Africa,LIC
+Eritrea,ERI,2020,NA,urban,Safely managed,1466341.1768266931,Sub-Saharan Africa,LIC
+Estonia,EST,2000,NA,urban,Safely managed,970535.2391156744,Europe & Central Asia,HIC
+Estonia,EST,2010,NA,urban,Safely managed,907082.2590179369,Europe & Central Asia,HIC
+Estonia,EST,2020,NA,urban,Safely managed,918349.6948879961,Europe & Central Asia,HIC
+Eswatini,SWZ,2000,NA,urban,Safely managed,228092.29417821168,Sub-Saharan Africa,LMC
+Eswatini,SWZ,2010,NA,urban,Safely managed,239376.2592834305,Sub-Saharan Africa,LMC
+Eswatini,SWZ,2020,NA,urban,Safely managed,280423.2426817949,Sub-Saharan Africa,LMC
+Ethiopia,ETH,2000,12.31633946061115,urban,Safely managed,9761537.842492461,Sub-Saharan Africa,LIC
+Ethiopia,ETH,2010,14.04808828840207,urban,Safely managed,15178365.048730373,Sub-Saharan Africa,LIC
+Ethiopia,ETH,2020,15.9163378620986,urban,Safely managed,24941349.618299603,Sub-Saharan Africa,LIC
+Faeroe Islands,FRO,2000,NA,urban,Safely managed,16983.18752450315,Europe & Central Asia,HIC
+Faeroe Islands,FRO,2010,NA,urban,Safely managed,19563.855727225015,Europe & Central Asia,HIC
+Faeroe Islands,FRO,2020,NA,urban,Safely managed,20717.782830052165,Europe & Central Asia,HIC
+Falkland Islands (Malvinas),FLK,2000,NA,urban,Safely managed,1955.8415851449174,NA,NA
+Falkland Islands (Malvinas),FLK,2010,NA,urban,Safely managed,2137.787294095688,NA,NA
+Falkland Islands (Malvinas),FLK,2020,NA,urban,Safely managed,2734.433518384321,NA,NA
+Fiji,FJI,2000,NA,urban,Safely managed,388539.12006499246,East Asia & Pacific,UMC
+Fiji,FJI,2010,NA,urban,Safely managed,448574.57393931685,East Asia & Pacific,UMC
+Fiji,FJI,2020,NA,urban,Safely managed,513187.3283189303,East Asia & Pacific,UMC
+Finland,FIN,2000,NA,urban,Safely managed,4263615.0512468815,Europe & Central Asia,HIC
+Finland,FIN,2010,NA,urban,Safely managed,4494917.636575252,Europe & Central Asia,HIC
+Finland,FIN,2020,NA,urban,Safely managed,4738255.946343765,Europe & Central Asia,HIC
+France,FRA,2000,NA,urban,Safely managed,44775343.07578087,Europe & Central Asia,HIC
+France,FRA,2010,NA,urban,Safely managed,49278060.18171936,Europe & Central Asia,HIC
+France,FRA,2020,NA,urban,Safely managed,52855225.118263066,Europe & Central Asia,HIC
+French Guiana,GUF,2000,NA,urban,Safely managed,129079.87658731871,NA,NA
+French Guiana,GUF,2010,NA,urban,Safely managed,193209.61325241948,NA,NA
+French Guiana,GUF,2020,NA,urban,Safely managed,256328.89735509641,NA,NA
+French Polynesia,PYF,2000,NA,urban,Safely managed,134894.47288196537,East Asia & Pacific,HIC
+French Polynesia,PYF,2010,NA,urban,Safely managed,160714.03983600787,East Asia & Pacific,HIC
+French Polynesia,PYF,2020,NA,urban,Safely managed,174090.25528497298,East Asia & Pacific,HIC
+Gabon,GAB,2000,NA,urban,Safely managed,968917.2755524147,Sub-Saharan Africa,UMC
+Gabon,GAB,2010,NA,urban,Safely managed,1389180.748247765,Sub-Saharan Africa,UMC
+Gabon,GAB,2020,NA,urban,Safely managed,2005202.9582429305,Sub-Saharan Africa,UMC
+Gambia,GMB,2000,27.89301206384586,urban,Safely managed,630760.5198483914,Sub-Saharan Africa,LIC
+Gambia,GMB,2010,30.00318207868193,urban,Safely managed,998130.4592153057,Sub-Saharan Africa,LIC
+Gambia,GMB,2020,31.82088628591088,urban,Safely managed,1512396.6291055083,Sub-Saharan Africa,LIC
+Georgia,GEO,2000,40.0001420075034,urban,Safely managed,2296166.4783993363,Europe & Central Asia,UMC
+Georgia,GEO,2010,33.05881211325073,urban,Safely managed,2276433.0636427365,Europe & Central Asia,UMC
+Georgia,GEO,2020,27.55559809827164,urban,Safely managed,2371684.054300245,Europe & Central Asia,UMC
+Germany,DEU,2000,97.54103115766169,urban,Safely managed,61022168.819401264,Europe & Central Asia,HIC
+Germany,DEU,2010,98.0941576790415,urban,Safely managed,62209311.5826416,Europe & Central Asia,HIC
+Germany,DEU,2020,98.72630227490414,urban,Safely managed,64893181.6174984,Europe & Central Asia,HIC
+Ghana,GHA,2000,6.64759285593177,urban,Safely managed,8469006.009638608,Sub-Saharan Africa,LMC
+Ghana,GHA,2010,9.44913485477981,urban,Safely managed,12566486.538635194,Sub-Saharan Africa,LMC
+Ghana,GHA,2020,12.0913745993283,urban,Safely managed,17820023.103818893,Sub-Saharan Africa,LMC
+Gibraltar,GIB,2000,NA,urban,Safely managed,31080.99937438965,Europe & Central Asia,HIC
+Gibraltar,GIB,2010,NA,urban,Safely managed,33584.99908447266,Europe & Central Asia,HIC
+Gibraltar,GIB,2020,NA,urban,Safely managed,33691.00189208984,Europe & Central Asia,HIC
+Greece,GRC,2000,83.93648198395275,urban,Safely managed,8058461.215590165,Europe & Central Asia,HIC
+Greece,GRC,2010,90.68368607071415,urban,Safely managed,8306398.851311058,Europe & Central Asia,HIC
+Greece,GRC,2020,97.29628055710867,urban,Safely managed,8308739.236119761,Europe & Central Asia,HIC
+Greenland,GRL,2000,NA,urban,Safely managed,45840.42962376407,Europe & Central Asia,HIC
+Greenland,GRL,2010,NA,urban,Safely managed,47792.841463051736,Europe & Central Asia,HIC
+Greenland,GRL,2020,NA,urban,Safely managed,49551.73949526303,Europe & Central Asia,HIC
+Grenada,GRD,2000,NA,urban,Safely managed,36710.749532449976,Latin America & Caribbean,UMC
+Grenada,GRD,2010,NA,urban,Safely managed,38098.31439170376,Latin America & Caribbean,UMC
+Grenada,GRD,2020,NA,urban,Safely managed,41111.06459631991,Latin America & Caribbean,UMC
+Guadeloupe,GLP,2000,NA,urban,Safely managed,415295.24252392584,NA,NA
+Guadeloupe,GLP,2010,NA,urban,Safely managed,399616.4212678559,NA,NA
+Guadeloupe,GLP,2020,NA,urban,Safely managed,394121.07934830716,NA,NA
+Guam,GUM,2000,NA,urban,Safely managed,144650.75143821537,East Asia & Pacific,HIC
+Guam,GUM,2010,NA,urban,Safely managed,150030.49868803468,East Asia & Pacific,HIC
+Guam,GUM,2020,NA,urban,Safely managed,160239.21503473772,East Asia & Pacific,HIC
+Guatemala,GTM,2000,NA,urban,Safely managed,5281514.9747201055,Latin America & Caribbean,UMC
+Guatemala,GTM,2010,NA,urban,Safely managed,7081562.695031987,Latin America & Caribbean,UMC
+Guatemala,GTM,2020,NA,urban,Safely managed,9286712.739908695,Latin America & Caribbean,UMC
+Guinea,GIN,2000,NA,urban,Safely managed,2543832.7101005428,Sub-Saharan Africa,LIC
+Guinea,GIN,2010,NA,urban,Safely managed,3432518.471594155,Sub-Saharan Africa,LIC
+Guinea,GIN,2020,NA,urban,Safely managed,4842717.047119141,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2000,8.18670910574672,urban,Safely managed,435388.99098306446,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2010,14.83028074191619,urban,Safely managed,610731.2431444786,Sub-Saharan Africa,LIC
+Guinea-Bissau,GNB,2020,22.21276640442866,urban,Safely managed,869776.3999804854,Sub-Saharan Africa,LIC
+Guyana,GUY,2000,NA,urban,Safely managed,214263.26978690922,Latin America & Caribbean,UMC
+Guyana,GUY,2010,NA,urban,Safely managed,199603.17578707592,Latin America & Caribbean,UMC
+Guyana,GUY,2020,NA,urban,Safely managed,210687.69384312214,Latin America & Caribbean,UMC
+Haiti,HTI,2000,NA,urban,Safely managed,3013113.619502299,Latin America & Caribbean,LMC
+Haiti,HTI,2010,NA,urban,Safely managed,4726821.926549077,Latin America & Caribbean,LMC
+Haiti,HTI,2020,NA,urban,Safely managed,6509477.862698734,Latin America & Caribbean,LMC
+Holy See,VAT,2000,NA,urban,Safely managed,790.0000214576721,NA,NA
+Holy See,VAT,2010,NA,urban,Safely managed,782.9999923706055,NA,NA
+Holy See,VAT,2020,NA,urban,Safely managed,809.0000152587891,NA,NA
+Honduras,HND,2000,32.56108638318246,urban,Safely managed,2988640.6612960994,Latin America & Caribbean,LMC
+Honduras,HND,2010,34.02171998535704,urban,Safely managed,4315518.142525032,Latin America & Caribbean,LMC
+Honduras,HND,2020,34.71915429044115,urban,Safely managed,5780230.152273886,Latin America & Caribbean,LMC
+Hungary,HUN,2000,64.64983931323661,urban,Safely managed,6599893.238631934,Europe & Central Asia,HIC
+Hungary,HUN,2010,77.60154584496662,urban,Safely managed,6841056.302664727,Europe & Central Asia,HIC
+Hungary,HUN,2020,90.54745112865784,urban,Safely managed,6949848.845693171,Europe & Central Asia,HIC
+Iceland,ISL,2000,NA,urban,Safely managed,259128.41744668552,Europe & Central Asia,HIC
+Iceland,ISL,2010,NA,urban,Safely managed,299756.82488707127,Europe & Central Asia,HIC
+Iceland,ISL,2020,NA,urban,Safely managed,320426.9079208374,Europe & Central Asia,HIC
+India,IND,2000,21.37368387223722,urban,Safely managed,292322741.6503525,South Asia,LMC
+India,IND,2010,29.18321746500541,urban,Safely managed,381763155.72922707,South Asia,LMC
+India,IND,2020,37.31914553216049,urban,Safely managed,481980362.5463009,South Asia,LMC
+Indonesia,IDN,2000,NA,urban,Safely managed,88840035.76530218,East Asia & Pacific,LMC
+Indonesia,IDN,2010,NA,urban,Safely managed,120709135.48936844,East Asia & Pacific,LMC
+Indonesia,IDN,2020,NA,urban,Safely managed,154926513.26428413,East Asia & Pacific,LMC
+Iran (Islamic Republic of),IRN,2000,NA,urban,Safely managed,42026536.70718372,Middle East & North Africa,LMC
+Iran (Islamic Republic of),IRN,2010,NA,urban,Safely managed,52095513.8801229,Middle East & North Africa,LMC
+Iran (Islamic Republic of),IRN,2020,NA,urban,Safely managed,63728813.71544957,Middle East & North Africa,LMC
+Iraq,IRQ,2000,32.91219676714657,urban,Safely managed,16094909.655679464,Middle East & North Africa,UMC
+Iraq,IRQ,2010,36.70617374875979,urban,Safely managed,20552599.38915789,Middle East & North Africa,UMC
+Iraq,IRQ,2020,42.25493000125144,urban,Safely managed,28514938.785912696,Middle East & North Africa,UMC
+Ireland,IRL,2000,48.05635897357444,urban,Safely managed,2237889.9280526955,Europe & Central Asia,HIC
+Ireland,IRL,2010,72.05645198834999,urban,Safely managed,2802825.634606555,Europe & Central Asia,HIC
+Ireland,IRL,2020,88.57878966645144,urban,Safely managed,3143055.217204839,Europe & Central Asia,HIC
+Isle of Man,IMN,2000,NA,urban,Safely managed,39873.654788196436,Europe & Central Asia,HIC
+Isle of Man,IMN,2010,NA,urban,Safely managed,44120.03289656015,Europe & Central Asia,HIC
+Isle of Man,IMN,2020,NA,urban,Safely managed,44980.22836479242,Europe & Central Asia,HIC
+Israel,ISR,2000,79.95395039871948,urban,Safely managed,5422883.786534369,Middle East & North Africa,HIC
+Israel,ISR,2010,87.54819622810305,urban,Safely managed,6745947.056474425,Middle East & North Africa,HIC
+Israel,ISR,2020,95.14244205748665,urban,Safely managed,8013905.58580026,Middle East & North Africa,HIC
+Italy,ITA,2000,96.32944021997044,urban,Safely managed,38109617.09873557,Europe & Central Asia,HIC
+Italy,ITA,2010,96.36032543850403,urban,Safely managed,40535147.76015401,Europe & Central Asia,HIC
+Italy,ITA,2020,96.39121065703763,urban,Safely managed,42951474.35451865,Europe & Central Asia,HIC
+Jamaica,JAM,2000,NA,urban,Safely managed,1375505.1988339704,Latin America & Caribbean,UMC
+Jamaica,JAM,2010,NA,urban,Safely managed,1510427.7282087598,Latin America & Caribbean,UMC
+Jamaica,JAM,2020,NA,urban,Safely managed,1667459.3324192334,Latin America & Caribbean,UMC
+Japan,JPN,2000,NA,urban,Safely managed,100296488.58434439,East Asia & Pacific,HIC
+Japan,JPN,2010,NA,urban,Safely managed,116731875.75048806,East Asia & Pacific,HIC
+Japan,JPN,2020,NA,urban,Safely managed,116082622.44424225,East Asia & Pacific,HIC
+Jordan,JOR,2000,82.84743701721116,urban,Safely managed,4009377.147079259,Middle East & North Africa,UMC
+Jordan,JOR,2010,83.56863758938675,urban,Safely managed,6251315.243383348,Middle East & North Africa,UMC
+Jordan,JOR,2020,84.44702855702647,urban,Safely managed,9327506.129078567,Middle East & North Africa,UMC
+Kazakhstan,KAZ,2000,92.71351858676775,urban,Safely managed,8371349.4397784015,Europe & Central Asia,UMC
+Kazakhstan,KAZ,2010,91.68486563292487,urban,Safely managed,9235679.991745353,Europe & Central Asia,UMC
+Kazakhstan,KAZ,2020,91.01473653643941,urban,Safely managed,10828714.981311413,Europe & Central Asia,UMC
+Kenya,KEN,2000,NA,urban,Safely managed,6358389.670359381,Sub-Saharan Africa,LMC
+Kenya,KEN,2010,NA,urban,Safely managed,9907052.070733905,Sub-Saharan Africa,LMC
+Kenya,KEN,2020,NA,urban,Safely managed,15053275.07937148,Sub-Saharan Africa,LMC
+Kiribati,KIR,2000,21.35849743787399,urban,Safely managed,36258.7027499557,East Asia & Pacific,LMC
+Kiribati,KIR,2010,25.52646497235804,urban,Safely managed,48778.526516387945,East Asia & Pacific,LMC
+Kiribati,KIR,2020,26.0784103268187,urban,Safely managed,66404.80632266786,East Asia & Pacific,LMC
+Kuwait,KWT,2000,NA,urban,Safely managed,2024671.81640625,Middle East & North Africa,HIC
+Kuwait,KWT,2010,NA,urban,Safely managed,2991884.033203125,Middle East & North Africa,HIC
+Kuwait,KWT,2020,NA,urban,Safely managed,4270562.98828125,Middle East & North Africa,HIC
+Kyrgyzstan,KGZ,2000,77.43456325758515,urban,Safely managed,1736912.9079442844,Europe & Central Asia,LMC
+Kyrgyzstan,KGZ,2010,81.50809014316236,urban,Safely managed,1914396.4662346244,Europe & Central Asia,LMC
+Kyrgyzstan,KGZ,2020,85.63430132799762,urban,Safely managed,2404555.7390227355,Europe & Central Asia,LMC
+Lao People's Democratic Republic,LAO,2000,45.55872907171041,urban,Safely managed,1169989.7683633491,East Asia & Pacific,LMC
+Lao People's Democratic Republic,LAO,2010,55.66066518432307,urban,Safely managed,1878749.8066334426,East Asia & Pacific,LMC
+Lao People's Democratic Republic,LAO,2020,63.33871508425749,urban,Safely managed,2640299.394295253,East Asia & Pacific,LMC
+Latvia,LVA,2000,NA,urban,Safely managed,1622819.346042052,Europe & Central Asia,HIC
+Latvia,LVA,2010,NA,urban,Safely managed,1437452.3180657998,Europe & Central Asia,HIC
+Latvia,LVA,2020,NA,urban,Safely managed,1288558.9603625985,Europe & Central Asia,HIC
+Lebanon,LBN,2000,NA,urban,Safely managed,3304785.576171875,Middle East & North Africa,LMC
+Lebanon,LBN,2010,NA,urban,Safely managed,4325708.864917979,Middle East & North Africa,LMC
+Lebanon,LBN,2020,NA,urban,Safely managed,6069523.89226798,Middle East & North Africa,LMC
+Lesotho,LSO,2000,16.69047102275104,urban,Safely managed,397372.73872340575,Sub-Saharan Africa,LMC
+Lesotho,LSO,2010,28.40531167120073,urban,Safely managed,494862.68309061415,Sub-Saharan Africa,LMC
+Lesotho,LSO,2020,39.44304719589068,urban,Safely managed,621852.8943380713,Sub-Saharan Africa,LMC
+Liberia,LBR,2000,NA,urban,Safely managed,1262744.9769442435,Sub-Saharan Africa,LIC
+Liberia,LBR,2010,NA,urban,Safely managed,1860574.6284147352,Sub-Saharan Africa,LIC
+Liberia,LBR,2020,NA,urban,Safely managed,2634493.0889419466,Sub-Saharan Africa,LIC
+Libya,LBY,2000,NA,urban,Safely managed,4092733.8322291146,Middle East & North Africa,UMC
+Libya,LBY,2010,NA,urban,Safely managed,4837403.161790371,Middle East & North Africa,UMC
+Libya,LBY,2020,NA,urban,Safely managed,5544510.411436707,Middle East & North Africa,UMC
+Liechtenstein,LIE,2000,NA,urban,Safely managed,5020.73895170288,Europe & Central Asia,HIC
+Liechtenstein,LIE,2010,NA,urban,Safely managed,5206.461115427555,Europe & Central Asia,HIC
+Liechtenstein,LIE,2020,NA,urban,Safely managed,5497.830209241948,Europe & Central Asia,HIC
+Lithuania,LTU,2000,87.64829074239013,urban,Safely managed,2345743.9117320813,Europe & Central Asia,HIC
+Lithuania,LTU,2010,89.83292842384282,urban,Safely managed,2085371.9408649579,Europe & Central Asia,HIC
+Lithuania,LTU,2020,97.5594151481615,urban,Safely managed,1852410.079691559,Europe & Central Asia,HIC
+Luxembourg,LUX,2000,92.04174386994204,urban,Safely managed,367271.03338008747,Europe & Central Asia,HIC
+Luxembourg,LUX,2010,93.283056474398,urban,Safely managed,449721.3563911617,Europe & Central Asia,HIC
+Luxembourg,LUX,2020,97.47936484657039,urban,Safely managed,572473.8139177533,Europe & Central Asia,HIC
+Madagascar,MDG,2000,7.414688580832258,urban,Safely managed,4276115.710588992,Sub-Saharan Africa,LIC
+Madagascar,MDG,2010,11.00952336327411,urban,Safely managed,6755410.521282256,Sub-Saharan Africa,LIC
+Madagascar,MDG,2020,14.24476876466358,urban,Safely managed,10670457.576030046,Sub-Saharan Africa,LIC
+Malawi,MWI,2000,26.2892363134885,urban,Safely managed,1628832.4793995824,Sub-Saharan Africa,LIC
+Malawi,MWI,2010,26.67361247446646,urban,Safely managed,2260036.833550781,Sub-Saharan Africa,LIC
+Malawi,MWI,2020,27.00842627134395,urban,Safely managed,3333777.2802218427,Sub-Saharan Africa,LIC
+Malaysia,MYS,2000,NA,urban,Safely managed,14375101.809042916,East Asia & Pacific,UMC
+Malaysia,MYS,2010,NA,urban,Safely managed,20002874.921004474,East Asia & Pacific,UMC
+Malaysia,MYS,2020,NA,urban,Safely managed,24973602.808917314,East Asia & Pacific,UMC
+Maldives,MDV,2000,NA,urban,Safely managed,77409.4529298041,South Asia,UMC
+Maldives,MDV,2010,NA,urban,Safely managed,133250.07923431112,South Asia,UMC
+Maldives,MDV,2020,NA,urban,Safely managed,219833.01587440073,South Asia,UMC
+Mali,MLI,2000,7.004561067155668,urban,Safely managed,3103974.7533151875,Sub-Saharan Africa,LIC
+Mali,MLI,2010,8.31607480702385,urban,Safely managed,5417616.151652932,Sub-Saharan Africa,LIC
+Mali,MLI,2020,9.620280021322001,urban,Safely managed,8891939.547048062,Sub-Saharan Africa,LIC
+Malta,MLT,2000,NA,urban,Safely managed,363605.71127922746,Middle East & North Africa,HIC
+Malta,MLT,2010,NA,urban,Safely managed,389699.82843023026,Middle East & North Africa,HIC
+Malta,MLT,2020,NA,urban,Safely managed,418331.7261005287,Middle East & North Africa,HIC
+Marshall Islands,MHL,2000,NA,urban,Safely managed,34807.095238568145,East Asia & Pacific,UMC
+Marshall Islands,MHL,2010,NA,urban,Safely managed,41463.66097210267,East Asia & Pacific,UMC
+Marshall Islands,MHL,2020,NA,urban,Safely managed,46049.375275070786,East Asia & Pacific,UMC
+Martinique,MTQ,2000,NA,urban,Safely managed,347203.675800981,NA,NA
+Martinique,MTQ,2010,NA,urban,Safely managed,351450.0717824093,NA,NA
+Martinique,MTQ,2020,NA,urban,Safely managed,334511.2317671813,NA,NA
+Mauritania,MRT,2000,NA,urban,Safely managed,1001875.9626584408,Sub-Saharan Africa,LMC
+Mauritania,MRT,2010,NA,urban,Safely managed,1627877.9169721063,Sub-Saharan Africa,LMC
+Mauritania,MRT,2020,NA,urban,Safely managed,2572517.2816693783,Sub-Saharan Africa,LMC
+Mauritius,MUS,2000,NA,urban,Safely managed,505702.1915317327,Sub-Saharan Africa,UMC
+Mauritius,MUS,2010,NA,urban,Safely managed,518586.8741758822,Sub-Saharan Africa,UMC
+Mauritius,MUS,2020,NA,urban,Safely managed,518372.194718267,Sub-Saharan Africa,UMC
+Mayotte,MYT,2000,NA,urban,Safely managed,71754.48506624674,NA,NA
+Mayotte,MYT,2010,NA,urban,Safely managed,102174.83728144788,NA,NA
+Mayotte,MYT,2020,NA,urban,Safely managed,124814.66876994818,NA,NA
+Mexico,MEX,2000,18.04520679221809,urban,Safely managed,73899933.82214308,Latin America & Caribbean,UMC
+Mexico,MEX,2010,35.48642321446347,urban,Safely managed,88781440.3389883,Latin America & Caribbean,UMC
+Mexico,MEX,2020,59.65138226780843,urban,Safely managed,104088692.18564987,Latin America & Caribbean,UMC
+Micronesia (Federated States of),FSM,2000,NA,urban,Safely managed,23983.536145473485,East Asia & Pacific,LMC
+Micronesia (Federated States of),FSM,2010,NA,urban,Safely managed,22948.210107139883,East Asia & Pacific,LMC
+Micronesia (Federated States of),FSM,2020,NA,urban,Safely managed,26377.767433208784,East Asia & Pacific,LMC
+Monaco,MCO,2000,100,urban,Safely managed,32147.998809814453,Europe & Central Asia,HIC
+Monaco,MCO,2010,100,urban,Safely managed,35609.00115966797,Europe & Central Asia,HIC
+Monaco,MCO,2020,100,urban,Safely managed,39243.99948120117,Europe & Central Asia,HIC
+Mongolia,MNG,2000,39.98438566904755,urban,Safely managed,1369716.3276996464,East Asia & Pacific,LMC
+Mongolia,MNG,2010,45.00914374693318,urban,Safely managed,1837756.2881651893,East Asia & Pacific,LMC
+Mongolia,MNG,2020,58.65677228980915,urban,Safely managed,2250776.8570415676,East Asia & Pacific,LMC
+Montenegro,MNE,2000,NA,urban,Safely managed,NA,Europe & Central Asia,UMC
+Montenegro,MNE,2010,32.89298617484126,urban,Safely managed,400412.5414655823,Europe & Central Asia,UMC
+Montenegro,MNE,2020,48.58627297065526,urban,Safely managed,423866.53186932206,Europe & Central Asia,UMC
+Montserrat,MSR,2000,NA,urban,Safely managed,102.78474872016886,NA,NA
+Montserrat,MSR,2010,NA,urban,Safely managed,447.9903724857331,NA,NA
+Montserrat,MSR,2020,NA,urban,Safely managed,455.6588451646803,NA,NA
+Morocco,MAR,2000,37.01528308486827,urban,Safely managed,15357104.63091731,Middle East & North Africa,LMC
+Morocco,MAR,2010,39.13899303125623,urban,Safely managed,18764984.2429094,Middle East & North Africa,LMC
+Morocco,MAR,2020,41.4945165750182,urban,Safely managed,23450015.2297014,Middle East & North Africa,LMC
+Mozambique,MOZ,2000,NA,urban,Safely managed,5153816.425982788,Sub-Saharan Africa,LIC
+Mozambique,MOZ,2010,NA,urban,Safely managed,7490097.5691562155,Sub-Saharan Africa,LIC
+Mozambique,MOZ,2020,NA,urban,Safely managed,11587639.392499475,Sub-Saharan Africa,LIC
+Myanmar,MMR,2000,66.38656212629944,urban,Safely managed,12625997.644538136,East Asia & Pacific,LMC
+Myanmar,MMR,2010,60.83868975310038,urban,Safely managed,14616050.284856558,East Asia & Pacific,LMC
+Myanmar,MMR,2020,53.41338487844474,urban,Safely managed,16943754.03520994,East Asia & Pacific,LMC
+Namibia,"NAM",2000,NA,urban,Safely managed,580960.3083771095,Sub-Saharan Africa,UMC
+Namibia,"NAM",2010,NA,urban,Safely managed,881791.7759090662,Sub-Saharan Africa,UMC
+Namibia,"NAM",2020,NA,urban,Safely managed,1322114.8544483632,Sub-Saharan Africa,UMC
+Nauru,NRU,2000,NA,urban,Safely managed,10335.00003814697,East Asia & Pacific,HIC
+Nauru,NRU,2010,NA,urban,Safely managed,10008.99982452393,East Asia & Pacific,HIC
+Nauru,NRU,2020,NA,urban,Safely managed,10833.99963378906,East Asia & Pacific,HIC
+Nepal,NPL,2000,16.63219398408483,urban,Safely managed,3207389.417877085,South Asia,LMC
+Nepal,NPL,2010,28.290019089257,urban,Safely managed,4529574.46019657,South Asia,LMC
+Nepal,NPL,2020,42.47951782928543,urban,Safely managed,5995189.798492938,South Asia,LMC
+Netherlands,NLD,2000,97.44684857705178,urban,Safely managed,12230516.14895895,Europe & Central Asia,HIC
+Netherlands,NLD,2010,97.4699124977175,urban,Safely managed,14536501.427291779,Europe & Central Asia,HIC
+Netherlands,NLD,2020,97.49956611000202,urban,Safely managed,15804521.513973923,Europe & Central Asia,HIC
+New Caledonia,NCL,2000,NA,urban,Safely managed,134527.0661996701,East Asia & Pacific,HIC
+New Caledonia,NCL,2010,NA,urban,Safely managed,170123.0275950639,East Asia & Pacific,HIC
+New Caledonia,NCL,2020,NA,urban,Safely managed,204177.4450121052,East Asia & Pacific,HIC
+New Zealand,NZL,2000,NA,urban,Safely managed,3319543.6032730155,East Asia & Pacific,HIC
+New Zealand,NZL,2010,NA,urban,Safely managed,3765243.5731116305,East Asia & Pacific,HIC
+New Zealand,NZL,2020,NA,urban,Safely managed,4180827.5901028146,East Asia & Pacific,HIC
+Nicaragua,NIC,2000,NA,urban,Safely managed,2797498.8254513405,Latin America & Caribbean,LMC
+Nicaragua,NIC,2010,NA,urban,Safely managed,3314879.14122548,Latin America & Caribbean,LMC
+Nicaragua,NIC,2020,NA,urban,Safely managed,3909281.9927791883,Latin America & Caribbean,LMC
+Niger,NER,2000,23.24072046415843,urban,Safely managed,1834126.4834863693,Sub-Saharan Africa,LIC
+Niger,NER,2010,33.35122683916075,urban,Safely managed,2670629.669150561,Sub-Saharan Africa,LIC
+Niger,NER,2020,42.96287045435471,urban,Safely managed,4024595.287888348,Sub-Saharan Africa,LIC
+Nigeria,NGA,2000,20.12495965100876,urban,Safely managed,42603694.07096535,Sub-Saharan Africa,LMC
+Nigeria,NGA,2010,26.89123574205623,urban,Safely managed,68917198.03959727,Sub-Saharan Africa,LMC
+Nigeria,NGA,2020,35.06015256684434,urban,Safely managed,107106010.49807787,Sub-Saharan Africa,LMC
+Niue,NIU,2000,NA,urban,Safely managed,628.9723682442856,NA,NA
+Niue,NIU,2010,NA,urban,Safely managed,627.3895349601753,NA,NA
+Niue,NIU,2020,NA,urban,Safely managed,747.5484303900156,NA,NA
+North Macedonia,MKD,2000,10.1030871214393,urban,Safely managed,1191348.17572725,Europe & Central Asia,UMC
+North Macedonia,MKD,2010,9.346927491587783,urban,Safely managed,1182163.0950301979,Europe & Central Asia,UMC
+North Macedonia,MKD,2020,8.15422076753893,urban,Safely managed,1218402.190640755,Europe & Central Asia,UMC
+Northern Mariana Islands,MNP,2000,NA,urban,Safely managed,51795.02800761169,East Asia & Pacific,HIC
+Northern Mariana Islands,MNP,2010,NA,urban,Safely managed,49086.08816768741,East Asia & Pacific,HIC
+Northern Mariana Islands,MNP,2020,NA,urban,Safely managed,52836.17212921206,East Asia & Pacific,HIC
+Norway,NOR,2000,NA,urban,Safely managed,3420425.0672340393,Europe & Central Asia,HIC
+Norway,NOR,2010,NA,urban,Safely managed,3864827.0317109674,Europe & Central Asia,HIC
+Norway,NOR,2020,NA,urban,Safely managed,4498221.026106477,Europe & Central Asia,HIC
+Oman,OMN,2000,NA,urban,Safely managed,1623165.5306176096,Middle East & North Africa,HIC
+Oman,OMN,2010,NA,urban,Safely managed,2285972.867020145,Middle East & North Africa,HIC
+Oman,OMN,2020,NA,urban,Safely managed,4405788.917647824,Middle East & North Africa,HIC
+Pakistan,PAK,2000,NA,urban,Safely managed,46947762.15173364,South Asia,LMC
+Pakistan,PAK,2010,NA,urban,Safely managed,62793244.43635821,South Asia,LMC
+Pakistan,PAK,2020,NA,urban,Safely managed,82094635.76998591,South Asia,LMC
+Palau,PLW,2000,NA,urban,Safely managed,13437.371094669796,East Asia & Pacific,UMC
+Palau,PLW,2010,NA,urban,Safely managed,13432.644774982764,East Asia & Pacific,UMC
+Palau,PLW,2020,NA,urban,Safely managed,14652.348006094982,East Asia & Pacific,UMC
+Panama,PAN,2000,NA,urban,Safely managed,1884806.4650130272,Latin America & Caribbean,HIC
+Panama,PAN,2010,NA,urban,Safely managed,2372848.841731623,Latin America & Caribbean,HIC
+Panama,PAN,2020,NA,urban,Safely managed,2951905.488155782,Latin America & Caribbean,HIC
+Papua New Guinea,PNG,2000,31.50081877746413,urban,Safely managed,772115.7348622009,East Asia & Pacific,LMC
+Papua New Guinea,PNG,2010,29.82472733247914,urban,Safely managed,951755.5881376332,East Asia & Pacific,LMC
+Papua New Guinea,PNG,2020,28.34031656984918,urban,Safely managed,1193980.822914578,East Asia & Pacific,LMC
+Paraguay,PRY,2000,49.69730318671697,urban,Safely managed,2945380.8459174265,Latin America & Caribbean,UMC
+Paraguay,PRY,2010,51.75602290413133,urban,Safely managed,3702637.5067629665,Latin America & Caribbean,UMC
+Paraguay,PRY,2020,53.68088198527789,urban,Safely managed,4435220.628445577,Latin America & Caribbean,UMC
+Peru,PER,2000,12.18243425424813,urban,Safely managed,19326871.780105084,Latin America & Caribbean,UMC
+Peru,PER,2010,35.9855624729287,urban,Safely managed,22185855.6737417,Latin America & Caribbean,UMC
+Peru,PER,2020,63.52975074766987,urban,Safely managed,25815969.1089943,Latin America & Caribbean,UMC
+Philippines,PHL,2000,45.58772266847594,urban,Safely managed,35981496.157731116,East Asia & Pacific,LMC
+Philippines,PHL,2010,47.85440057695592,urban,Safely managed,42597018.379935026,East Asia & Pacific,LMC
+Philippines,PHL,2020,54.86404524644747,urban,Safely managed,51950198.07774962,East Asia & Pacific,LMC
+Poland,POL,2000,87.8445385378743,urban,Safely managed,23795653.80769968,Europe & Central Asia,HIC
+Poland,POL,2010,90.91539913292505,urban,Safely managed,23339772.12229371,Europe & Central Asia,HIC
+Poland,POL,2020,93.7667664648639,urban,Safely managed,22724238.48813817,Europe & Central Asia,HIC
+Portugal,PRT,2000,54.84772030290706,urban,Safely managed,5601528.992513418,Europe & Central Asia,HIC
+Portugal,PRT,2010,72.66010817101707,urban,Safely managed,6417712.584859133,Europe & Central Asia,HIC
+Portugal,PRT,2020,92.67369009017598,urban,Safely managed,6761436.183478832,Europe & Central Asia,HIC
+Puerto Rico,PRI,2000,NA,urban,Safely managed,3463016.6676588356,Latin America & Caribbean,HIC
+Puerto Rico,PRI,2010,NA,urban,Safely managed,3358786.958855074,Latin America & Caribbean,HIC
+Puerto Rico,PRI,2020,NA,urban,Safely managed,2677202.7993174084,Latin America & Caribbean,HIC
+Qatar,QAT,2000,NA,urban,Safely managed,570610.9005715884,Middle East & North Africa,HIC
+Qatar,QAT,2010,NA,urban,Safely managed,1828502.7395191423,Middle East & North Africa,HIC
+Qatar,QAT,2020,NA,urban,Safely managed,2859019.966730103,Middle East & North Africa,HIC
+Republic of Korea,KOR,2000,NA,urban,Safely managed,37723824.35296178,East Asia & Pacific,HIC
+Republic of Korea,KOR,2010,NA,urban,Safely managed,40595715.200134516,East Asia & Pacific,HIC
+Republic of Korea,KOR,2020,NA,urban,Safely managed,41740293.88202906,East Asia & Pacific,HIC
+Republic of Moldova,MDA,2000,71.52373170206519,urban,Safely managed,1873923.7311295047,Europe & Central Asia,UMC
+Republic of Moldova,MDA,2010,75.20116673971108,urban,Safely managed,1741491.5518148337,Europe & Central Asia,UMC
+Republic of Moldova,MDA,2020,78.93834993299726,urban,Safely managed,1728512.8734932095,Europe & Central Asia,UMC
+Réunion,REU,2000,NA,urban,Safely managed,671654.76742371,NA,NA
+Réunion,REU,2010,NA,urban,Safely managed,818057.7142654033,NA,NA
+Réunion,REU,2020,NA,urban,Safely managed,892255.0208802802,NA,NA
+Romania,ROU,2000,NA,urban,Safely managed,11733720.483917072,Europe & Central Asia,HIC
+Romania,ROU,2010,NA,urban,Safely managed,11019797.670274973,Europe & Central Asia,HIC
+Romania,ROU,2020,NA,urban,Safely managed,10425669.235287309,Europe & Central Asia,HIC
+Russian Federation,RUS,2000,60.54155746215287,urban,Safely managed,107387985.03947617,Europe & Central Asia,UMC
+Russian Federation,RUS,2010,62.26655579751269,urban,Safely managed,105725561.3818717,Europe & Central Asia,UMC
+Russian Federation,RUS,2020,63.73714472453094,urban,Safely managed,109091849.0164101,Europe & Central Asia,UMC
+Rwanda,RWA,2000,NA,urban,Safely managed,1184182.2406821186,Sub-Saharan Africa,LIC
+Rwanda,RWA,2010,NA,urban,Safely managed,1700061.479930319,Sub-Saharan Africa,LIC
+Rwanda,RWA,2020,NA,urban,Safely managed,2257829.214429818,Sub-Saharan Africa,LIC
+Saint Barthelemy,BLM,2000,NA,urban,Safely managed,7416,NA,NA
+Saint Barthelemy,BLM,2010,NA,urban,Safely managed,9234,NA,NA
+Saint Barthelemy,BLM,2020,NA,urban,Safely managed,9885,NA,NA
+Saint Helena,SHN,2000,NA,urban,Safely managed,2443.696930637743,NA,NA
+Saint Helena,SHN,2010,NA,urban,Safely managed,2047.2850346565247,NA,NA
+Saint Helena,SHN,2020,NA,urban,Safely managed,2433.3783042195137,NA,NA
+Saint Kitts and Nevis,KNA,2000,NA,urban,Safely managed,14449.525746206054,Latin America & Caribbean,HIC
+Saint Kitts and Nevis,KNA,2010,NA,urban,Safely managed,15351.22616384324,Latin America & Caribbean,HIC
+Saint Kitts and Nevis,KNA,2020,NA,urban,Safely managed,16406.008178738994,Latin America & Caribbean,HIC
+Saint Lucia,LCA,2000,NA,urban,Safely managed,43532.13450746264,Latin America & Caribbean,UMC
+Saint Lucia,LCA,2010,NA,urban,Safely managed,32119.971129318288,Latin America & Caribbean,UMC
+Saint Lucia,LCA,2020,NA,urban,Safely managed,34597.538747504594,Latin America & Caribbean,UMC
+Saint Martin (French part),MAF,2000,NA,urban,Safely managed,28935,Latin America & Caribbean,HIC
+Saint Martin (French part),MAF,2010,NA,urban,Safely managed,37582,Latin America & Caribbean,HIC
+Saint Martin (French part),MAF,2020,NA,urban,Safely managed,38659,Latin America & Caribbean,HIC
+Saint Pierre and Miquelon,SPM,2000,NA,urban,Safely managed,5614.4781340622285,NA,NA
+Saint Pierre and Miquelon,SPM,2010,NA,urban,Safely managed,5718.666787354741,NA,NA
+Saint Pierre and Miquelon,SPM,2020,NA,urban,Safely managed,5213.2978519149765,NA,NA
+Saint Vincent and the Grenadines,VCT,2000,NA,urban,Safely managed,48704.635866470075,Latin America & Caribbean,UMC
+Saint Vincent and the Grenadines,VCT,2010,NA,urban,Safely managed,53005.17806007995,Latin America & Caribbean,UMC
+Saint Vincent and the Grenadines,VCT,2020,NA,urban,Safely managed,58837.40972229862,Latin America & Caribbean,UMC
+Samoa,WSM,2000,38.62106182216627,urban,Safely managed,38339.75650274836,East Asia & Pacific,LMC
+Samoa,WSM,2010,38.14800585997948,urban,Safely managed,37333.83472339599,East Asia & Pacific,LMC
+Samoa,WSM,2020,36.58604462082097,urban,Safely managed,35493.5654340149,East Asia & Pacific,LMC
+San Marino,SMR,2000,NA,urban,Safely managed,25658.623814941388,Europe & Central Asia,HIC
+San Marino,SMR,2010,NA,urban,Safely managed,29890.987757806433,Europe & Central Asia,HIC
+San Marino,SMR,2020,NA,urban,Safely managed,33089.210538638,Europe & Central Asia,HIC
+Sao Tome and Principe,STP,2000,15.93363403453894,urban,Safely managed,76003.12852635283,Sub-Saharan Africa,LMC
+Sao Tome and Principe,STP,2010,26.05797893640352,urban,Safely managed,117155.21006878931,Sub-Saharan Africa,LMC
+Sao Tome and Principe,STP,2020,36.14790453874366,urban,Safely managed,162954.97514270243,Sub-Saharan Africa,LMC
+Saudi Arabia,SAU,2000,NA,urban,Safely managed,16499662.750152051,Middle East & North Africa,HIC
+Saudi Arabia,SAU,2010,NA,urban,Safely managed,22508638.308329582,Middle East & North Africa,HIC
+Saudi Arabia,SAU,2020,NA,urban,Safely managed,29343565.12877345,Middle East & North Africa,HIC
+Senegal,SEN,2000,15.55685770954061,urban,Safely managed,3950445.2888496965,Sub-Saharan Africa,LMC
+Senegal,SEN,2010,17.0089343872027,urban,Safely managed,5549603.683461994,Sub-Saharan Africa,LMC
+Senegal,SEN,2020,24.36074399426138,urban,Safely managed,8057514.1201502085,Sub-Saharan Africa,LMC
+Serbia,SRB,2000,13.9960150628107,urban,Safely managed,5006518.2326084,Europe & Central Asia,UMC
+Serbia,SRB,2010,14.75805471089484,urban,Safely managed,4944562.068582773,Europe & Central Asia,UMC
+Serbia,SRB,2020,17.16506758492858,urban,Safely managed,4931895.861687511,Europe & Central Asia,UMC
+Seychelles,SYC,2000,NA,urban,Safely managed,40849.72080645384,Sub-Saharan Africa,HIC
+Seychelles,SYC,2010,NA,urban,Safely managed,48681.37082459143,Sub-Saharan Africa,HIC
+Seychelles,SYC,2020,NA,urban,Safely managed,56590.735703118844,Sub-Saharan Africa,HIC
+Sierra Leone,SLE,2000,16.79009291261651,urban,Safely managed,1633298.8203923777,Sub-Saharan Africa,LIC
+Sierra Leone,SLE,2010,18.6071468726664,urban,Safely managed,2492859.549100343,Sub-Saharan Africa,LIC
+Sierra Leone,SLE,2020,19.7699731998184,urban,Safely managed,3423961.2396444194,Sub-Saharan Africa,LIC
+Singapore,SGP,2000,100,urban,Safely managed,4028872.0703125,East Asia & Pacific,HIC
+Singapore,SGP,2010,100,urban,Safely managed,5131169.921875,East Asia & Pacific,HIC
+Singapore,SGP,2020,100,urban,Safely managed,5850342.7734375,East Asia & Pacific,HIC
+Sint Maarten (Dutch part),SXM,2000,NA,urban,Safely managed,32563.99917602539,Latin America & Caribbean,HIC
+Sint Maarten (Dutch part),SXM,2010,NA,urban,Safely managed,34166.00036621094,Latin America & Caribbean,HIC
+Sint Maarten (Dutch part),SXM,2020,NA,urban,Safely managed,42881.99996948242,Latin America & Caribbean,HIC
+Slovakia,SVK,2000,90.69094151464837,urban,Safely managed,3036136.182154417,Europe & Central Asia,HIC
+Slovakia,SVK,2010,89.21059222787004,urban,Safely managed,2955337.6841776073,Europe & Central Asia,HIC
+Slovakia,SVK,2020,87.89290005312465,urban,Safely managed,2935104.020861704,Europe & Central Asia,HIC
+Slovenia,SVN,2000,NA,urban,Safely managed,1008842.269898951,Europe & Central Asia,HIC
+Slovenia,SVN,2010,NA,urban,Safely managed,1075979.8436323276,Europe & Central Asia,HIC
+Slovenia,SVN,2020,NA,urban,Safely managed,1145865.7561845146,Europe & Central Asia,HIC
+Solomon Islands,SLB,2000,NA,urban,Safely managed,65254.72453875059,East Asia & Pacific,LMC
+Solomon Islands,SLB,2010,NA,urban,Safely managed,105825.57965285378,East Asia & Pacific,LMC
+Solomon Islands,SLB,2020,NA,urban,Safely managed,169452.80083532562,East Asia & Pacific,LMC
+Somalia,SOM,2000,34.14430393442029,urban,Safely managed,2949756.7652606964,Sub-Saharan Africa,LIC
+Somalia,SOM,2010,38.38290258376657,urban,Safely managed,4734451.191213727,Sub-Saharan Africa,LIC
+Somalia,SOM,2020,43.94156469291196,urban,Safely managed,7333289.879128933,Sub-Saharan Africa,LIC
+South Africa,ZAF,2000,NA,urban,Safely managed,25582582.13028163,Sub-Saharan Africa,UMC
+South Africa,ZAF,2010,NA,urban,Safely managed,31866172.850996256,Sub-Saharan Africa,UMC
+South Africa,ZAF,2020,NA,urban,Safely managed,39946778.32651138,Sub-Saharan Africa,UMC
+South Sudan,SSD,2000,NA,urban,Safely managed,NA,Sub-Saharan Africa,LIC
+South Sudan,SSD,2010,NA,urban,Safely managed,NA,Sub-Saharan Africa,LIC
+South Sudan,SSD,2020,NA,urban,Safely managed,2261021.1562580243,Sub-Saharan Africa,LIC
+Spain,ESP,2000,NA,urban,Safely managed,31133768.289612237,Europe & Central Asia,HIC
+Spain,ESP,2010,NA,urban,Safely managed,36813624.842599034,Europe & Central Asia,HIC
+Spain,ESP,2020,NA,urban,Safely managed,37782537.58665085,Europe & Central Asia,HIC
+Sri Lanka,LKA,2000,NA,urban,Safely managed,3451323.7275683135,South Asia,LMC
+Sri Lanka,LKA,2010,NA,urban,Safely managed,3692904.38513197,South Asia,LMC
+Sri Lanka,LKA,2020,NA,urban,Safely managed,4007061.332001686,South Asia,LMC
+State of Palestine,PSE,2000,55.16117499225044,urban,Safely managed,2320287.1181715466,Middle East & North Africa,LMC
+State of Palestine,PSE,2010,60.78486919340052,urban,Safely managed,3007210.7152194153,Middle East & North Africa,LMC
+State of Palestine,PSE,2020,72.35431117436586,urban,Safely managed,3913755.054116249,Middle East & North Africa,LMC
+Sudan,SDN,2000,NA,urban,Safely managed,8863017.305351049,Sub-Saharan Africa,LIC
+Sudan,SDN,2010,NA,urban,Safely managed,11430600.462629199,Sub-Saharan Africa,LIC
+Sudan,SDN,2020,NA,urban,Safely managed,15458182.265237868,Sub-Saharan Africa,LIC
+Suriname,SUR,2000,25.46538658110732,urban,Safely managed,312914.0326719824,Latin America & Caribbean,UMC
+Suriname,SUR,2010,23.60038152708865,urban,Safely managed,351043.34725625813,Latin America & Caribbean,UMC
+Suriname,SUR,2020,20.693520765988,urban,Safely managed,388052.51842319034,Latin America & Caribbean,UMC
+Sweden,SWE,2000,94.07781831003804,urban,Safely managed,7462888.936479165,Europe & Central Asia,HIC
+Sweden,SWE,2010,94.79004349577826,urban,Safely managed,7986892.107699811,Europe & Central Asia,HIC
+Sweden,SWE,2020,95.52761682601766,urban,Safely managed,8885034.0904513,Europe & Central Asia,HIC
+Switzerland,CHE,2000,99.89989989989989,urban,Safely managed,5242308.1397125125,Europe & Central Asia,HIC
+Switzerland,CHE,2010,99.89989989989989,urban,Safely managed,5747730.721011311,Europe & Central Asia,HIC
+Switzerland,CHE,2020,99.89989989989989,urban,Safely managed,6397061.095202194,Europe & Central Asia,HIC
+Syrian Arab Republic,SYR,2000,NA,urban,Safely managed,8524942.175591141,Middle East & North Africa,LIC
+Syrian Arab Republic,SYR,2010,NA,urban,Safely managed,11877572.478720995,Middle East & North Africa,LIC
+Syrian Arab Republic,SYR,2020,NA,urban,Safely managed,9708489.455245733,Middle East & North Africa,LIC
+Tajikistan,TJK,2000,NA,urban,Safely managed,1647389.4596248304,Europe & Central Asia,LMC
+Tajikistan,TJK,2010,NA,urban,Safely managed,1996265.568032423,Europe & Central Asia,LMC
+Tajikistan,TJK,2020,NA,urban,Safely managed,2623423.5664908774,Europe & Central Asia,LMC
+Thailand,THA,2000,23.28780098196634,urban,Safely managed,19758316.785566807,East Asia & Pacific,UMC
+Thailand,THA,2010,25.9025417480697,urban,Safely managed,29469052.228292227,East Asia & Pacific,UMC
+Thailand,THA,2020,29.58435901481381,urban,Safely managed,35898128.159106374,East Asia & Pacific,UMC
+Timor-Leste,TLS,2000,NA,urban,Safely managed,NA,East Asia & Pacific,LMC
+Timor-Leste,TLS,2010,NA,urban,Safely managed,303254.1293406511,East Asia & Pacific,LMC
+Timor-Leste,TLS,2020,NA,urban,Safely managed,412936.0355760438,East Asia & Pacific,LMC
+Togo,TGO,2000,11.44452412436368,urban,Safely managed,1620474.2776464487,Sub-Saharan Africa,LIC
+Togo,TGO,2010,12.23402836544722,urban,Safely managed,2410246.8986620754,Sub-Saharan Africa,LIC
+Togo,TGO,2020,12.27883155519237,urban,Safely managed,3543299.5032444964,Sub-Saharan Africa,LIC
+Tokelau,TKL,2000,NA,urban,Safely managed,0,NA,NA
+Tokelau,TKL,2010,NA,urban,Safely managed,0,NA,NA
+Tokelau,TKL,2020,NA,urban,Safely managed,0,NA,NA
+Tonga,TON,2000,28.59616363768539,urban,Safely managed,22543.01412447603,East Asia & Pacific,UMC
+Tonga,TON,2010,28.88667790787899,urban,Safely managed,24320.11668320862,East Asia & Pacific,UMC
+Tonga,TON,2020,23.23650757793619,urban,Safely managed,24414.948673537,East Asia & Pacific,UMC
+Trinidad and Tobago,TTO,2000,NA,urban,Safely managed,708405.2556926388,Latin America & Caribbean,HIC
+Trinidad and Tobago,TTO,2010,NA,urban,Safely managed,717529.839479737,Latin America & Caribbean,HIC
+Trinidad and Tobago,TTO,2020,NA,urban,Safely managed,744725.1328943762,Latin America & Caribbean,HIC
+Tunisia,TUN,2000,71.25891942350361,urban,Safely managed,6158198.759171851,Middle East & North Africa,LMC
+Tunisia,TUN,2010,79.82629067309264,urban,Safely managed,7089135.09109661,Middle East & North Africa,LMC
+Tunisia,TUN,2020,88.57644901510817,urban,Safely managed,8221976.378150656,Middle East & North Africa,LMC
+Turkey,TUR,2000,62.7998092435162,urban,Safely managed,40942333.148920536,Europe & Central Asia,UMC
+Turkey,TUR,2010,69.845826768642155,urban,Safely managed,51225590.00955224,Europe & Central Asia,UMC
+Turkey,TUR,2020,77.9761400126764,urban,Safely managed,64186252.29253472,Europe & Central Asia,UMC
+Turkmenistan,TKM,2000,NA,urban,Safely managed,2073489.7350428626,Europe & Central Asia,UMC
+Turkmenistan,TKM,2010,NA,urban,Safely managed,2466839.513145387,Europe & Central Asia,UMC
+Turkmenistan,TKM,2020,NA,urban,Safely managed,3167338.331204001,Europe & Central Asia,UMC
+Turks and Caicos Islands,TCA,2000,NA,urban,Safely managed,17054.580715629563,Latin America & Caribbean,HIC
+Turks and Caicos Islands,TCA,2010,NA,urban,Safely managed,29466.660057088593,Latin America & Caribbean,HIC
+Turks and Caicos Islands,TCA,2020,NA,urban,Safely managed,36241.98084605567,Latin America & Caribbean,HIC
+Tuvalu,TUV,2000,NA,urban,Safely managed,4322.0111557364,East Asia & Pacific,UMC
+Tuvalu,TUV,2010,5.327181763010134,urban,Safely managed,5765.087260738222,East Asia & Pacific,UMC
+Tuvalu,TUV,2020,NA,urban,Safely managed,7548.530755589599,East Asia & Pacific,UMC
+Uganda,UGA,2000,NA,urban,Safely managed,3496912.6770035555,Sub-Saharan Africa,LIC
+Uganda,UGA,2010,NA,urban,Safely managed,6285550.852204859,Sub-Saharan Africa,LIC
+Uganda,UGA,2020,NA,urban,Safely managed,11414209.356365204,Sub-Saharan Africa,LIC
+Ukraine,UKR,2000,36.76266270151162,urban,Safely managed,32792316.529360414,Europe & Central Asia,LMC
+Ukraine,UKR,2010,46.07011878269724,urban,Safely managed,31411539.577129483,Europe & Central Asia,LMC
+Ukraine,UKR,2020,68.91224392931105,urban,Safely managed,30442194.885528088,Europe & Central Asia,LMC
+United Arab Emirates,ARE,2000,NA,urban,Safely managed,2514649.9154089764,Middle East & North Africa,HIC
+United Arab Emirates,ARE,2010,NA,urban,Safely managed,7189437.337778211,Middle East & North Africa,HIC
+United Arab Emirates,ARE,2020,NA,urban,Safely managed,8609395.387943834,Middle East & North Africa,HIC
+United Kingdom,GBR,2000,98.88950815424474,urban,Safely managed,46343768.94518852,Europe & Central Asia,HIC
+United Kingdom,GBR,2010,98.9337395489007,urban,Safely managed,51594083.62902254,Europe & Central Asia,HIC
+United Kingdom,GBR,2020,98.96199849548647,urban,Safely managed,56958397.05205321,Europe & Central Asia,HIC
+United Republic of Tanzania,TZA,2000,8.495433270630206,urban,Safely managed,7473331.13015063,Sub-Saharan Africa,LMC
+United Republic of Tanzania,TZA,2010,24.05242890802381,urban,Safely managed,12467583.937726617,Sub-Saharan Africa,LMC
+United Republic of Tanzania,TZA,2020,34.75027377064572,urban,Safely managed,21042572.573955804,Sub-Saharan Africa,LMC
+United States Virgin Islands,VIR,2000,NA,urban,Safely managed,100668.75931532588,Latin America & Caribbean,HIC
+United States Virgin Islands,VIR,2010,NA,urban,Safely managed,100350.99133208866,Latin America & Caribbean,HIC
+United States Virgin Islands,VIR,2020,NA,urban,Safely managed,100182.38175528066,Latin America & Caribbean,HIC
+United States of America,USA,2000,96.25047232561727,urban,Safely managed,222712210.41164398,North America,HIC
+United States of America,USA,2010,96.93549917580825,urban,Safely managed,249594753.3462429,North America,HIC
+United States of America,USA,2020,97.28297372240488,urban,Safely managed,273620040.6111717,North America,HIC
+Uruguay,URY,2000,NA,urban,Safely managed,3055084.6972171217,Latin America & Caribbean,HIC
+Uruguay,URY,2010,NA,urban,Safely managed,3171624.0114834905,Latin America & Caribbean,HIC
+Uruguay,URY,2020,NA,urban,Safely managed,3317930.3713517636,Latin America & Caribbean,HIC
+Uzbekistan,UZB,2000,NA,urban,Safely managed,11425389.343270512,Europe & Central Asia,LMC
+Uzbekistan,UZB,2010,NA,urban,Safely managed,14530565.461688116,Europe & Central Asia,LMC
+Uzbekistan,UZB,2020,NA,urban,Safely managed,16873830.32394424,Europe & Central Asia,LMC
+Vanuatu,VUT,2000,NA,urban,Safely managed,40087.249319794944,East Asia & Pacific,LMC
+Vanuatu,VUT,2010,NA,urban,Safely managed,57783.158503797626,East Asia & Pacific,LMC
+Vanuatu,VUT,2020,NA,urban,Safely managed,78400.0406288146,East Asia & Pacific,LMC
+Venezuela (Bolivarian Republic of),VEN,2000,NA,urban,Safely managed,21182667.999439836,Latin America & Caribbean,NA
+Venezuela (Bolivarian Republic of),VEN,2010,NA,urban,Safely managed,25050753.64094228,Latin America & Caribbean,NA
+Venezuela (Bolivarian Republic of),VEN,2020,NA,urban,Safely managed,25102966.24730751,Latin America & Caribbean,NA
+Viet Nam,VNM,2000,NA,urban,Safely managed,19477364.762554765,East Asia & Pacific,LMC
+Viet Nam,VNM,2010,NA,urban,Safely managed,26757123.5183388,East Asia & Pacific,LMC
+Viet Nam,VNM,2020,NA,urban,Safely managed,36346228.137589395,East Asia & Pacific,LMC
+Wallis and Futuna Islands,WLF,2000,NA,urban,Safely managed,0,NA,NA
+Wallis and Futuna Islands,WLF,2010,NA,urban,Safely managed,0,NA,NA
+Wallis and Futuna Islands,WLF,2020,NA,urban,Safely managed,0,NA,NA
+Western Sahara,ESH,2000,NA,urban,Safely managed,269432.9775243532,NA,NA
+Western Sahara,ESH,2010,NA,urban,Safely managed,414317.5920276391,NA,NA
+Western Sahara,ESH,2020,NA,urban,Safely managed,518655.69475761143,NA,NA
+Yemen,YEM,2000,70.40755191274815,urban,Safely managed,4572840.865569413,Middle East & North Africa,LIC
+Yemen,YEM,2010,64.31844352796568,urban,Safely managed,7357686.037602834,Middle East & North Africa,LIC
+Yemen,YEM,2020,60.61326697219552,urban,Safely managed,11306427.378146648,Middle East & North Africa,LIC
+Zambia,ZMB,2000,NA,urban,Safely managed,3624956.074166112,Sub-Saharan Africa,LIC
+Zambia,ZMB,2010,NA,urban,Safely managed,5354636.37617752,Sub-Saharan Africa,LIC
+Zambia,ZMB,2020,NA,urban,Safely managed,8204574.907872081,Sub-Saharan Africa,LIC
+Zimbabwe,ZWE,2000,25.72437654094093,urban,Safely managed,4010950.7670836896,Sub-Saharan Africa,LMC
+Zimbabwe,ZWE,2010,21.960913396975702,urban,Safely managed,4215137.525366098,Sub-Saharan Africa,LMC
+Zimbabwe,ZWE,2020,16.00405998055887,urban,Safely managed,4792104.931434207,Sub-Saharan Africa,LMC
