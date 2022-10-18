@@ -45,7 +45,6 @@ ssc_levels = c("open defecation", "sharing", "user interface", "containment", "e
 
 ## get var list for sanitation only
 var_list_san <- var_list %>% 
-var_list_san_residence <- var_list %>% 
     spread(key = var_short, value = var_long) %>% 
     
     ## select vars starting with s_
@@ -57,9 +56,7 @@ var_list_san_residence <- var_list %>%
         var_short = str_detect(var_short, "_n") == TRUE ~ "national",
         var_short = str_detect(var_short, "_r") == TRUE ~ "rural",
         var_short = str_detect(var_short, "_u") == TRUE ~ "urban")
-    )
-
-var_list_san_residence_ssc <- var_list_san_residence %>% 
+    ) %>% 
 
     ## add variable for sanitation service chain
     mutate(san_service_chain = case_when(
@@ -67,7 +64,9 @@ var_list_san_residence_ssc <- var_list_san_residence %>%
         str_detect(var_short, "imp") ~ "user interface",
         str_detect(var_short, "con|net") ~ "containment",
         
-        #str_detect(var_short, "lat") ~ "containment",
+        # latrines not included because var_short name has "con" in it
+        # str_detect(var_short, "lat") ~ "containment",
+        
         str_detect(var_short, "ebo|edl|ero|nemp") ~ "emptying",
         str_detect(var_short, "dtp") ~ "transport",
         str_detect(var_short, "rtp") ~ "transport",
@@ -79,7 +78,7 @@ var_list_san_residence_ssc <- var_list_san_residence %>%
     mutate(san_service_chain = factor(san_service_chain, levels = ssc_levels))
 
 ## write variable list 
-var_list_san_residence %>% 
+var_list_san %>% 
     write_csv(here::here("data/derived_data/jmp_sanitation_variables_residence.csv"))
 
 
