@@ -1,53 +1,232 @@
-name,value
-1,name
-2,year
-3,pop_n
-4,prop_u
-5,san_bas_n
-6,san_lim_n
-7,san_unimp_n
-8,san_od_n
-9,arc_san_bas_n
-10,arc_san_od_n
-11,san_bas_r
-12,san_lim_r
-13,san_unimp_r
-14,san_od_r
-15,arc_san_bas_r
-16,arc_san_od_r
-17,san_bas_u
-18,san_lim_u
-19,san_unimp_u
-20,san_od_u
-21,arc_san_bas_u
-22,arc_san_od_u
-23,name2
-24,year2
-25,san_sm_n
-26,san_sdo_sm_n
-27,san_fst_sm_n
-28,san_sew_sm_n
-29,san_lat_n
-30,san_sep_n
-31,san_sew_n
-32,san_sm_r
-33,san_sdo_sm_r
-34,san_fst_sm_r
-35,san_sew_sm_r
-36,san_lat_r
-37,san_sep_r
-38,san_sew_r
-39,san_sm_u
-40,san_sdo_sm_u
-41,san_fst_sm_u
-42,san_sew_sm_u
-43,san_lat_u
-44,san_sep_u
-45,san_sew_u
-46,sl
-47,iso3
-48,san_imp_n
-49,san_imp_r
-50,san_imp_u
-51,name_who_mf
-52,pop_n2
+var_long,var_short
+Source,source
+Type,type
+Year,year
+Improved,w_imp_n
+Piped,w_pip_n
+Surface,w_sur_n
+No more than 30 mins,w_30min_n
+On premises,w_premises_n
+Available,w_available_n
+Quality,w_quality_n
+Improved,w_imp_u
+Piped,w_pip_u
+Surface,w_sur_u
+No more than 30 mins,w_30min_u
+On premises,w_premises_u
+Available,w_available_u
+Quality,w_quality_u
+Improved,w_imp_r
+Piped,w_pip_r
+Surface,w_sur_r
+No more than 30 mins,w_30min_r
+On premises,w_premises_r
+Available,w_available_r
+Quality,w_quality_r
+Improved,s_imp_n
+Sewer,s_sew_n
+Septic,s_sep_n
+Latrines and other improved,s_lat_n
+Open defecation,s_od_n
+Sewage enters network,s_sew_net_n
+Sewage reaches treatment plant,s_sew_rtp_n
+Septic: contained,s_sep_con_n
+Septic: not emptied,s_sep_nemp_n
+Septic: emptied and buried onsite,s_sep_ebo_n
+Septic: emptied and discharged locally,s_sep_edl_n
+Septic: emptied and removed offsite,s_sep_ero_n
+Septic: delivered to treatment plant,s_sep_dtp_n
+Latrines: contained,s_lat_con_n
+Latrines: not emptied,s_lat_nemp_n
+Latrines: emptied and buried onsite,s_lat_ebo_n
+Latrines: emptied and discharged locally,s_lat_edl_n
+Latrines: emptied and removed offsite,s_lat_ero_n
+Latrines: delivered to treatment plant,s_lat_dtp_n
+Treated at wastewater treatment plant,s_treat_wtp_n
+Treated at faecal sludge treatment plant,s_treat_fstp_n
+Shared,s_shared_n
+Improved,s_imp_u
+Sewer,s_sew_u
+Septic,s_sep_u
+Latrines and other improved,s_lat_u
+Open defecation,s_od_u
+Sewage enters network,s_sew_net_u
+Sewage reaches treatment plant,s_sew_rtp_u
+Septic: contained,s_sep_con_u
+Septic: not emptied,s_sep_nemp_u
+Septic: emptied and buried onsite,s_sep_ebo_u
+Septic: emptied and discharged locally,s_sep_edl_u
+Septic: emptied and removed offsite,s_sep_ero_u
+Septic: delivered to treatment plant,s_sep_dtp_u
+Latrines: contained,s_lat_con_u
+Latrines: not emptied,s_lat_nemp_u
+Latrines: emptied and buried onsite,s_lat_ebo_u
+Latrines: emptied and discharged locally,s_lat_edl_u
+Latrines: emptied and removed offsite,s_lat_ero_u
+Latrines: delivered to treatment plant,s_lat_dtp_u
+Treated at wastewater treatment plant,s_treat_wtp_u
+Treated at faecal sludge treatment plant,s_treat_fstp_u
+Shared,s_shared_u
+Improved,s_imp_r
+Sewer,s_sew_r
+Septic,s_sep_r
+Latrines and other improved,s_lat_r
+Open defecation,s_od_r
+Sewage enters network,s_sew_net_r
+Sewage reaches treatment plant,s_sew_rtp_r
+Septic: contained,s_sep_con_r
+Septic: not emptied,s_sep_nemp_r
+Septic: emptied and buried onsite,s_sep_ebo_r
+Septic: emptied and discharged locally,s_sep_edl_r
+Septic: emptied and removed offsite,s_sep_ero_r
+Septic: delivered to treatment plant,s_sep_dtp_r
+Latrines: contained,s_lat_con_r
+Latrines: not emptied,s_lat_nemp_r
+Latrines: emptied and buried onsite,s_lat_ebo_r
+Latrines: emptied and discharged locally,s_lat_edl_r
+Latrines: emptied and removed offsite,s_lat_ero_r
+Latrines: delivered to treatment plant,s_lat_dtp_r
+Treated at wastewater treatment plant,s_treat_wtp_r
+Treated at faecal sludge treatment plant,s_treat_fstp_r
+Shared,s_shared_r
+Source,h_source
+Type,h_type
+Year,h_year
+Handwashing facility,h_fac_n
+Facilty with water and soap,h_ws_n
+Handwashing facility,h_fac_u
+Facilty with water and soap,h_ws_u
+Handwashing facility,h_fac_r
+Facilty with water and soap,h_ws_r
+Improved,used_w_imp_n
+Piped,used_w_pip_n
+Surface,used_w_sur_n
+No more than 30 mins,used_w_30min_n
+On premises,used_w_premises_n
+Available,used_w_available_n
+Quality,used_w_quality_n
+Improved,used_w_imp_u
+Piped,used_w_pip_u
+Surface,used_w_sur_u
+No more than 30 mins,used_w_30min_u
+On premises,used_w_premises_u
+Available,used_w_available_u
+Quality,used_w_quality_u
+Improved,used_w_imp_r
+Piped,used_w_pip_r
+Surface,used_w_sur_r
+No more than 30 mins,used_w_30min_r
+On premises,used_w_premises_r
+Available,used_w_available_r
+Quality,used_w_quality_r
+Improved,used_s_imp_n
+Sewer,used_s_sew_n
+Septic,used_s_sep_n
+Latrines and other improved,used_s_lat_n
+Open defecation,used_s_od_n
+Sewage enters network,used_s_sew_net_n
+Sewage reaches treatment plant,used_s_sew_rtp_n
+Septic: contained,used_s_sep_con_n
+Septic: not emptied,used_s_sep_nemp_n
+Septic: emptied and buried onsite,used_s_sep_ebo_n
+Septic: emptied and discharged locally,used_s_sep_edl_n
+Septic: emptied and removed offsite,used_s_sep_ero_n
+Septic: delivered to treatment plant,used_s_sep_dtp_n
+Latrines: contained,used_s_lat_con_n
+Latrines: not emptied,used_s_lat_nemp_n
+Latrines: emptied and buried onsite,used_s_lat_ebo_n
+Latrines: emptied and discharged locally,used_s_lat_edl_n
+Latrines: emptied and removed offsite,used_s_lat_ero_n
+Latrines: delivered to treatment plant,used_s_lat_dtp_n
+Treated at wastewater treatment plant,used_s_treat_wtp_n
+Treated at faecal sludge treatment plant,used_s_treat_fstp_n
+Shared,used_s_shared_n
+Improved,used_s_imp_u
+Sewer,used_s_sew_u
+Septic,used_s_sep_u
+Latrines and other improved,used_s_lat_u
+Open defecation,used_s_od_u
+Sewage enters network,used_s_sew_net_u
+Sewage reaches treatment plant,used_s_sew_rtp_u
+Septic: contained,used_s_sep_con_u
+Septic: not emptied,used_s_sep_nemp_u
+Septic: emptied and buried onsite,used_s_sep_ebo_u
+Septic: emptied and discharged locally,used_s_sep_edl_u
+Septic: emptied and removed offsite,used_s_sep_ero_u
+Septic: delivered to treatment plant,used_s_sep_dtp_u
+Latrines: contained,used_s_lat_con_u
+Latrines: not emptied,used_s_lat_nemp_u
+Latrines: emptied and buried onsite,used_s_lat_ebo_u
+Latrines: emptied and discharged locally,used_s_lat_edl_u
+Latrines: emptied and removed offsite,used_s_lat_ero_u
+Latrines: delivered to treatment plant,used_s_lat_dtp_u
+Treated at wastewater treatment plant,used_s_treat_wtp_u
+Treated at faecal sludge treatment plant,used_s_treat_fstp_u
+Shared,used_s_shared_u
+Improved,used_s_imp_r
+Sewer,used_s_sew_r
+Septic,used_s_sep_r
+Latrines and other improved,used_s_lat_r
+Open defecation,used_s_od_r
+Sewage enters network,used_s_sew_net_r
+Sewage reaches treatment plant,used_s_sew_rtp_r
+Septic: contained,used_s_sep_con_r
+Septic: not emptied,used_s_sep_emp_r
+Septic: emptied and buried onsite,used_s_sep_sdo_r
+Septic: emptied and discharged locally,used_s_sep_ro_r
+Septic: emptied and removed offsite,used_s_sep_udl
+Septic: delivered to treatment plant,used_s_sep_dtp_r
+Latrines: contained,used_s_lat_con_r
+Latrines: not emptied,used_s_lat_nemp_r
+Latrines: emptied and buried onsite,used_s_lat_ebo_r
+Latrines: emptied and discharged locally,used_s_lat_edl_r
+Latrines: emptied and removed offsite,used_s_lat_ero_r
+Latrines: delivered to treatment plant,used_s_lat_dtp_r
+Treated at wastewater treatment plant,used_s_treat_wtp_r
+Treated at faecal sludge treatment plant,used_s_treat_fstp_r
+Shared,used_s_shared_r
+Handwashing facility,used_h_fac_n
+Facilty with water and soap,used_h_ws_n
+Handwashing facility,used_h_fac_u
+Facilty with water and soap,used_h_ws_u
+Handwashing facility,used_h_fac_r
+Facilty with water and soap,used_h_ws_r
+NA,m_source
+NA,m_type
+NA,m_year
+Private place to wash and change,m_place_n
+Use of menstrual materials,m_mat_n
+Reusable materials,m_reuse_n
+Single-use materials,m_single_n
+Participation in activities during menstruation,m_participate_n
+Awareness of menstruation before menarche,m_aware_n
+Private place to wash and change,m_place_u
+Use of menstrual materials,m_mat_u
+Reusable materials,m_reuse_u
+Single-use materials,m_single_u
+Participation in activities during menstruation,m_participate_u
+Awareness of menstruation before menarche,m_aware_u
+Private place to wash and change,m_place_r
+Use of menstrual materials,m_mat_r
+Reusable materials,m_reuse_r
+Single-use materials,m_single_r
+Participation in activities during menstruation,m_participate_r
+Awareness of menstruation before menarche,m_aware_r
+Private place to wash and change,used_m_place_n
+Use of menstrual materials,used_m_mat_n
+Reusable materials,used_m_reuse_n
+Single-use materials,used_m_single_n
+Participation in activities during menstruation,used_m_participate_n
+Awareness of menstruation before menarche,used_m_aware_n
+Private place to wash and change,used_m_place_u
+Use of menstrual materials,used_m_mat_u
+Reusable materials,used_m_reuse_u
+Single-use materials,used_m_single_u
+Participation in activities during menstruation,used_m_participate_u
+Awareness of menstruation before menarche,used_m_aware_u
+Private place to wash and change,used_m_place_r
+Use of menstrual materials,used_m_mat_r
+Reusable materials,used_m_reuse_r
+Single-use materials,used_m_single_r
+Participation in activities during menstruation,used_m_participate_r
+Awareness of menstruation before menarche,used_m_aware_r

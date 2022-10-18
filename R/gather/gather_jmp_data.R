@@ -41,8 +41,8 @@ jmp_world_hyg <- openxlsx::read.xlsx(xlsxFile = temp_file, sheet = 7, colNames =
 
 ## generate table of all jmp variables
 
-#c(names(jmp_world_wat), names(jmp_world_san), names(jmp_world_hyg)) %>% 
-#    enframe() %>% 
+c(names(jmp_world_wat), names(jmp_world_san), names(jmp_world_hyg)) %>% 
+    enframe()  %>% View()
 #    googlesheets4::write_sheet(sheet = "Sheet2", ss = "1w0FmGTByjvBTs0ohp2NIIsdukBrsc1t66GtdKiScJBc")
 
 # these variables do not help here because they are on technology level
