@@ -45,17 +45,22 @@ ssc_levels = c("open defecation", "sharing", "user interface", "containment", "e
 
 ## get var list for sanitation only
 var_list_san <- var_list %>% 
+var_list_san_residence <- var_list %>% 
     spread(key = var_short, value = var_long) %>% 
     
     ## select vars starting with s_
     select(starts_with("s_")) %>% 
+    
     gather(key = var_short, value = var_long) %>% 
     ## add variable for residence
     mutate(residence = case_when(
         var_short = str_detect(var_short, "_n") == TRUE ~ "national",
         var_short = str_detect(var_short, "_r") == TRUE ~ "rural",
         var_short = str_detect(var_short, "_u") == TRUE ~ "urban")
-    ) %>% 
+    )
+
+var_list_san_residence_ssc <- var_list_san_residence %>% 
+
     ## add variable for sanitation service chain
     mutate(san_service_chain = case_when(
         str_detect(var_short, "od") ~ "open defecation",
@@ -74,9 +79,8 @@ var_list_san <- var_list %>%
     mutate(san_service_chain = factor(san_service_chain, levels = ssc_levels))
 
 ## write variable list 
-var_list_san %>% 
-    write_csv(here::here("data/derived_data/2020-09-23_jmp_sanitation_variables.csv"))
-
+var_list_san_residence %>% 
+    write_csv(here::here("data/derived_data/jmp_sanitation_variables_residence.csv"))
 
 
 ## create temporary file with file extension xlsx
@@ -109,7 +113,7 @@ for (name in iso_code) {
 for (name in iso_code) {
     
     country_list[[name]] <- readxl::read_excel(path = str_c(countryfile, name, ".xlsx"), sheet = "Chart Data", skip = 4, col_names = TRUE) %>% 
-        select(source, type, year, var_list_san$var_short) %>% 
+        select(source, type, year, var_list_san_residence$var_short) %>% 
         gather(key = var_short, value = value, s_imp_n:s_treat_wtp_u) %>% 
         filter(!is.na(value)) %>% 
         mutate(iso3 = name)
@@ -170,5 +174,8 @@ read_rds(file = "data/derived_data/2020-09-30_jmp_sanitation_raw_data.rds") %>%
 
 jmp_sanitation_raw_data_old <- read_rds(file = "data/derived_data/2020-09-30_jmp_sanitation_raw_data.rds")
 
+jmp_sanitation_raw_data %>% 
+    count(year, sort = TRUE) %>% 
+    arrange(desc(year))
 
     
