@@ -82,26 +82,28 @@ var_list_san %>%
     write_csv(here::here("data/derived_data/jmp_sanitation_variables_residence.csv"))
 
 
-## create temporary file with file extension xlsx
-temp_file <- tempfile(fileext = ".xlsx")
-countryfile <- here::here("data/raw_data/country_files/")
+# download country files and extract data
 
-iso_code <- country_codes$iso3
+## create a path for a new directory
+countryfile_dir <- here::here("data/raw_data/country_files/")
 
-if (dir.exists(countryfile) == FALSE) {
-    dir.create(countryfile)
-}
+## check if dir exists, if not create it
+if (dir.exists(countryfile_dir) == FALSE) {
+    
+    dir.create(countryfile_dir)
+
+    }
 
 ## create empty list for results
-country_list <- list()
 
-for (name in iso_code) {
+
+for (name in country_codes$iso3) {
     
-    if (file.exists(paste0(countryfile, name, ".xlsx")) == FALSE) {
+    if (file.exists(paste0(countryfile_dir, name, ".xlsx")) == FALSE) {
         
         download.file(
             paste0("https://washdata.org/data/country/", name, "/download"), 
-            destfile = str_c(countryfile, name, ".xlsx"), 
+            destfile = str_c(countryfile_dir, name, ".xlsx"), 
             mode = "wb")
         
     } else {
@@ -109,11 +111,14 @@ for (name in iso_code) {
     }
 }
 
-for (name in iso_code) {
+# create an empty list
+country_list <- list()
+
+for (name in country_codes$iso3) {
     
-    country_list[[name]] <- readxl::read_excel(path = str_c(countryfile, name, ".xlsx"), sheet = "Chart Data", skip = 4, col_names = TRUE) %>% 
-        select(source, type, year, var_list_san_residence$var_short) %>% 
-        gather(key = var_short, value = value, s_imp_n:s_treat_wtp_u) %>% 
+    country_list[[name]] <- readxl::read_excel(path = str_c(countryfile_dir, name, ".xlsx"), sheet = "Chart Data", skip = 4, col_names = TRUE) %>% 
+        select(source, type, year, starts_with("s")) %>% 
+        gather(key = var_short, value = value, s_imp_n:s_shared_r) %>% 
         filter(!is.na(value)) %>% 
         mutate(iso3 = name)
     
@@ -164,17 +169,6 @@ jmp_sanitation_raw_data %>%
     ## write data to Rds file
     write_csv(path = here::here("data/derived_data", paste0(Sys.Date(), "_jmp_sanitation_raw_data.csv"))) 
 
-read_rds(file = "data/derived_data/2020-09-30_jmp_sanitation_raw_data.rds") %>% 
-    filter(iso3 == "UGA") %>% 
-    filter(residence == "urban") %>%
-    filter(var_long == "Septic") %>% 
-    ggplot(aes(x = year, y = value, color = var_long)) +
-    geom_point()
 
-jmp_sanitation_raw_data_old <- read_rds(file = "data/derived_data/2020-09-30_jmp_sanitation_raw_data.rds")
-
-jmp_sanitation_raw_data %>% 
-    count(year, sort = TRUE) %>% 
-    arrange(desc(year))
 
     
