@@ -157,6 +157,10 @@ jmp_sanitation_raw_data %>%
     ## write data to Rds file
     write_rds(path = here::here("data/derived_data", paste0(Sys.Date(), "_jmp_sanitation_raw_data.rds"))) 
 
+jmp_sanitation_raw_data %>%     
+    ## write data to Rds file
+    write_csv(path = here::here("data/derived_data", paste0(Sys.Date(), "_jmp_sanitation_raw_data.csv"))) 
+
 read_rds(file = "data/derived_data/2020-09-30_jmp_sanitation_raw_data.rds") %>% 
     filter(iso3 == "UGA") %>% 
     filter(residence == "urban") %>%
