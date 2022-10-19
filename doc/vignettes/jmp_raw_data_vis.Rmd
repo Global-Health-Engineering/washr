@@ -13,8 +13,21 @@ library(tidyverse)
 library(maps)
 library(tmap)
 library(ggalt)
+library(spData)
+library(tmap)   
+library(sf)    
 
-jmpraw <- read_rds(path = here::here("data/derived_data/2022-10-19_jmp_sanitation_raw_data.rds"))
+jmpraw <- read_rds(here::here("data/derived_data/2022-10-19_jmp_sanitation_raw_data.rds")) %>% 
+    filter(year >= 2000, value >= 0) 
+
+
+top10 <- function(data) {
+    data  %>% 
+        arrange(desc(n)) %>% 
+        head(10)  %>% 
+        mutate(country = countrycode::countrycode(iso3, origin = "iso3c", destination = "country.name")) %>% 
+        select(country, n)
+}
 
 
 ```
@@ -34,48 +47,60 @@ jmpraw <- read_rds(path = here::here("data/derived_data/2022-10-19_jmp_sanitatio
 
 # Explore data
 
+Datasets included in the JMP database include:
+
+- Censuses, which in principle collect basic data from all people living within a country. Censuses are always led by national statistical offices.
+- Household surveys, which collect data from a subset of households. These may target national, rural, or urban populations, or more limited project or sub-national areas. An appropriate sample design is necessary for survey results to be representative, and surveys are often led by or reviewed and approved by national statistical organizations.
+- Administrative data, may consist of information collected by government or non-government entities involved in the delivery or oversight of services. Examples include: water and sanitation inventories and databases, and reports of regulators.
+- Other datasets may be available such as compilations by international or regional initiatives (e.g. IB-NET), studies conducted by research institutes, or technical advice received during country consultations.
+
+
+```{r}
+
+```
+
+
 ```{r}
 
 ## 5 NAs are countries without data
 
 jmpraw %>% 
-  group_by(type) %>% 
-  count()
+    count(type)
+
+jmpraw %>% 
+    count(type, source) %>% 
+    arrange(desc(n))
+
+jmpraw %>% 
+    count(san_service_chain)
+
+jmpraw %>% 
+    ggplot(aes(x = year, fill = type)) +
+    geom_bar()
+
+jmpraw %>% 
+    ggplot(aes(x = year, fill = san_service_chain)) +
+    geom_bar()
 
 ```
 
 ```{r}
 
 jmpraw %>% 
-  filter(value < 0) 
-
-```
-
-```{r}
-
-jmpraw %>% 
-  group_by(san_service_chain) %>% 
-  count()
-
-```
-
-```{r}
-
-jmpraw %>% 
-  filter(!is.na(san_service_chain)) %>% 
-  group_by(san_service_chain) %>% 
-  count() %>% 
-  ggplot(aes(x = san_service_chain, y = n)) +
-  geom_col() +
-  labs(
-    title = "Number of data sources along sanitation service chain",
-    subtitle = "For 232 countries and since 1995"
-  ) +
-  annotate("text", x = 5, y = 1750, label = "388") +
-  annotate("text", x = 6, y = 1750, label = "7") +
-  annotate("text", x = 7, y = 1750, label = "58") +
-  annotate("text", x = 8, y = 1750, label = "756") +
-  theme_minimal()
+    filter(!is.na(san_service_chain)) %>% 
+    group_by(san_service_chain) %>% 
+    count() %>% 
+    ggplot(aes(x = san_service_chain, y = n)) +
+    geom_col() +
+    labs(
+        title = "Number of data sources along sanitation service chain",
+        subtitle = "For 232 countries and since 2000"
+    ) +
+    annotate("text", x = 5, y = 1750, label = "388") +
+    annotate("text", x = 6, y = 1750, label = "7") +
+    annotate("text", x = 7, y = 1750, label = "58") +
+    annotate("text", x = 8, y = 1750, label = "756") +
+    theme_minimal()
 
 ```
 
@@ -83,21 +108,18 @@ jmpraw %>%
 ```{r}
 
 jmpraw %>% 
-  filter(!is.na(san_service_chain)) %>% 
-  filter(year >= 2015) %>% 
-  group_by(san_service_chain) %>% 
-  count() %>% 
-  ungroup() %>% 
-  mutate(
-    prop = n / sum(n) * 100
-  ) %>% 
-  
-  ggplot(aes(x = san_service_chain, y = prop)) +
-  geom_col() +
-  labs(
-    title = "Proportiong of data sources along sanitation service chain",
-    subtitle = "For 232 countries and since 2015"
-  )
+    filter(!is.na(san_service_chain)) %>% 
+    count(san_service_chain) %>% 
+    mutate(
+        prop = n / sum(n) * 100
+    ) %>% 
+    
+    ggplot(aes(x = san_service_chain, y = prop)) +
+    geom_col() +
+    labs(
+        title = "Proportiong of data sources along sanitation service chain",
+        subtitle = "For 232 countries and since 2015"
+    )
 
 
 ```
@@ -105,46 +127,271 @@ jmpraw %>%
 
 ```{r}
 
-ww_treatment <- jmpraw %>% 
-  filter(!is.na(san_service_chain)) %>%
-  filter(
-    san_service_chain == "WW treatment"
-  ) %>% 
-  group_by(iso3, san_service_chain) %>% 
-  count()
+jmpraw %>% 
+    filter(!is.na(san_service_chain)) %>% 
+    count(year, san_service_chain) %>% 
+    group_by(year) %>% 
+    mutate(
+        prop = n / sum(n) * 100
+    ) %>%  
+    
+    ggplot(aes(x = year, y = prop, fill = san_service_chain)) +
+    geom_col() +
+    labs(
+        title = "Proportiong of data sources along sanitation service chain",
+        subtitle = "For 232 countries and since 2015"
+    )
 
-fs_treatment <- jmpraw %>% 
-  filter(!is.na(san_service_chain)) %>%
-  filter(
-    san_service_chain == "FS treatment"
-  ) %>% 
-  group_by(iso3, san_service_chain) %>% 
-  count()
 
 ```
 
 
+
 ```{r}
 
+jmp_iso3_frequency <- jmpraw %>% 
+    count(iso3)
+
+jmp_iso3_user_interface_2015 <- jmpraw %>% 
+    filter(year >= 2015) %>% 
+    filter(san_service_chain == "user interface") %>% 
+    count(iso3, san_service_chain)
+
+jmp_iso3_emptying_2015 <- jmpraw %>% 
+    filter(year >= 2015) %>% 
+    filter(san_service_chain == "emptying") %>% 
+    count(iso3, san_service_chain)
+
+jmp_iso3_ww_treatment_2015 <- jmpraw %>% 
+    filter(year >= 2015) %>% 
+    filter(san_service_chain == "WW treatment") %>% 
+    count(iso3, san_service_chain)
+
+jmp_iso3_fs_treatment_2015 <- jmpraw %>% 
+    filter(year >= 2015) %>% 
+    filter(san_service_chain == "FS treatment") %>% 
+    count(iso3, san_service_chain)
+
+
+```
+
+
+# Maps
+
+```{r}
 ## prepare world maps
 ## https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html
 
 
 data("World")
+world_moll = st_transform(World, crs = "+proj=moll")
 
+
+iso3_country_names <- world_moll %>% 
+    st_drop_geometry() %>% 
+    as_tibble() %>% 
+    select(iso3 = iso_a3, name)
+
+countrycode::countrycode()
+
+
+tmap_mode("view")
+tmap_options(basemaps = "OpenStreetMap")
+tmap_mode("plot")
+
+```
+
+
+## All data points since 2020
+
+```{r}
+world_moll %>% 
+    left_join(jmp_iso3_frequency, by = c("iso_a3" = "iso3")) %>% 
+    filter(continent != "Antarctica") %>% 
+    tm_shape() +
+    tm_polygons(
+        col = "n", 
+        title = "No. of data points",
+        #legend.hist = TRUE,
+        #palette = "Oranges", 
+        style = "fixed",
+        contrast = c(0.1, 0.9),
+        breaks = c(1, 100, 250, 500),
+        #n = 4, 
+        textNA = "No Data",
+        colorNA = "grey80", 
+        lwd = 0.5
+    ) +
+    tm_layout(
+        main.title = "JMP raw data collection - Total number of data points since 2000",
+        main.title.position = "center",
+        title.position = c("left", "top"),
+        #legend.outside = TRUE,
+        scale = 1.5,
+        #inner.margins = c(0, .02, .02, .02),
+        #outer.margins = c(0, 0, 0, 0), frame = TRUE, 
+    )
+
+top10(jmp_iso3_frequency)
+```
+
+## Data points for user interface since 2015
+
+```{r}
+
+world_moll %>% 
+    left_join(jmp_iso3_user_interface_2015, by = c("iso_a3" = "iso3")) %>% 
+    filter(continent != "Antarctica") %>% 
+    tm_shape() +
+    tm_polygons(
+        col = "n", 
+        title = "No. of data points",
+        #legend.hist = TRUE,
+        #palette = "Oranges", 
+        style = "fixed",
+        contrast = c(0.1, 0.9),
+        breaks = c(1, 11, 21, 31),
+        #n = 4, 
+        textNA = "No Data",
+        colorNA = "grey80", 
+        lwd = 0.5
+    ) +
+    tm_layout(
+        main.title = "JMP raw data collection - Number of data points for 'user interface' since 2015",
+        main.title.position = "center",
+        title.position = c("left", "top"),
+        #legend.outside = TRUE,
+        scale = 1.5,
+        #inner.margins = c(0, .02, .02, .02),
+        #outer.margins = c(0, 0, 0, 0), frame = TRUE, 
+    ) 
+
+top10(jmp_iso3_user_interface_2015)
+
+```
+
+## Data points for emptying since 2015
+
+```{r}
+
+world_moll %>% 
+    left_join(jmp_iso3_emptying_2015, by = c("iso_a3" = "iso3")) %>% 
+    filter(continent != "Antarctica") %>% 
+    tm_shape() +
+    tm_polygons(
+        col = "n", 
+        title = "No. of data points",
+        #legend.hist = TRUE,
+        #palette = "Oranges", 
+        style = "fixed",
+        contrast = c(0.1, 1),
+        breaks = c(1, 11, 21, 31),
+        #n = 4, 
+        textNA = "No Data",
+        colorNA = "grey90", 
+        lwd = 0.5
+    ) +
+    tm_layout(
+        main.title = "JMP raw data collection - Number of data points for 'emptying' since 2015",
+        main.title.position = "center",
+        title.position = c("left", "top"),
+        #legend.outside = TRUE,
+        scale = 1.5,
+        #inner.margins = c(0, .02, .02, .02),
+        #outer.margins = c(0, 0, 0, 0), frame = TRUE, 
+    ) 
+
+top10(jmp_iso3_emptying_2015)
+
+```
+
+## Data points for wastewater treatmnent since 
+
+```{r}
+
+world_moll %>% 
+    left_join(jmp_iso3_ww_treatment_2015, by = c("iso_a3" = "iso3")) %>% 
+    filter(continent != "Antarctica") %>% 
+    tm_shape() +
+    tm_polygons(
+        col = "n", 
+        title = "No. of data points",
+        #legend.hist = TRUE,
+        #palette = "Oranges", 
+        style = "fixed",
+        contrast = c(0.1, 1),
+        breaks = c(1, 3, 6, 20),
+        #n = 4, 
+        textNA = "No Data",
+        colorNA = "grey90", 
+        lwd = 0.5
+    ) +
+    tm_layout(
+        main.title = "JMP raw data collection - Number of data points for 'wastewater treatment' since 2015",
+        main.title.position = "center",
+        title.position = c("left", "top"),
+        #legend.outside = TRUE,
+        scale = 1.5,
+        #inner.margins = c(0, .02, .02, .02),
+        #outer.margins = c(0, 0, 0, 0), frame = TRUE, 
+    ) 
+
+top10(jmp_iso3_ww_treatment_2015)
+
+```
+
+
+```{r}
+
+world_moll %>% 
+    left_join(jmp_iso3_fs_treatment_2015, by = c("iso_a3" = "iso3")) %>% 
+    filter(continent != "Antarctica") %>% 
+    tm_shape() +
+    tm_polygons(
+        col = "n", 
+        title = "No. of data points",
+        #legend.hist = TRUE,
+        #palette = "Oranges", 
+        style = "fixed",
+        contrast = c(0.1, 1),
+        breaks = c(1, 3, 6, 20),
+        #n = 4, 
+        textNA = "No Data",
+        colorNA = "grey90", 
+        lwd = 0.5
+    ) +
+    tm_layout(
+        main.title = "JMP raw data collection - Number of data points for 'faecal sludge' since 2015",
+        main.title.position = "center",
+        title.position = c("left", "top"),
+        #legend.outside = TRUE,
+        scale = 1.5,
+        #inner.margins = c(0, .02, .02, .02),
+        #outer.margins = c(0, 0, 0, 0), frame = TRUE, 
+    ) 
+
+top10(jmp_iso3_fs_treatment_2015)
+
+jmpraw %>% 
+    filter(iso3 == "BTN") %>% 
+    filter(san_service_chain == "FS treatment")
+
+```
+
+```{r}
 world_ww_treatment <- World %>% 
-  left_join(ww_treatment, by = c("iso_a3" = "iso3")) %>% 
-  filter(continent != "Antarctica") 
+left_join(ww_treatment, by = c("iso_a3" = "iso3")) %>% 
+filter(continent != "Antarctica") 
 
 world_fs_treatment <- World %>% 
-  left_join(fs_treatment, by = c("iso_a3" = "iso3")) %>% 
-  filter(continent != "Antarctica")
+left_join(fs_treatment, by = c("iso_a3" = "iso3")) %>% 
+filter(continent != "Antarctica")
 
 tm_shape(world_ww_treatment) +
-  tm_polygons(col = "n", title = "Data points")
+tm_polygons(col = "n", title = "Data points")
 
 tm_shape(world_fs_treatment) +
-  tm_polygons(col = "n", title = "Data points")
+tm_polygons(col = "n", title = "Data points")
 
 ```
 
