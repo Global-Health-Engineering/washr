@@ -73,6 +73,16 @@ tmap_mode("plot")
 ```
 
 
+##
+
+```{r}
+jmpraw %>%
+    count(type, sort = TRUE) %>% 
+    knitr::kable()
+    
+```
+
+
 ## 
 
 ```{r}
