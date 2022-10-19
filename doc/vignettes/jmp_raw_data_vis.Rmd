@@ -11,9 +11,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(maps)
-library(`ggalt-new-coord-proj`)
+library(tmap)
+library(ggalt)
 
-jmpraw <- read_rds(path = here::here("data/derived_data/2020-09-03_jmp_sanitation_raw_data.rds"))
+jmpraw <- read_rds(path = here::here("data/derived_data/2022-10-19_jmp_sanitation_raw_data.rds"))
 
 
 ```
@@ -127,7 +128,7 @@ fs_treatment <- jmpraw %>%
 
 ## prepare world maps
 ## https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html
-library(tmap)
+
 
 data("World")
 
