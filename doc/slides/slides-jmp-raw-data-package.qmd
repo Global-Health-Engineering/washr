@@ -1,13 +1,13 @@
 ---
-title: "a bunch of plots"
+title: "a bunch of data visualisations"
 subtitle: "created from WHO/UNICEF JMP raw data collection"
 author: "Lars Schöbitz"
 format: 
   revealjs: 
     theme: slides.scss
     transition: fade
-    slide-number: true
-    footer: ""
+    slide-number: false
+    footer: "https://github.com/larnsce/washr"
 execute: 
   echo: false
 editor: source
@@ -278,7 +278,7 @@ world_moll %>%
         lwd = 0.5
     ) +
     tm_layout(
-        main.title = "JMP raw data collection - Number of data points for 'faecal sludge' since 2015",
+        main.title = "JMP raw data collection - Number of data points for 'faecal sludge treatment' since 2015",
         main.title.position = "center",
         title.position = c("left", "top"),
         #legend.outside = TRUE,
@@ -297,7 +297,9 @@ top10(jmp_iso3_fs_treatment_2015) %>%
 
 ## Thanks!
 
-Data source: washdata.org
-R Package Development: https://github.com/larnsce/washr
-Source code slides: 
+**Data source:** washdata.org
+
+**Slides - source code:** https://github.com/larnsce/washr/blob/master/doc/slides/slides-jmp-raw-data-package.qmd
+
+**Slides - PDF download:** https://github.com/larnsce/washr/raw/master/doc/slides/slides-jmp-raw-data-package.pdf
 

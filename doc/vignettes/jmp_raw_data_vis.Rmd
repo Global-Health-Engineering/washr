@@ -138,13 +138,18 @@ jmpraw %>%
     ggplot(aes(x = year, y = prop, fill = san_service_chain)) +
     geom_col() +
     labs(
-        title = "Proportiong of data sources along sanitation service chain",
-        subtitle = "For 232 countries and since 2015"
-    )
+        x = NULL,
+        y = NULL, 
+        title = "Proportion of data points along collected variables",
+        subtitle = "For all countries since 2000",
+        fill = "Variable"
+    ) +
+    scale_fill_brewer(palette = "BrBG") +
+    theme_minimal(base_size = 18) +
+    theme(panel.grid.minor = element_blank())
 
 
 ```
-
 
 
 ```{r}
@@ -372,9 +377,6 @@ world_moll %>%
 
 top10(jmp_iso3_fs_treatment_2015)
 
-jmpraw %>% 
-    filter(iso3 == "BTN") %>% 
-    filter(san_service_chain == "FS treatment")
 
 ```
 

@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.1.189">
 
   <meta name="author" content="Lars Schöbitz">
-  <title>a bunch of plots</title>
+  <title>a bunch of data visualisations</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -324,7 +324,7 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">a bunch of plots</h1>
+  <h1 class="title">a bunch of data visualisations</h1>
   <p class="subtitle">created from WHO/UNICEF JMP raw data collection</p>
   <p class="author">Lars Schöbitz</p>
 </section>
@@ -401,20 +401,57 @@
 <section id="section-4" class="slide level2">
 <h2></h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 10 × 2
-   country          n
-   &lt;chr&gt;        &lt;int&gt;
- 1 Peru           101
- 2 Colombia        96
- 3 Nigeria         80
- 4 Mexico          79
- 5 Ghana           62
- 6 Uganda          62
- 7 Costa Rica      56
- 8 Guatemala       56
- 9 South Africa    52
-10 Bolivia         48</code></pre>
+<div class="cell-output-display">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">country</th>
+<th style="text-align: right;">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Peru</td>
+<td style="text-align: right;">101</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Colombia</td>
+<td style="text-align: right;">96</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nigeria</td>
+<td style="text-align: right;">80</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mexico</td>
+<td style="text-align: right;">79</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ghana</td>
+<td style="text-align: right;">62</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Uganda</td>
+<td style="text-align: right;">62</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Costa Rica</td>
+<td style="text-align: right;">56</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Guatemala</td>
+<td style="text-align: right;">56</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">South Africa</td>
+<td style="text-align: right;">52</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bolivia</td>
+<td style="text-align: right;">48</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>
@@ -425,71 +462,185 @@
 <section id="section-6" class="slide level2">
 <h2></h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 10 × 2
-   country              n
-   &lt;chr&gt;            &lt;int&gt;
- 1 Philippines         62
- 2 Nigeria             48
- 3 Bangladesh          40
- 4 Japan               40
- 5 South Korea         32
- 6 Ethiopia            20
- 7 Niger               20
- 8 Belarus             16
- 9 China               16
-10 Congo - Kinshasa    16</code></pre>
+<div class="cell-output-display">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">country</th>
+<th style="text-align: right;">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Philippines</td>
+<td style="text-align: right;">62</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nigeria</td>
+<td style="text-align: right;">48</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bangladesh</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Japan</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">South Korea</td>
+<td style="text-align: right;">32</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ethiopia</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Niger</td>
+<td style="text-align: right;">20</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Belarus</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">China</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Congo - Kinshasa</td>
+<td style="text-align: right;">16</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>
 <section id="section-7" class="slide level2">
 <h2></h2>
-<div class="cell">
 
-</div>
-
-<img data-src="slides-jmp-raw-data-package_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
+<img data-src="slides-jmp-raw-data-package_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
 <section id="section-8" class="slide level2">
 <h2></h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 10 × 2
-   country                 n
-   &lt;chr&gt;               &lt;int&gt;
- 1 Chile                  14
- 2 Hong Kong SAR China    10
- 3 South Korea             8
- 4 Macao SAR China         8
- 5 Mauritius               8
- 6 Norway                  8
- 7 Hungary                 6
- 8 Armenia                 5
- 9 Belgium                 5
-10 Brazil                  5</code></pre>
+<div class="cell-output-display">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">country</th>
+<th style="text-align: right;">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Chile</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hong Kong SAR China</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">South Korea</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Macao SAR China</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mauritius</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Norway</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hungary</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Armenia</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Belgium</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Brazil</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>
 <section id="section-9" class="slide level2">
 <h2></h2>
+
+<img data-src="slides-jmp-raw-data-package_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
+<section id="section-10" class="slide level2">
+<h2></h2>
 <div class="cell">
-
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 9 × 2
-  country         n
-  &lt;chr&gt;       &lt;int&gt;
-1 South Korea     8
-2 Lithuania       5
-3 Norway          5
-4 Japan           3
-5 Poland          3
-6 Bhutan          2
-7 Austria         1
-8 Finland         1
-9 Iceland         1</code></pre>
+<div class="cell-output-display">
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">country</th>
+<th style="text-align: right;">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">South Korea</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lithuania</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Norway</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Japan</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Poland</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bhutan</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Austria</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Finland</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Iceland</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
-<img data-src="slides-jmp-raw-data-package_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"><div class="footer footer-default">
-
+</section>
+<section id="thanks" class="slide level2">
+<h2>Thanks!</h2>
+<p><strong>Data source:</strong> washdata.org</p>
+<p><strong>Slides - source code:</strong> https://github.com/larnsce/washr/blob/master/doc/slides/slides-jmp-raw-data-package.qmd</p>
+<p><strong>Slides - PDF download:</strong> https://github.com/larnsce/washr/raw/master/doc/slides/slides-jmp-raw-data-package.pdf</p>
+<div class="footer footer-default">
+<p>https://github.com/larnsce/washr</p>
 </div>
 </section>
     </div>
@@ -544,7 +695,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: false,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
