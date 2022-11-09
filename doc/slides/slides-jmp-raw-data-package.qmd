@@ -3,7 +3,8 @@ title: "a bunch of data visualisations"
 subtitle: "created from WHO/UNICEF JMP raw data collection"
 author: "Lars Schöbitz"
 format: 
-  revealjs: 
+  revealjs:
+    smaller: true
     theme: slides.scss
     transition: fade
     slide-number: false
@@ -21,7 +22,8 @@ editor_options:
 library(tidyverse)
 library(maps)
 library(tmap) 
-library(sf)    
+library(sf)
+library(gt)
 
 jmpraw <- read_rds(here::here("data/derived_data/2022-10-19_jmp_sanitation_raw_data.rds")) %>% 
     filter(year >= 2000, value >= 0) 
@@ -72,6 +74,118 @@ tmap_mode("plot")
 
 ```
 
+## R Data Package - Benefits
+
+- Data accessible as a single table for any analysis tool
+- Data can be imported to R using one command
+- Public website with detailed documentation
+    _ e.g. `washdata` R Package [https://katilingban.io/washdata/index.html](https://katilingban.io/washdata/index.html)
+
+## R Data Package - Sanitation {.smaller}
+
+- Data in long format (19,528 rows)
+- 9 variables
+
+```{r}
+
+jmpraw %>% 
+    relocate(iso3) %>%
+    relocate(value, .after = san_service_chain) %>% 
+    head(4) %>% 
+    knitr::kable(digits = 1)
+
+```
+
+## R Data Package - New Variables {.smaller}
+
+- `residence`: urban/rural/national
+- `san_service_chain` (Sanitation Service Chain):
+
+```{r}
+
+jmpraw %>% 
+    count(san_service_chain) %>% 
+    knitr::kable()
+
+```
+
+## R Data Package - Use Cases {.smaller auto-animate="true"}
+
+::: {.incremental}
+
+1. Using JMP methods to reproduce estimates and apply different models (Linda Karani - MSc Data Science)
+
+2. Writing an R Package with a function to produce estimates (and a function to produce service ladder plots) 
+
+
+```{r}
+#| eval: false
+#| echo: true
+#| fenced: true
+
+```
+
+:::
+
+## R Data Package - Use Cases {.smaller auto-animate="true"}
+
+1. Using JMP methods to reproduce estimates and apply different models (Linda Karani - MSc Data Science)
+
+2. Writing an R Package with a function to produce estimates (and a function to produce service ladder plots) 
+
+```{r}
+#| eval: false
+#| echo: true
+#| fenced: true
+
+estimate(iso3 = "AFG",           # default: all iso3 codes
+         year = 2010:2030,       # Single year or range of years
+         var_short = NULL,       # default: all variables (NULL)
+         residence = "national") # default: national
+
+```
+
+
+## R Data Package - Use Cases {.smaller auto-animate="true"}
+
+1. Using JMP methods to reproduce estimates and apply different models (Linda Karani - MSc Data Science)
+
+2. Writing an R Package with a function to produce estimates (and a function to produce service ladder plots) 
+
+```{r}
+#| eval: false
+#| echo: true
+#| fenced: true
+
+estimate(iso3 = "AFG",           # default: all iso3 codes
+         year = 2010:2030,       # Single year or range of years
+         var_short = NULL,       # default: all variables (NULL)
+         residence = "national") # default: national
+
+```
+
+3. Great potential for unforeseen use cases enabled by making the data readily accessible (research, teaching, joining with other data, etc.)
+
+## R Data Package - What's next?
+
+- Submission of proposal for further development to [ORD (Open Research Data) Programme of ETH Domain](https://ethrat.ch/wp-content/uploads/2022/10/Application-guidelines_TrackC-Contribute-projects-3rd-call-1.pdf) (15k in-kind + 15k ETH Board), due: 12th December
+- Submission of a proposal to Colorado WASH Symposium (focus on Linda's work), due: 25th November
+
+::: {.aside}
+https://ethrat.ch/wp-content/uploads/2022/10/Application-guidelines_TrackC-Contribute-projects-3rd-call-1.pdf
+::: 
+
+## Questions
+
+1. How are country files updated on the server? 
+    - How often? All together, or one by one as there is new data?
+
+2. The current database for raw data shows 379 different sources. They are all abbreviated. Do you have a table where all these abbreviations are spelled out?
+
+3. Ratio RS1
+
+> "Other ratios used for 'basic' indicators (RW1, RS1) are calculated using simple averages" - JMP Methodology, March 2018
+
 
 ##
 
@@ -99,7 +213,7 @@ jmpraw %>%
     labs(
         x = NULL,
         y = NULL, 
-        title = "Proportion of data points along collected variables",
+        title = "Proportion of data points along sanitation service chain",
         subtitle = "For all countries since 2000",
         fill = "Variable"
     ) +
