@@ -166,6 +166,46 @@ estimate(iso3 = "AFG",           # default: all iso3 codes
 
 3. Great potential for unforeseen use cases enabled by making the data readily accessible (research, teaching, joining with other data, etc.)
 
+## 
+
+```{r}
+
+world_moll %>% 
+    left_join(jmp_iso3_emptying_2015, by = c("iso_a3" = "iso3")) %>% 
+    filter(continent != "Antarctica") %>% 
+    tm_shape() +
+    tm_polygons(
+        col = "n", 
+        title = "No. of data points",
+        #legend.hist = TRUE,
+        #palette = "Oranges", 
+        style = "fixed",
+        contrast = c(0.1, 1),
+        breaks = c(1, 11, 21, 31),
+        #n = 4, 
+        textNA = "No Data",
+        colorNA = "grey90", 
+        lwd = 0.5
+    ) +
+    tm_layout(
+        main.title = "JMP raw data collection - Number of data points for 'emptying' since 2015",
+        main.title.position = "center",
+        title.position = c("left", "top"),
+        #legend.outside = TRUE,
+        scale = 1.5,
+        #inner.margins = c(0, .02, .02, .02),
+        #outer.margins = c(0, 0, 0, 0), frame = TRUE, 
+    ) 
+
+```
+
+##
+
+```{r}
+top10(jmp_iso3_emptying_2015) %>% 
+    knitr::kable(caption = "JMP raw data collection: Number of data points for 'emptying' since 2015")
+```
+
 ## R Data Package - What's next?
 
 - Submission of proposal for further development to [ORD (Open Research Data) Programme of ETH Domain](https://ethrat.ch/wp-content/uploads/2022/10/Application-guidelines_TrackC-Contribute-projects-3rd-call-1.pdf) (15k in-kind + 15k ETH Board), due: 12th December
